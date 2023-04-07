@@ -172,21 +172,138 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/4a7e841792045878a245bac1c1a6221911eb70d0ef8f0da887c3c83efbaf6076_Sound button_on.png",
           "name": "Sound button_on.png"
         }
+      },
+      {
+        "file": "45 Alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "45 Alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "45 Flute.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "45 Flute.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "theme_a",
+      "type": "structure",
+      "children": [
+        {
+          "name": "instruments",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "string",
+              "value": "alto"
+            }
+          ]
+        },
+        {
+          "name": "selection",
+          "type": "string",
+          "value": "lamentations"
+        }
+      ]
+    },
+    {
+      "name": "accompagnement_a",
+      "type": "structure",
+      "children": [
+        {
+          "name": "instruments",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "flute"
+            }
+          ]
+        },
+        {
+          "name": "selection",
+          "type": "string",
+          "value": "homorythmique"
+        }
+      ]
+    },
+    {
+      "name": "pont",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "instrument",
+          "type": "string",
+          "value": "vent"
+        },
+        {
+          "name": "selection",
+          "type": "string",
+          "value": "funebre"
+        }
+      ]
+    },
+    {
+      "name": "theme_b",
+      "type": "structure",
+      "children": [
+        {
+          "name": "instruments",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "string",
+              "value": "alto"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "flute"
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "selection",
+          "type": "string",
+          "value": "poule"
+        }
+      ]
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/concert"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/references"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"

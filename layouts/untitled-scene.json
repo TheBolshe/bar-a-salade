@@ -531,6 +531,24 @@
             "",
             "1 Flute.mp3"
           ]
+        },
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "45 Alto.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "45 Flute.mp3"
+          ]
         }
       ]
     },
@@ -539,11 +557,11 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonReleased"
           },
           "parameters": [
             "",
-            "\"Left\""
+            "Left"
           ]
         },
         {
@@ -592,11 +610,11 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonReleased"
           },
           "parameters": [
             "",
-            "\"Left\""
+            "Left"
           ]
         },
         {
@@ -723,11 +741,11 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonReleased"
           },
           "parameters": [
             "",
-            "\"Left\""
+            "Left"
           ]
         },
         {
@@ -811,11 +829,11 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonReleased"
           },
           "parameters": [
             "",
-            "\"Left\""
+            "Left"
           ]
         },
         {
@@ -890,6 +908,48 @@
                 "\"on\""
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SoundStopped"
+          },
+          "parameters": [
+            "",
+            "controleur_audio.Variable(alto.canal)"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "45 Alto.mp3",
+            "controleur_audio.Variable(alto.canal)",
+            "",
+            "100",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "45 Flute.mp3",
+            "controleur_audio.Variable(flute.canal)",
+            "100",
+            "100",
+            ""
           ]
         }
       ]
