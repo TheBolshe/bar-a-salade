@@ -192,6 +192,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "25 Alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "25 Alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "25 Flute.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "25 Flute.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

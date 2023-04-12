@@ -78,14 +78,14 @@
         {
           "folded": true,
           "name": "pont_vent",
-          "type": "string",
-          "value": "10"
+          "type": "number",
+          "value": 10
         },
         {
           "folded": true,
           "name": "pont_cordes",
-          "type": "string",
-          "value": "11"
+          "type": "number",
+          "value": 11
         },
         {
           "folded": true,
@@ -204,124 +204,15 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "controleur_audio.Variable(flute.canal)",
-            "=",
-            "SmallPlasticGreenRoundSlider.Value()"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "controleur_audio.Variable(alto.canal)",
-            "=",
-            "SmallPlasticGreenRoundSlider.Value()"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "controleur_audio",
-                "flute.muted",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVolumeSoundCanal"
-              },
-              "parameters": [
-                "",
-                "controleur_audio.Variable(flute.canal)",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "controleur_audio",
-                "alto.muted",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVolumeSoundCanal"
-              },
-              "parameters": [
-                "",
-                "controleur_audio.Variable(alto.canal)",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "controleur_audio",
-            "etape",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
             "value": "VarGlobalTxt"
           },
           "parameters": [
-            "theme_a.selection",
+            "theme_b.selection",
             "=",
-            "\"lamentations\""
+            "\"poule\""
           ]
         }
       ],
@@ -337,8 +228,8 @@
               },
               "parameters": [
                 "",
-                "instr_theme_a",
-                "theme_a.instruments",
+                "instr_theme_b",
+                "theme_b.instruments",
                 ""
               ]
             }
@@ -346,7 +237,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::ForEachChildVariable",
-          "iterableVariableName": "instr_theme_a",
+          "iterableVariableName": "instr_theme_b",
           "valueIteratorVariableName": "instr",
           "keyIteratorVariableName": "",
           "conditions": [],
@@ -373,7 +264,7 @@
                   },
                   "parameters": [
                     "",
-                    "1 Alto.mp3",
+                    "25 Alto.mp3",
                     "controleur_audio.Variable(alto)",
                     "100",
                     "100",
@@ -403,7 +294,7 @@
                   },
                   "parameters": [
                     "",
-                    "1 Flute.mp3",
+                    "25 Flute.mp3",
                     "controleur_audio.Variable(flute)",
                     "100",
                     "100",
@@ -413,8 +304,58 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "References::CreateGlobalReference"
+              },
+              "parameters": [
+                "",
+                "instr_accompagnement_b",
+                "theme_b.instruments",
+                ""
+              ]
+            }
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "controleur_audio.Variable(alto)",
+            "=",
+            "SmallPlasticGreenRoundSlider.Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "controleur_audio.Variable(flute)",
+            "=",
+            "SmallPlasticGreenRoundSlider.Value()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
