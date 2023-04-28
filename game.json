@@ -88,6 +88,96 @@
         "name": "NewSprite3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/themea1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "themea1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/themea2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "themea2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/themea3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/themea3.png\"}",
+        "name": "themea3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/themea4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "themea4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/off.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "off",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/themea22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "themea22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/themea32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "themea32",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/on.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "on",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/themea42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "themea42",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -101,8 +191,26 @@
       "referenceTo": "/layouts/cantine"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/selection-theme-a"
+    }
+  ],
   "eventsFunctionsExtensions": [],
-  "externalLayouts": [],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/theme1menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/theme2menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/pontmenu"
+    }
+  ],
   "externalSourceFiles": []
 }
