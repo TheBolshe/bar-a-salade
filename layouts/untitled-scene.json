@@ -113,6 +113,66 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "alto",
+      "persistentUuid": "63598cf7-71dc-48d3-af57-40c4749cd884",
+      "width": 0,
+      "x": 237,
+      "y": 91,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "basson",
+      "persistentUuid": "cc7c2029-9045-4eb2-8698-35327194937a",
+      "width": 0,
+      "x": 323,
+      "y": 93,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "hautbois",
+      "persistentUuid": "2dc71c8c-60b4-4a46-970e-c5b577c8ceac",
+      "width": 0,
+      "x": 515,
+      "y": 96,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "flute",
+      "persistentUuid": "6af42022-2a17-486f-a89c-b1bcf3b8e3a0",
+      "width": 0,
+      "x": 412,
+      "y": 92,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -141,14 +201,14 @@
           ]
         },
         {
-          "name": "alto",
+          "name": "basson",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "canal",
-              "type": "string",
-              "value": "2"
+              "type": "number",
+              "value": 2
             },
             {
               "name": "muted",
@@ -158,26 +218,24 @@
           ]
         },
         {
-          "folded": true,
-          "name": "inst3",
+          "name": "alto",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "canal",
-              "type": "number",
-              "value": 3
+              "type": "string",
+              "value": "3"
             },
             {
               "name": "muted",
               "type": "boolean",
-              "value": true
+              "value": false
             }
           ]
         },
         {
-          "folded": true,
-          "name": "inst4",
+          "name": "hautbois",
           "type": "structure",
           "children": [
             {
@@ -189,25 +247,7 @@
             {
               "name": "muted",
               "type": "boolean",
-              "value": true
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "name": "inst5",
-          "type": "structure",
-          "children": [
-            {
-              "folded": true,
-              "name": "canal",
-              "type": "number",
-              "value": 5
-            },
-            {
-              "name": "muted",
-              "type": "boolean",
-              "value": true
+              "value": false
             }
           ]
         }
@@ -362,6 +402,146 @@
     {
       "assetStoreId": "f078fe9afabe3ca6ac596318a3a4926dd5c0017513df24839180ea1fd94b0775",
       "name": "alto",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sound button_off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sound button_on.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "f078fe9afabe3ca6ac596318a3a4926dd5c0017513df24839180ea1fd94b0775",
+      "name": "basson",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sound button_off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sound button_on.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "f078fe9afabe3ca6ac596318a3a4926dd5c0017513df24839180ea1fd94b0775",
+      "name": "hautbois",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -586,196 +766,277 @@
   ],
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PreloadSound"
-          },
-          "parameters": [
-            "",
-            "1 Alto.mp3"
-          ]
-        },
-        {
-          "type": {
-            "value": "PreloadSound"
-          },
-          "parameters": [
-            "",
-            "1 Flute.mp3"
-          ]
-        },
-        {
-          "type": {
-            "value": "PreloadSound"
-          },
-          "parameters": [
-            "",
-            "45 Alto.mp3"
-          ]
-        },
-        {
-          "type": {
-            "value": "PreloadSound"
-          },
-          "parameters": [
-            "",
-            "45 Flute.mp3"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "PlayButton",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "1 Alto.mp3",
-            "controleur_audio.Variable(alto.canal)",
-            "",
-            "100",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "1 Flute.mp3",
-            "controleur_audio.Variable(flute.canal)",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "PauseButton",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "controleur_audio.Variable(alto.canal)"
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "controleur_audio.Variable(flute.canal)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "controleur_audio.Variable(flute.canal)",
-            "=",
-            "SmallPlasticGreenRoundSlider.Value()"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "controleur_audio.Variable(alto.canal)",
-            "=",
-            "SmallPlasticGreenRoundSlider.Value()"
-          ]
-        }
-      ],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "audio",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "ObjectVariableAsBoolean"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
-                "controleur_audio",
-                "flute.muted",
-                "True"
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "alto",
+                "",
+                "",
+                ""
               ]
             }
           ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "controleur_audio",
+                "alto.muted"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "flute",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "controleur_audio",
+                "flute.muted"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "hautbois",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "controleur_audio",
+                "hautbois.muted"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "basson",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "controleur_audio",
+                "basson.muted"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PlayButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "1 Alto.mp3",
+                "controleur_audio.Variable(alto.canal)",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "1 Flute.mp3",
+                "controleur_audio.Variable(flute.canal)",
+                "100",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PauseButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "controleur_audio.Variable(alto.canal)"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "controleur_audio.Variable(basson.canal)"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "controleur_audio.Variable(flute.canal)"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "controleur_audio.Variable(hautbois.canal)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": [
             {
               "type": {
@@ -785,26 +1046,31 @@
                 "",
                 "controleur_audio.Variable(flute.canal)",
                 "=",
-                "0"
+                "SmallPlasticGreenRoundSlider.Value()"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "ObjectVariableAsBoolean"
+                "value": "ModVolumeSoundCanal"
               },
               "parameters": [
-                "controleur_audio",
-                "alto.muted",
-                "True"
+                "",
+                "controleur_audio.Variable(basson.canal)",
+                "=",
+                "SmallPlasticGreenRoundSlider.Value()"
               ]
-            }
-          ],
-          "actions": [
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "controleur_audio.Variable(hautbois.canal)",
+                "=",
+                "SmallPlasticGreenRoundSlider.Value()"
+              ]
+            },
             {
               "type": {
                 "value": "ModVolumeSoundCanal"
@@ -813,230 +1079,127 @@
                 "",
                 "controleur_audio.Variable(alto.canal)",
                 "=",
-                "0"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "alto",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ToggleObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "controleur_audio",
-            "alto.muted"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "alto",
-                "\"on\""
+                "SmallPlasticGreenRoundSlider.Value()"
               ]
             }
           ],
-          "actions": [
+          "events": [
             {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "alto",
-                "\"off\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio",
+                    "flute.muted",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "controleur_audio.Variable(flute.canal)",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio",
+                    "hautbois.muted",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "controleur_audio.Variable(hautbois.canal)",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio",
+                    "basson.muted",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "controleur_audio.Variable(basson.canal)",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio",
+                    "alto.muted",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "controleur_audio.Variable(alto.canal)",
+                    "=",
+                    "0"
+                  ]
+                }
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "alto",
-                "\"off\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "alto",
-                "\"on\""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "flute",
-            "",
-            "",
-            ""
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "ToggleObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "controleur_audio",
-            "flute.muted"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "flute",
-                "\"on\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "flute",
-                "\"off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "flute",
-                "\"off\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "flute",
-                "\"on\""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SoundStopped"
-          },
-          "parameters": [
-            "",
-            "controleur_audio.Variable(alto.canal)"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "45 Alto.mp3",
-            "controleur_audio.Variable(alto.canal)",
-            "",
-            "100",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "45 Flute.mp3",
-            "controleur_audio.Variable(flute.canal)",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [
