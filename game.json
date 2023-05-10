@@ -113,6 +113,7 @@
         }
       },
       {
+        "alwaysLoaded": false,
         "file": "assets/Pause button.png",
         "kind": "image",
         "metadata": "",
@@ -345,6 +346,7 @@
         "userAdded": false
       },
       {
+        "alwaysLoaded": false,
         "file": "assets/Sound button_on.png",
         "kind": "image",
         "metadata": "",
