@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "base",
+  "name": "base",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -690,7 +690,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "feur",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -732,7 +732,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Lamentiaiton",
           "useMultipleDirections": false,
           "directions": [
             {

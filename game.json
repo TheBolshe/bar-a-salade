@@ -113,6 +113,38 @@
         }
       },
       {
+        "file": "assets/Pause button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pause button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/1e5b82f54cfea683880b3dbba50ae04747788a03bb48e8fc9544f5e7ee611539_Pause button.png",
+          "name": "Pause button.png"
+        }
+      },
+      {
+        "file": "1 Alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1 Alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "1 Flute.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1 Flute.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
         "alwaysLoaded": false,
         "file": "assets/Small Plastic Green Round Slider Border.png",
         "kind": "image",
@@ -311,17 +343,184 @@
         "name": "assets\\bgThemeASelec.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Sound button_on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sound button_on.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/4a7e841792045878a245bac1c1a6221911eb70d0ef8f0da887c3c83efbaf6076_Sound button_on.png",
+          "name": "Sound button_on.png"
+        }
+      },
+      {
+        "file": "45 Alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "45 Alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "45 Flute.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "45 Flute.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "25 Alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "25 Alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "25 Flute.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "25 Flute.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "theme_a",
+      "type": "structure",
+      "children": [
+        {
+          "name": "instruments",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "string",
+              "value": "alto"
+            }
+          ]
+        },
+        {
+          "name": "selection",
+          "type": "string",
+          "value": "lamentations"
+        }
+      ]
+    },
+    {
+      "name": "accompagnement_a",
+      "type": "structure",
+      "children": [
+        {
+          "name": "instruments",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "flute"
+            }
+          ]
+        },
+        {
+          "name": "selection",
+          "type": "string",
+          "value": "homorythmique"
+        }
+      ]
+    },
+    {
+      "name": "pont",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "instrument",
+          "type": "string",
+          "value": "vent"
+        },
+        {
+          "name": "selection",
+          "type": "string",
+          "value": "funebre"
+        }
+      ]
+    },
+    {
+      "name": "theme_b",
+      "type": "structure",
+      "children": [
+        {
+          "name": "instruments",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "string",
+              "value": "alto"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "flute"
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "selection",
+          "type": "string",
+          "value": "poule"
+        }
+      ]
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/cantine"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/base"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/concert"
     }
   ],
   "externalEvents": [
@@ -331,6 +530,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/references"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
