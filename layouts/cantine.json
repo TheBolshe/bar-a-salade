@@ -310,17 +310,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite4",
+                  "image": "assets\\bgThemeASelec.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
