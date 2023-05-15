@@ -428,19 +428,34 @@
       "children": [
         {
           "name": "instruments",
-          "type": "array",
+          "type": "structure",
           "children": [
             {
-              "folded": true,
-              "type": "string",
-              "value": "alto"
+              "name": "alto",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "basson",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "hautbois",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "violon",
+              "type": "boolean",
+              "value": false
             }
           ]
         },
         {
           "name": "selection",
           "type": "string",
-          "value": "lamentations"
+          "value": ""
         }
       ]
     },
@@ -450,18 +465,38 @@
       "children": [
         {
           "name": "instruments",
-          "type": "array",
+          "type": "structure",
           "children": [
             {
-              "type": "string",
-              "value": "flute"
+              "folded": true,
+              "name": "alto",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "basson",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "hautbois",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "violon",
+              "type": "boolean",
+              "value": false
             }
           ]
         },
         {
           "name": "selection",
           "type": "string",
-          "value": "homorythmique"
+          "value": ""
         }
       ]
     },
@@ -470,15 +505,25 @@
       "type": "structure",
       "children": [
         {
-          "folded": true,
-          "name": "instrument",
-          "type": "string",
-          "value": "vent"
+          "name": "instruments",
+          "type": "structure",
+          "children": [
+            {
+              "name": "cordes",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "vents",
+              "type": "boolean",
+              "value": false
+            }
+          ]
         },
         {
           "name": "selection",
           "type": "string",
-          "value": "funebre"
+          "value": ""
         }
       ]
     },
@@ -488,17 +533,31 @@
       "children": [
         {
           "name": "instruments",
-          "type": "array",
+          "type": "structure",
           "children": [
             {
               "folded": true,
-              "type": "string",
-              "value": "alto"
+              "name": "alto",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
-              "type": "string",
-              "value": "flute"
+              "name": "basson",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "hautbois",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "violon",
+              "type": "boolean",
+              "value": false
             }
           ]
         },
@@ -506,9 +565,62 @@
           "folded": true,
           "name": "selection",
           "type": "string",
-          "value": "poule"
+          "value": ""
         }
       ]
+    },
+    {
+      "name": "accompagnement_b",
+      "type": "structure",
+      "children": [
+        {
+          "name": "instruments",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "alto",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "basson",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "hautbois",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "violon",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "name": "selection",
+          "type": "string",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "emplacement",
+      "type": "string",
+      "value": "cantine"
+    },
+    {
+      "folded": true,
+      "name": "mode",
+      "type": "string",
+      "value": "theme"
     }
   ],
   "layouts": [
@@ -534,7 +646,11 @@
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/isonscreen"
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/extendedvariables"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -557,6 +673,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/theme1acc"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/pont"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

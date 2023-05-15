@@ -199,14 +199,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "bg selection",
-      "name": "theme2id",
-      "persistentUuid": "c35e91f6-247a-44be-92e8-736302de566b",
-      "width": 0,
-      "x": 1227,
-      "y": 92,
+      "customSize": true,
+      "height": 500,
+      "layer": "boutons slection",
+      "name": "Description",
+      "persistentUuid": "15512f61-9d18-4d6f-a05b-7f2adcca49e2",
+      "width": 450,
+      "x": 711,
+      "y": 71,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -223,7 +223,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5468750000000001,
+    "zoomFactor": 0.5290357402156838,
     "windowMask": false
   }
 }
