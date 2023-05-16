@@ -1,0 +1,68 @@
+{
+  "associatedLayout": "cantine",
+  "lastChangeTimeStamp": 0,
+  "name": "affichage ticket",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ticketThemeAPlaceholder",
+            "=",
+            "GlobalVariableString(theme_a.selection)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ticketAccompagnementAPlaceholder",
+            "=",
+            "GlobalVariableString(accompagnement_a.selection)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ticketPontPlaceholder",
+            "=",
+            "GlobalVariableString(pont.selection)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ticketThemeBPlaceholder",
+            "=",
+            "GlobalVariableString(theme_b.selection)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ticketAccompagnementBPlaceholder",
+            "=",
+            "GlobalVariableString(accompagnement_b.selection)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

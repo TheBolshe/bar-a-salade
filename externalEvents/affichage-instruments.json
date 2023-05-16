@@ -1,0 +1,12 @@
+{
+  "associatedLayout": "cantine",
+  "lastChangeTimeStamp": 0,
+  "name": "affichage instruments",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

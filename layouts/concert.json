@@ -356,6 +356,32 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"ticket\"",
+            "0",
+            "0"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -379,6 +405,28 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 28,
+      "ambientLightColorG": 6069792,
+      "ambientLightColorR": 10000008,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "bg selection",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 28,
+      "ambientLightColorG": 6069792,
+      "ambientLightColorR": 10000008,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "boutons slection",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],
