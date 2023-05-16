@@ -53,7 +53,7 @@
           "name": "feuTheme1"
         },
         {
-          "name": "lamentationsTheme1"
+          "name": "lamentationTheme1"
         },
         {
           "name": "accompagnement"
@@ -259,6 +259,9 @@
         },
         {
           "name": "bgslection"
+        },
+        {
+          "name": "deguster"
         }
       ]
     },
@@ -321,6 +324,12 @@
         },
         {
           "name": "bassonSpriteA"
+        },
+        {
+          "name": "pontCordes"
+        },
+        {
+          "name": "pontVents"
         }
       ]
     }
@@ -646,6 +655,70 @@
       }
     },
     {
+      "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
+      "name": "deguster",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 1,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 6,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "On Screen Controls Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 6,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 6,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "On Screen Controls Button_Idle.png",
+          "tiled": false,
+          "topMargin": 6,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Dégustez !",
+          "font": "Roboto-Bold.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 6,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "On Screen Controls Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 6,
+          "width": 192
+        }
+      }
+    },
+    {
       "assetStoreId": "",
       "name": "bgslection",
       "tags": "",
@@ -688,7 +761,7 @@
     },
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
-      "name": "lamentationsTheme1",
+      "name": "lamentationTheme1",
       "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
@@ -2518,6 +2591,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2584,6 +2658,16 @@
                     "=",
                     "\"theme1\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "mode",
+                    "=",
+                    "\"theme\""
+                  ]
                 }
               ]
             },
@@ -2620,6 +2704,16 @@
                     "emplacement",
                     "=",
                     "\"theme2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "mode",
+                    "=",
+                    "\"theme\""
                   ]
                 }
               ]
@@ -2762,7 +2856,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2938,7 +3031,7 @@
                         "value": "SourisSurObjet"
                       },
                       "parameters": [
-                        "lamentationsTheme1",
+                        "lamentationTheme1",
                         "",
                         "",
                         ""
@@ -2968,7 +3061,7 @@
                       "parameters": [
                         "theme_a.selection",
                         "=",
-                        "\"lamentations\""
+                        "\"Lamentation\""
                       ]
                     }
                   ]
@@ -3011,7 +3104,7 @@
                       "parameters": [
                         "theme_a.selection",
                         "=",
-                        "\"feu\""
+                        "\"Le Feu\""
                       ]
                     }
                   ]
@@ -3054,7 +3147,7 @@
                       "parameters": [
                         "theme_a.selection",
                         "=",
-                        "\"mer\""
+                        "\"Mer troublée\""
                       ]
                     }
                   ]
@@ -3097,7 +3190,7 @@
                       "parameters": [
                         "theme_a.selection",
                         "=",
-                        "\"militaire\""
+                        "\"Militaire\""
                       ]
                     }
                   ]
@@ -3295,13 +3388,11 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix instruments",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3350,20 +3441,37 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetGlobalVariableAsBoolean"
+                            "value": "ToggleGlobalVariableAsBoolean"
                           },
                           "parameters": [
-                            "theme_a.instruments.alto",
-                            "True"
+                            "theme_a.instruments.alto"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetGlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.alto",
-                            "False"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "theme_a.instruments.alto",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "accompagnement_a.instruments.alto",
+                                "False"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3401,20 +3509,37 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetGlobalVariableAsBoolean"
+                            "value": "ToggleGlobalVariableAsBoolean"
                           },
                           "parameters": [
-                            "theme_a.instruments.basson",
-                            "True"
+                            "theme_a.instruments.basson"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetGlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.basson",
-                            "False"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "theme_a.instruments.basson",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "accompagnement_a.instruments.basson",
+                                "False"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3452,20 +3577,37 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetGlobalVariableAsBoolean"
+                            "value": "ToggleGlobalVariableAsBoolean"
                           },
                           "parameters": [
-                            "theme_a.instruments.hautbois",
-                            "True"
+                            "theme_a.instruments.hautbois"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetGlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.hautbois",
-                            "False"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "theme_a.instruments.hautbois",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "accompagnement_a.instruments.hautbois",
+                                "False"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3503,20 +3645,37 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetGlobalVariableAsBoolean"
+                            "value": "ToggleGlobalVariableAsBoolean"
                           },
                           "parameters": [
-                            "theme_a.instruments.violon",
-                            "True"
+                            "theme_a.instruments.violon"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetGlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.violon",
-                            "False"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "theme_a.instruments.violon",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "accompagnement_a.instruments.violon",
+                                "False"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3524,7 +3683,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3573,20 +3731,37 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetGlobalVariableAsBoolean"
+                            "value": "ToggleGlobalVariableAsBoolean"
                           },
                           "parameters": [
-                            "accompagnement_a.instruments.alto",
-                            "True"
+                            "accompagnement_a.instruments.alto"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetGlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.alto",
-                            "False"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "accompagnement_a.instruments.alto",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "theme_a.instruments.alto",
+                                "False"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3624,20 +3799,37 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetGlobalVariableAsBoolean"
+                            "value": "ToggleGlobalVariableAsBoolean"
                           },
                           "parameters": [
-                            "accompagnement_a.instruments.basson",
-                            "True"
+                            "accompagnement_a.instruments.basson"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetGlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.basson",
-                            "False"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "accompagnement_a.instruments.basson",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "theme_a.instruments.basson",
+                                "False"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3675,20 +3867,37 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetGlobalVariableAsBoolean"
+                            "value": "ToggleGlobalVariableAsBoolean"
                           },
                           "parameters": [
-                            "accompagnement_a.instruments.hautbois",
-                            "True"
+                            "accompagnement_a.instruments.hautbois"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetGlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.hautbois",
-                            "False"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "accompagnement_a.instruments.hautbois",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "theme_a.instruments.hautbois",
+                                "False"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3726,20 +3935,37 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetGlobalVariableAsBoolean"
+                            "value": "ToggleGlobalVariableAsBoolean"
                           },
                           "parameters": [
-                            "accompagnement_a.instruments.violon",
-                            "True"
+                            "accompagnement_a.instruments.violon"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetGlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.violon",
-                            "False"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "accompagnement_a.instruments.violon",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "theme_a.instruments.violon",
+                                "False"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3752,7 +3978,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3773,7 +3998,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix musique",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3816,7 +4040,7 @@
                       "parameters": [
                         "pont.selection",
                         "=",
-                        "\"funebre\""
+                        "\"Funèbre\""
                       ]
                     }
                   ]
@@ -3859,7 +4083,7 @@
                       "parameters": [
                         "pont.selection",
                         "=",
-                        "\"poule\""
+                        "\"Poule\""
                       ]
                     }
                   ]
@@ -3872,7 +4096,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix instruments",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3985,7 +4208,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4067,6 +4289,16 @@
                     "0",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "mode",
+                    "=",
+                    "\"accompagnement\""
+                  ]
                 }
               ]
             },
@@ -4119,6 +4351,16 @@
                     "\"theme2menu\"",
                     "0",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "mode",
+                    "=",
+                    "\"theme\""
                   ]
                 }
               ]
@@ -4953,7 +5195,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5300,6 +5541,32 @@
                 }
               ],
               "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "deguster",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"concert\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5425,6 +5692,13 @@
         "includeConfig": 0
       },
       "target": "affichage instruments"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "apercu musique"
     }
   ],
   "layers": [

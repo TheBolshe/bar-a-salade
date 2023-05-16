@@ -46,7 +46,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -124,26 +124,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/1e5b82f54cfea683880b3dbba50ae04747788a03bb48e8fc9544f5e7ee611539_Pause button.png",
           "name": "Pause button.png"
         }
-      },
-      {
-        "file": "1 Alto.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "1 Alto.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "1 Flute.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "1 Flute.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -359,46 +339,6 @@
         }
       },
       {
-        "file": "45 Alto.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "45 Alto.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "45 Flute.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "45 Flute.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "25 Alto.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "25 Alto.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "25 Flute.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "25 Flute.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
@@ -559,6 +499,203 @@
         "name": "altoSprite223",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/free4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "free4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/theme2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "theme2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/acc3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "acc3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/A_lamentations_theme_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\A_lamentations_theme_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/A_lamentations_theme_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\A_lamentations_theme_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/A_lamentations_theme_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\A_lamentations_theme_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/A_lamentations_theme_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\A_lamentations_theme_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/A_feu_theme_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\A_feu_theme_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/A_feu_theme_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\A_feu_theme_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/A_feu_theme_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\A_feu_theme_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/A_feu_theme_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\A_feu_theme_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/pont_poule_normal_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\pont_poule_normal_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/pont_funebre_normal_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\pont_funebre_normal_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/pont_funebre_normal_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\pont_funebre_normal_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/pont_funebre_normal_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\pont_funebre_normal_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/pont_funebre_normal_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\pont_funebre_normal_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/pont_poule_normal_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\pont_poule_normal_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/pont_poule_normal_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\pont_poule_normal_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Livraison 2/pont_poule_normal_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Livraison 2\\pont_poule_normal_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/5-minutes-of-silence.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\5-minutes-of-silence.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1236,6 +1373,150 @@
     },
     {
       "assetStoreId": "",
+      "name": "pontVents",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "free",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "free",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "theme",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "theme",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "pontCordes",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "free",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "free4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "theme",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "theme2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
       "name": "altoSpriteB",
       "tags": "",
       "type": "Sprite",
@@ -1646,6 +1927,7 @@
   "objectsGroups": [],
   "variables": [
     {
+      "folded": true,
       "name": "theme_a",
       "type": "structure",
       "children": [
@@ -1683,6 +1965,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "accompagnement_a",
       "type": "structure",
       "children": [
@@ -1724,6 +2007,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "pont",
       "type": "structure",
       "children": [
@@ -1751,6 +2035,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "theme_b",
       "type": "structure",
       "children": [
@@ -1793,6 +2078,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "accompagnement_b",
       "type": "structure",
       "children": [
@@ -1835,17 +2121,6 @@
     },
     {
       "folded": true,
-      "name": "emplacement",
-      "type": "string",
-      "value": "cantine"
-    },
-    {
-      "folded": true,
-      "name": "mode",
-      "type": "string",
-      "value": "theme"
-    },
-    {
       "name": "supplements",
       "type": "structure",
       "children": [
@@ -1863,6 +2138,44 @@
           "name": "syncope",
           "type": "boolean",
           "value": false
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "emplacement",
+      "type": "string",
+      "value": "cantine"
+    },
+    {
+      "folded": true,
+      "name": "mode",
+      "type": "string",
+      "value": "theme"
+    },
+    {
+      "name": "controleur_audio",
+      "type": "structure",
+      "children": [
+        {
+          "name": "alto",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "basson",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hautbois",
+          "type": "number",
+          "value": 3
+        },
+        {
+          "name": "violon",
+          "type": "number",
+          "value": 3
         }
       ]
     }
@@ -1893,6 +2206,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/affichage-instruments"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/apercu-musique"
     }
   ],
   "eventsFunctionsExtensions": [
