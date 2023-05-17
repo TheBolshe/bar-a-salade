@@ -2178,6 +2178,12 @@
           "value": 3
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "niveau",
+      "type": "string",
+      "value": "débutant"
     }
   ],
   "layouts": [
@@ -2210,9 +2216,17 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/apercu-musique"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/gestion-textes"
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/extendedvariables"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/references"

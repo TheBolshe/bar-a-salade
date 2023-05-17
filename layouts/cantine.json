@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.4633111824513976,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2413,7 +2413,355 @@
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "débutant",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "accompagnement",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Basse d'Alberti",
+                  "type": "string",
+                  "value": "La basse d'Alberti est un procédé d'accompagnement très présent dans la période « classique » (deuxième partie du 18ème siècle et début 19ème). Ce procédé consiste en l'alternance de trois notes d'un accord, qui permet d'animer rythmiquement l'accompagnement d'une mélodie.La basse d'Alberti est un procédé d'accompagnement très présent dans la période « classique » (deuxième partie du 18ème siècle et début 19ème). Ce procédé consiste en l'alternance de trois notes d'un accord, qui permet d'animer rythmiquement l'accompagnement d'une mélodie."
+                },
+                {
+                  "folded": true,
+                  "name": "Homorythmie",
+                  "type": "string",
+                  "value": "Morbi vitae urna eget ex hendrerit rutrum at ut diam. Nulla hendrerit velit non iaculis hendrerit. Nam vitae odio nibh. Phasellus facilisis sem a tristique commodo. Vivamus lacus erat, fringilla non diam vitae, tristique posuere nunc. Proin justo velit, feugiat vel mi vel, cursus rhoncus nulla. Sed id felis eu tortor pretium elementum ac at magna. Fusce sed lacus lobortis, ullamcorper felis sed, porttitor metus. "
+                },
+                {
+                  "folded": true,
+                  "name": "Notes répétées",
+                  "type": "string",
+                  "value": "Morbi vitae urna eget ex hendrerit rutrum at ut diam. Nulla hendrerit velit non iaculis hendrerit. Nam vitae odio nibh. Phasellus facilisis sem a tristique commodo. Vivamus lacus erat, fringilla non diam vitae, tristique posuere nunc. Proin justo velit, feugiat vel mi vel, cursus rhoncus nulla. Sed id felis eu tortor pretium elementum ac at magna. Fusce sed lacus lobortis, ullamcorper felis sed, porttitor metus. "
+                },
+                {
+                  "folded": true,
+                  "name": "Walking bass",
+                  "type": "string",
+                  "value": "Morbi vitae urna eget ex hendrerit rutrum at ut diam. Nulla hendrerit velit non iaculis hendrerit. Nam vitae odio nibh. Phasellus facilisis sem a tristique commodo. Vivamus lacus erat, fringilla non diam vitae, tristique posuere nunc. Proin justo velit, feugiat vel mi vel, cursus rhoncus nulla. Sed id felis eu tortor pretium elementum ac at magna. Fusce sed lacus lobortis, ullamcorper felis sed, porttitor metus. "
+                }
+              ]
+            },
+            {
+              "name": "pont",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Funèbre",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Poule",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "theme1",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Lamentation",
+                  "type": "string",
+                  "value": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam feugiat mauris est, in scelerisque nulla hendrerit in. Nunc non rhoncus urna, quis sollicitudin lectus. Cras tincidunt auctor odio, non ornare justo venenatis id. Mauris tempor lectus non vestibulum facilisis. Sed accumsan tortor diam, sit amet ullamcorper est placerat pulvinar. Nunc hendrerit vehicula maximus. "
+                },
+                {
+                  "folded": true,
+                  "name": "Le Feu",
+                  "type": "string",
+                  "value": "Praesent erat libero, ornare et neque sed, facilisis vulputate tortor. Vivamus id mi vel diam ultrices consequat. Maecenas sem velit, vehicula vitae viverra at, maximus ac nisl. "
+                },
+                {
+                  "folded": true,
+                  "name": "Mer troublée",
+                  "type": "string",
+                  "value": "Nulla hendrerit velit non iaculis hendrerit. Nam vitae odio nibh. Phasellus facilisis sem a tristique commodo. Vivamus lacus erat, fringilla non diam vitae, tristique posuere nunc. Proin justo velit, feugiat vel mi vel, cursus rhoncus nulla. "
+                },
+                {
+                  "folded": true,
+                  "name": "Militaire",
+                  "type": "string",
+                  "value": "Maecenas sem velit, vehicula vitae viverra at, maximus ac nisl. Ut laoreet est id dolor venenatis, tincidunt sagittis mauris blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam feugiat mauris est, in scelerisque nulla hendrerit in. Nunc non rhoncus urna, quis sollicitudin lectus. Cras tincidunt auctor odio, non ornare justo venenatis id."
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "theme2",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "La poule",
+                  "type": "string",
+                  "value": "La première partie de la mélodie « la Poule » est construite sur des notes très courtes qui évoquent le caquètement des gallinacés. La deuxième partie, beaucoup plus lyrique, offre un contraste charmant à la démarche rigide du début."
+                },
+                {
+                  "folded": true,
+                  "name": "La surprise",
+                  "type": "string",
+                  "value": "Fusce sit amet fringilla mauris. Cras vel odio quis massa iaculis ullamcorper vitae efficitur dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae pellentesque ante. Sed vel ultrices leo, quis consectetur lacus. Integer sit amet mattis velit. Morbi fermentum posuere suscipit. Vivamus a orci velit. Curabitur rhoncus nulla rhoncus diam lobortis porta. Aliquam bibendum ipsum quis urna fringilla pulvinar. "
+                },
+                {
+                  "folded": true,
+                  "name": "Lamentation",
+                  "type": "string",
+                  "value": "Morbi viverra elementum ligula non scelerisque. Curabitur convallis eget nisl sed malesuada. Phasellus eu lobortis felis. Mauris lorem lacus, dignissim id scelerisque et, condimentum vitae nulla. Nam ultricies vitae mauris a pharetra. Mauris justo nisl, dictum nec arcu nec, venenatis efficitur ipsum. "
+                },
+                {
+                  "folded": true,
+                  "name": "Laudon",
+                  "type": "string",
+                  "value": "Quisque dignissim leo eget erat commodo ornare. Suspendisse molestie magna at erat bibendum, at tincidunt lacus fringilla. Fusce sit amet fringilla mauris. Cras vel odio quis massa iaculis ullamcorper vitae efficitur dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae pellentesque ante. Sed vel ultrices leo, quis consectetur lacus. Integer sit amet mattis velit. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "intermediaire",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "accompagnement",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Basse d'Alberti",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Homorythmie",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Notes répétées",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Walking bass",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "pont",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Funèbre",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Poule",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "theme1",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Lamentation",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Le Feu",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Mer troublée",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Militaire",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "theme2",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "La poule",
+                  "type": "string",
+                  "value": "Les notes courtes du début de la mélodie sont accompagnées d'appoggiatures, terme issu du mot italien appoggiare, appuyer. Au moment de l'attaque d'une note, une autre note, très courte, vient s'appuyer dessus, amenant une sensation de démarche rigide et bancale, à l'instar de la marche de la poule. Le procédé est utilisé ici de manière cocasse, mais il peut servir également à souligner l'expressivité d'une note lorsque l'appoggiature apporte une dissonance par rapport à l'accord sur lequel elle se place."
+                },
+                {
+                  "folded": true,
+                  "name": "La surprise",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Lamentation",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Laudon",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "avancé",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "accompagnement",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Basse d'Alberti",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Homorythmie",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Notes répétées",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Walking bass",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "pont",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Funèbre",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Poule",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "theme1",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Lamentation",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Le Feu",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Mer troublée",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Militaire",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "theme2",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "La poule",
+                  "type": "string",
+                  "value": "Le surnom « la Poule », comme beaucoup de surnoms donnés aux symphonie de Haydn n'est pas du fait du compositeur. Il évoque, comme vu précédemment, le profil mélodique très particulier du deuxième thème du premier mouvement de la Symphonie n°83 en sol mineur (qui en compte trois autres). Cette symphonie écrite en 1785 fait partie d'un ensemble de six symphonies dites « parisiennes », commandées par le comte d'Ogny pour le Concert de la Loge Olympique (une loge maçonnique parisienne créée en 1782) dirigé par le chevalier de Saint-George. Haydn avait lui-même rejoint une loge maçonnique (« de la Vraie Concorde ») en février1785. Cette loge voyait également dans ses rangs un autre compositeur viennois : Mozart, qui y fut reçu seulement quelques jours avant Haydn."
+                },
+                {
+                  "folded": true,
+                  "name": "La surprise",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Lamentation",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "Laudon",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "string": "",
@@ -2873,22 +3221,6 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Description",
-                    "=",
-                    "GlobalVariableString(theme_a.selection)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -3018,7 +3350,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix musique",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3104,7 +3435,7 @@
                       "parameters": [
                         "theme_a.selection",
                         "=",
-                        "\"Le Feu\""
+                        "\"Le feu\""
                       ]
                     }
                   ]
@@ -4225,22 +4556,6 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Description",
-                    "=",
-                    "GlobalVariableString(theme_b.selection)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -5262,6 +5577,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5465,6 +5781,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5699,6 +6016,13 @@
         "includeConfig": 0
       },
       "target": "apercu musique"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "gestion textes"
     }
   ],
   "layers": [
