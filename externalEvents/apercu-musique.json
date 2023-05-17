@@ -187,7 +187,7 @@
                   "parameters": [
                     "theme_a.selection",
                     "=",
-                    "\"Le Feu\""
+                    "\"Le feu\""
                   ]
                 },
                 {
@@ -596,6 +596,7 @@
           ],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
