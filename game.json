@@ -1519,6 +1519,19 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/69b5c8f8989a271fbbe9d2f68763f7e820044f505b0d0b66874bd20f70935a3c_Left arrow button.png",
+          "name": "Left arrow button.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2745,6 +2758,68 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
+      "name": "volume",
+      "tags": "",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelMargin": 8,
+        "BarLeftPadding": 31,
+        "BarRightPadding": 31,
+        "InitialValue": 50
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 31,
+          "height": 63,
+          "leftMargin": 31,
+          "rightMargin": 31,
+          "texture": "Small Plastic Green Round Slider Border.png",
+          "tiled": false,
+          "topMargin": 31,
+          "width": 583
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 16,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Transparent.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 16
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "It displays the value when it changes.",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 221,
+            "g": 221,
+            "r": 221
+          }
+        },
+        "Thumb": {
+          "bottomMargin": 0,
+          "height": 59,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Small Plastic Green Round Slider Thumb.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 63
+        }
+      }
     }
   ],
   "objectsGroups": [],
@@ -3024,6 +3099,12 @@
           "name": "violonBis",
           "type": "number",
           "value": 13
+        },
+        {
+          "folded": true,
+          "name": "volume",
+          "type": "number",
+          "value": 0
         }
       ]
     },
@@ -3038,10 +3119,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/cantine"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/base"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3068,6 +3145,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/gestion-textes"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/musique-concert"
     }
   ],
   "eventsFunctionsExtensions": [

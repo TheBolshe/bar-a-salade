@@ -18,12 +18,73 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41943397827590606,
+    "zoomFactor": 0.6040838749988867,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "boutons slection",
+      "name": "volume",
+      "persistentUuid": "15d119cd-3e3a-41dd-8996-b7abe8eac05c",
+      "width": 0,
+      "x": 608,
+      "y": 584,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "boutons slection",
+      "name": "theme1",
+      "persistentUuid": "5cc6b300-5ef4-4a63-8ee4-355bcc2fc427",
+      "width": 0,
+      "x": 468,
+      "y": 65,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "boutons slection",
+      "name": "pont",
+      "persistentUuid": "4cb04272-ff91-4353-94e5-894a14283b33",
+      "width": 0,
+      "x": 468,
+      "y": 320,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "boutons slection",
+      "name": "theme2",
+      "persistentUuid": "e0efbda5-2b5d-4b43-9726-d5b883981133",
+      "width": 0,
+      "x": 467,
+      "y": 567,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "assetStoreId": "4656edcabf61f71dfd0368d92d077267a0dbfeef35ce002d4cb8774906099c57",
@@ -65,6 +126,129 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "5b15807864fa4e31a41e1e85600b000f73802cc39dbe61e3048a0bcc3930ae0e",
+      "name": "theme1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Left arrow button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "5b15807864fa4e31a41e1e85600b000f73802cc39dbe61e3048a0bcc3930ae0e",
+      "name": "pont",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Left arrow button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "5b15807864fa4e31a41e1e85600b000f73802cc39dbe61e3048a0bcc3930ae0e",
+      "name": "theme2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Left arrow button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -73,91 +257,126 @@
       "conditions": [
         {
           "type": {
-            "value": "VarGlobalTxt"
+            "value": "DepartScene"
           },
           "parameters": [
-            "theme_b.selection",
-            "=",
-            "\"poule\""
+            ""
           ]
         }
       ],
-      "actions": [],
-      "events": [
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "References::CreateGlobalReference"
-              },
-              "parameters": [
-                "",
-                "instr_theme_b",
-                "theme_b.instruments",
-                ""
-              ]
-            }
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\5-minutes-of-silence.mp3",
+            "GlobalVariable(controleur_audio.alto)",
+            "",
+            "0",
+            ""
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::ForEachChildVariable",
-          "iterableVariableName": "instr_theme_b",
-          "valueIteratorVariableName": "instr",
-          "keyIteratorVariableName": "",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "instr",
-                    "=",
-                    "\"alto\""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "instr",
-                    "=",
-                    "\"flute\""
-                  ]
-                }
-              ],
-              "actions": []
-            }
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\5-minutes-of-silence.mp3",
+            "GlobalVariable(controleur_audio.basson)",
+            "",
+            "0",
+            ""
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "References::CreateGlobalReference"
-              },
-              "parameters": [
-                "",
-                "instr_accompagnement_b",
-                "theme_b.instruments",
-                ""
-              ]
-            }
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\5-minutes-of-silence.mp3",
+            "GlobalVariable(controleur_audio.hautbois)",
+            "",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\5-minutes-of-silence.mp3",
+            "GlobalVariable(controleur_audio.violon)",
+            "",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\5-minutes-of-silence.mp3",
+            "GlobalVariable(controleur_audio.altoBis)",
+            "",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\5-minutes-of-silence.mp3",
+            "GlobalVariable(controleur_audio.bassonBis)",
+            "",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\5-minutes-of-silence.mp3",
+            "GlobalVariable(controleur_audio.hautboisBis)",
+            "",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\5-minutes-of-silence.mp3",
+            "GlobalVariable(controleur_audio.violonBis)",
+            "",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "emplacement",
+            "=",
+            "\"theme1\""
           ]
         }
       ]
@@ -189,6 +408,197 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "emplacement",
+            "=",
+            "\"theme1\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "theme1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "pont"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "theme2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "emplacement",
+            "=",
+            "\"pont\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "theme1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "pont",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "theme2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "emplacement",
+            "=",
+            "\"theme2\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "theme1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "pont"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "theme2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "emplacement",
+            "=",
+            "\"stop\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "theme1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "pont"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "theme2"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -201,6 +611,13 @@
         "includeConfig": 0
       },
       "target": "affichage instruments"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "musique concert"
     }
   ],
   "layers": [
@@ -208,9 +625,14 @@
       "ambientLightColorB": 7719864,
       "ambientLightColorG": 150995054,
       "ambientLightColorR": 1869182049,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "",
+      "renderingType": "",
       "visibility": true,
       "cameras": [
         {
@@ -230,9 +652,14 @@
       "ambientLightColorB": 28,
       "ambientLightColorG": 6069792,
       "ambientLightColorR": 10000008,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "bg selection",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -241,9 +668,14 @@
       "ambientLightColorB": 28,
       "ambientLightColorG": 6069792,
       "ambientLightColorR": 10000008,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "boutons slection",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []

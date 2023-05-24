@@ -2302,68 +2302,6 @@
       }
     },
     {
-      "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
-      "name": "volume",
-      "tags": "",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LabelMargin": 8,
-        "BarLeftPadding": 31,
-        "BarRightPadding": 31,
-        "InitialValue": 50
-      },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 31,
-          "height": 63,
-          "leftMargin": 31,
-          "rightMargin": 31,
-          "texture": "Small Plastic Green Round Slider Border.png",
-          "tiled": false,
-          "topMargin": 31,
-          "width": 583
-        },
-        "FillBar": {
-          "bottomMargin": 0,
-          "height": 16,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Transparent.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 16
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "It displays the value when it changes.",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 221,
-            "g": 221,
-            "r": 221
-          }
-        },
-        "Thumb": {
-          "bottomMargin": 0,
-          "height": 59,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Small Plastic Green Round Slider Thumb.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 63
-        }
-      }
-    },
-    {
       "assetStoreId": "4656edcabf61f71dfd0368d92d077267a0dbfeef35ce002d4cb8774906099c57",
       "name": "PlayButton",
       "tags": "",
@@ -6316,9 +6254,14 @@
       "ambientLightColorB": 7707640,
       "ambientLightColorG": 6068864,
       "ambientLightColorR": 7371560,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "Background",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -6327,9 +6270,14 @@
       "ambientLightColorB": 0,
       "ambientLightColorG": 8065944,
       "ambientLightColorR": 16,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "",
+      "renderingType": "",
       "visibility": true,
       "cameras": [
         {
@@ -6349,9 +6297,14 @@
       "ambientLightColorB": 7539288,
       "ambientLightColorG": 6068864,
       "ambientLightColorR": 7726840,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "bg selection",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -6360,9 +6313,14 @@
       "ambientLightColorB": 7539288,
       "ambientLightColorG": 6068864,
       "ambientLightColorR": 7726840,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "boutons slection",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []

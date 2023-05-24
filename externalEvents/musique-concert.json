@@ -1,0 +1,2443 @@
+{
+  "associatedLayout": "concert",
+  "lastChangeTimeStamp": 0,
+  "name": "musique concert",
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "pistes musicales",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "emplacement",
+                "=",
+                "\"theme1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "theme_a.selection",
+                    "=",
+                    "\"Lamentation\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\A_lamentations_theme_violon.mp3",
+                    "GlobalVariable(controleur_audio.violon)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\A_lamentations_theme_hautbois.mp3",
+                    "GlobalVariable(controleur_audio.hautbois)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\A_lamentations_theme_basson.mp3",
+                    "GlobalVariable(controleur_audio.basson)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\A_lamentations_theme_alto.mp3",
+                    "GlobalVariable(controleur_audio.alto)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Basse d'Alberti\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_alberti_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_alberti_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_alberti_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_alberti_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Notes répétées\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_notes_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_notes_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_notes_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_notes_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Homorythmie\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_homo_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_homo_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_homo_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_homo_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Walking bass\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_WB_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_WB_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_WB_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_WB_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "theme_a.selection",
+                    "=",
+                    "\"Le feu\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\A_feu_theme_violon.mp3",
+                    "GlobalVariable(controleur_audio.violon)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\A_feu_theme_hautbois.mp3",
+                    "GlobalVariable(controleur_audio.hautbois)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\A_feu_theme_basson.mp3",
+                    "GlobalVariable(controleur_audio.basson)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\A_feu_theme_alto.mp3",
+                    "GlobalVariable(controleur_audio.alto)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Basse d'Alberti\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_alberti_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_alberti_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_alberti_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_alberti_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Notes répétées\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_notes_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_notes_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_notes_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_notes_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Homorythmie\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_homo_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_homo_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_homo_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_homo_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Walking bass\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_WB_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_WB_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_WB_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_WB_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "theme_a.selection",
+                    "=",
+                    "\"Mer troublée\""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "theme_a.selection",
+                    "=",
+                    "\"Militaire\""
+                  ]
+                }
+              ],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "emplacement",
+                "=",
+                "\"pont\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "pont.selection",
+                    "=",
+                    "\"Funèbre\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\pont_funebre_normal_alto.mp3",
+                    "GlobalVariable(controleur_audio.alto)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\pont_funebre_normal_basson.mp3",
+                    "GlobalVariable(controleur_audio.basson)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\pont_funebre_normal_hautbois.mp3",
+                    "GlobalVariable(controleur_audio.hautbois)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\pont_funebre_normal_violon.mp3",
+                    "GlobalVariable(controleur_audio.violon)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "pont.selection",
+                    "=",
+                    "\"Poule\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\pont_poule_normal_alto.mp3",
+                    "GlobalVariable(controleur_audio.alto)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\pont_poule_normal_basson.mp3",
+                    "GlobalVariable(controleur_audio.basson)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\pont_poule_normal_hautbois.mp3",
+                    "GlobalVariable(controleur_audio.hautbois)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\pont_poule_normal_violon.mp3",
+                    "GlobalVariable(controleur_audio.violon)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "emplacement",
+                "=",
+                "\"theme2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "theme_b.selection",
+                    "=",
+                    "\"La poule\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\B_poule_theme_alto.mp3",
+                    "GlobalVariable(controleur_audio.alto)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\B_poule_theme_basson.mp3",
+                    "GlobalVariable(controleur_audio.basson)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\B_poule_theme_hautbois.mp3",
+                    "GlobalVariable(controleur_audio.hautbois)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\B_poule_theme_violon.mp3",
+                    "GlobalVariable(controleur_audio.violon)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Basse d'Alberti\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_alberti_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_alberti_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_alberti_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_alberti_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Notes répétées\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_notes_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_notes_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_notes_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_notes_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Homorythmie\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_homo_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_homo_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_homo_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_homo_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Walking bass\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_WB_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_WB_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_WB_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_poule_WB_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "theme_b.selection",
+                    "=",
+                    "\"La surprise\""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "theme_b.selection",
+                    "=",
+                    "\"Lamentation\""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "theme_b.selection",
+                    "=",
+                    "\"Laudon\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\B_laudon_theme_alto.mp3",
+                    "GlobalVariable(controleur_audio.alto)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\B_laudon_theme_basson.mp3",
+                    "GlobalVariable(controleur_audio.basson)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\B_laudon_theme_hautbois.mp3",
+                    "GlobalVariable(controleur_audio.hautbois)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Livraison 2\\B_poule_theme_violon.mp3",
+                    "GlobalVariable(controleur_audio.violon)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Basse d'Alberti\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_alberti_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_alberti_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_alberti_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_alberti_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Notes répétées\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_notes_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_notes_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_notes_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_notes_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Homorythmie\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_homo_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_homo_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_homo_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_homo_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "accompagnement_a.selection",
+                        "=",
+                        "\"Walking bass\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_WB_alto.mp3",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_WB_basson.mp3",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_WB_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\B_laudon_WB_violon.mp3",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "emplacement",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "emplacement",
+                "=",
+                "\"theme1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SoundStopped"
+              },
+              "parameters": [
+                "",
+                "GlobalVariable(controleur_audio.alto)"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "emplacement",
+                "=",
+                "\"pont\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\5-minutes-of-silence.mp3",
+                "GlobalVariable(controleur_audio.alto)",
+                "",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "emplacement",
+                "=",
+                "\"pont\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SoundStopped"
+              },
+              "parameters": [
+                "",
+                "GlobalVariable(controleur_audio.alto)"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "emplacement",
+                "=",
+                "\"theme2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\5-minutes-of-silence.mp3",
+                "GlobalVariable(controleur_audio.alto)",
+                "",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "emplacement",
+                "=",
+                "\"theme2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SoundStopped"
+              },
+              "parameters": [
+                "",
+                "GlobalVariable(controleur_audio.alto)"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "emplacement",
+                "=",
+                "\"stop\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "volume",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "controleur_audio.volume",
+                "=",
+                "volume.Value()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "emplacement",
+                    "=",
+                    "\"theme1\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "theme_a.instruments.alto",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.alto)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "theme_a.instruments.basson",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.basson)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "theme_a.instruments.hautbois",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.hautbois)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "theme_a.instruments.violon",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.violon)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "accompagnement_a.instruments.alto",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "accompagnement_a.instruments.basson",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "accompagnement_a.instruments.hautbois",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "accompagnement_a.instruments.violon",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "emplacement",
+                    "=",
+                    "\"pont\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pont.instruments.cordes",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.alto)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.violon)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pont.instruments.vents",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.basson)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.hautbois)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "emplacement",
+                    "=",
+                    "\"theme2\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "theme_b.instruments.alto",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.alto)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "theme_b.instruments.basson",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.basson)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "theme_b.instruments.hautbois",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.hautbois)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "theme_b.instruments.violon",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.violon)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "accompagnement_b.instruments.alto",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.altoBis)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "accompagnement_b.instruments.basson",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.bassonBis)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "accompagnement_b.instruments.hautbois",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.hautboisBis)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "accompagnement_b.instruments.violon",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(controleur_audio.violonBis)",
+                        "=",
+                        "volume.Value()"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ]
+}
