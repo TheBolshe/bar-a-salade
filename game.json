@@ -1532,6 +1532,32 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/69b5c8f8989a271fbbe9d2f68763f7e820044f505b0d0b66874bd20f70935a3c_Left arrow button.png",
           "name": "Left arrow button.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Repeat Arrow_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Repeat Arrow_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Buffs & Debuffs/43210d5b37a5b7e248c081fef03d6aa37c32fa5cca29698c72830fe5f98823e6_Repeat Arrow_No Shadow.png",
+          "name": "Repeat Arrow_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Repeat Arrow_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Repeat Arrow_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Buffs & Debuffs/d557d7530d5403b8c1d2cd408ec472dd99b647c835051efc9ced12fa21bc0746_Repeat Arrow_Shadow.png",
+          "name": "Repeat Arrow_Shadow.png"
+        }
       }
     ],
     "resourceFolders": []
