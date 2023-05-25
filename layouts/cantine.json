@@ -3789,6 +3789,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "choix accompagnement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3973,13 +3974,11 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix instruments",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4833,6 +4832,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5940,7 +5940,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5961,7 +5960,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix supplements",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -6052,7 +6050,16 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ToggleGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "supplements.nuances"
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -6068,40 +6075,6 @@
                             }
                           ],
                           "actions": [
-                            {
-                              "type": {
-                                "value": "SetGlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "supplements.nuances",
-                                "False"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "GlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "supplements.nuances",
-                                "False"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetGlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "supplements.nuances",
-                                "True"
-                              ]
-                            },
                             {
                               "type": {
                                 "value": "SetGlobalVariableAsBoolean"
@@ -6145,7 +6118,16 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ToggleGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "supplements.pizzicato"
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -6161,40 +6143,6 @@
                             }
                           ],
                           "actions": [
-                            {
-                              "type": {
-                                "value": "SetGlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "supplements.pizzicato",
-                                "False"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "GlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "supplements.pizzicato",
-                                "False"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetGlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "supplements.pizzicato",
-                                "True"
-                              ]
-                            },
                             {
                               "type": {
                                 "value": "SetGlobalVariableAsBoolean"
@@ -6255,30 +6203,13 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [],
-                      "events": [
+                      "actions": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "GlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "supplements.nuances",
-                                "True"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ToggleGlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "supplements.nuances"
-                              ]
-                            }
+                          "type": {
+                            "value": "ToggleGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "supplements.nuances"
                           ]
                         }
                       ]

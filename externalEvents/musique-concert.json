@@ -110,6 +110,74 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "supplements.syncope",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_syncopes_alto.mp3",
+                        "GlobalVariable(controleur_audio.alto)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_syncopes_basson.mp3",
+                        "GlobalVariable(controleur_audio.basson)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_syncopes_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautbois)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_lamentations_syncopes_violon.mp3",
+                        "GlobalVariable(controleur_audio.violon)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
@@ -458,6 +526,74 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "supplements.syncope",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_syncopes_violon.mp3",
+                        "GlobalVariable(controleur_audio.violon)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_syncopes_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautbois)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_syncopes_basson.mp3",
+                        "GlobalVariable(controleur_audio.basson)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\A_feu_syncopes_alto.mp3",
+                        "GlobalVariable(controleur_audio.alto)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
@@ -789,6 +925,7 @@
           "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -855,9 +992,148 @@
                     ""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "supplements.nuances",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_funebre_nuances_alto.mp3",
+                        "GlobalVariable(controleur_audio.alto)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_funebre_nuances_basson.mp3",
+                        "GlobalVariable(controleur_audio.basson)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_funebre_nuances_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautbois)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_funebre_nuances_violon.mp3",
+                        "GlobalVariable(controleur_audio.violon)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "supplements.pizzicato",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_funebre_pizz_alto.mp3",
+                        "GlobalVariable(controleur_audio.alto)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_funebre_normal_basson.mp3",
+                        "GlobalVariable(controleur_audio.basson)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_funebre_normal_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautbois)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_funebre_pizz_violon.mp3",
+                        "GlobalVariable(controleur_audio.violon)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -922,6 +1198,144 @@
                     "",
                     "0",
                     ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "supplements.nuances",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_poule_nuances_alto.mp3",
+                        "GlobalVariable(controleur_audio.alto)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_poule_nuances_basson.mp3",
+                        "GlobalVariable(controleur_audio.basson)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_poule_nuances_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautbois)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_poule_nuances_violon.mp3",
+                        "GlobalVariable(controleur_audio.violon)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "supplements.pizzicato",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_poule_pizz_alto.mp3",
+                        "GlobalVariable(controleur_audio.alto)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_poule_normal_basson.mp3",
+                        "GlobalVariable(controleur_audio.basson)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_poule_normal_hautbois.mp3",
+                        "GlobalVariable(controleur_audio.hautbois)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Livraison 2\\pont_poule_pizz_violon.mp3",
+                        "GlobalVariable(controleur_audio.violon)",
+                        "",
+                        "0",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]

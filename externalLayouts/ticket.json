@@ -316,6 +316,51 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 343,
+      "customSize": true,
+      "height": 72,
+      "layer": "boutons slection",
+      "name": "nuancesTicket",
+      "persistentUuid": "a081d76d-6adb-4ca7-bb5d-32a82726da3a",
+      "width": 154,
+      "x": 143,
+      "y": 339,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 343,
+      "customSize": true,
+      "height": 86,
+      "layer": "boutons slection",
+      "name": "pizzicatoTicket",
+      "persistentUuid": "be0fa27b-274a-44e4-89ec-a8aaf036c814",
+      "width": 184,
+      "x": 130,
+      "y": 332,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 342,
+      "customSize": true,
+      "height": 64,
+      "layer": "boutons slection",
+      "name": "syncopesTicket",
+      "persistentUuid": "870c3f49-8cc8-4834-8307-50773eba85bb",
+      "width": 137,
+      "x": 181,
+      "y": 182,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -328,7 +373,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0269425874981073,
+    "zoomFactor": 0.787629010167376,
     "windowMask": false
   }
 }
