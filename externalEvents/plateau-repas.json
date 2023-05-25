@@ -156,6 +156,31 @@
               },
               "parameters": [
                 "pont.selection",
+                "=",
+                "\"vide\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "pontPlateau"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "pont.selection",
                 "!=",
                 "\"vide\""
               ]
@@ -206,31 +231,6 @@
               "actions": []
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "pont.selection",
-                "=",
-                "\"vide\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "pontPlateau"
-              ]
-            }
-          ]
         }
       ],
       "parameters": []
@@ -240,7 +240,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "theme2",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
