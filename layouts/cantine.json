@@ -3458,6 +3458,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3494,6 +3495,16 @@
                   "parameters": [
                     "",
                     "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "theme_a.selection",
+                    "!=",
+                    "\"vide\""
                   ]
                 },
                 {
@@ -4832,7 +4843,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4876,6 +4886,16 @@
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "theme_b.selection",
+                    "!=",
+                    "\"vide\""
+                  ]
                 }
               ],
               "actions": [
