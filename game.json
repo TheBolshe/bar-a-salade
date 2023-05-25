@@ -1585,6 +1585,51 @@
         "name": "syncopesTicket",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plateau.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "plateau",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/theme1Plateau.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "theme1Plateau",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/theme2Plateau.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "theme2Plateau",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pontPlateau.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pontPlateau",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pontPlateau2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pontPlateau2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3328,6 +3373,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/musique-concert"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/plateau-repas"
     }
   ],
   "eventsFunctionsExtensions": [

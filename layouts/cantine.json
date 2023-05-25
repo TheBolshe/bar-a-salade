@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4633111824513976,
+    "zoomFactor": 0.6672773998329975,
     "windowMask": false
   },
   "objectsGroups": [
@@ -338,6 +338,53 @@
           "name": "pontVents"
         }
       ]
+    },
+    {
+      "name": "selection",
+      "objects": [
+        {
+          "name": "plateau"
+        },
+        {
+          "name": "theme1Plateau"
+        },
+        {
+          "name": "pontPlateau"
+        },
+        {
+          "name": "theme2Plateau"
+        },
+        {
+          "name": "altoSpriteA"
+        },
+        {
+          "name": "bassonSpriteA"
+        },
+        {
+          "name": "heutboisSpriteA"
+        },
+        {
+          "name": "violonSpriteA"
+        },
+        {
+          "name": "altoSpriteB"
+        },
+        {
+          "name": "bassonSpriteB"
+        },
+        {
+          "name": "heutboisSpriteB"
+        },
+        {
+          "name": "violonSpriteB"
+        },
+        {
+          "name": "pontVents"
+        },
+        {
+          "name": "pontCordes"
+        }
+      ]
     }
   ],
   "variables": [],
@@ -395,9 +442,69 @@
       "name": "caisse",
       "persistentUuid": "677977f4-646b-42b3-be63-fb0166df5fc0",
       "width": 0,
-      "x": 1007,
-      "y": 589,
+      "x": 1022,
+      "y": 561,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 912,
+      "layer": "",
+      "name": "plateau",
+      "persistentUuid": "9420705a-1558-4b9e-b693-07546e4cedea",
+      "width": 1012,
+      "x": 125,
+      "y": -184,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 196,
+      "layer": "",
+      "name": "theme1Plateau",
+      "persistentUuid": "d518ea97-2b16-4911-a3a0-5363e962197e",
+      "width": 245,
+      "x": 291,
+      "y": 506,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 178,
+      "layer": "",
+      "name": "theme2Plateau",
+      "persistentUuid": "0aaee299-bfb2-46dd-aaef-f75f74f8f7e2",
+      "width": 249,
+      "x": 714,
+      "y": 514,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 142,
+      "layer": "",
+      "name": "pontPlateau",
+      "persistentUuid": "024340a1-2f91-4834-9902-7cc3064a2c3f",
+      "width": 205,
+      "x": 528,
+      "y": 559,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2909,6 +3016,174 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "plateau",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "plateau",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "plateau",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "theme1Plateau",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "theme1Plateau",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "theme1Plateau",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "pontPlateau",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "pontPlateau",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "pontPlateau2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "theme2Plateau",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "theme2Plateau",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "theme2Plateau",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -5980,6 +6255,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "choix supplements",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -6186,8 +6462,8 @@
                         "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "pont.instruments.cordes",
-                        "False"
+                        "pont.instruments.vents",
+                        "True"
                       ]
                     }
                   ],
@@ -6437,6 +6713,13 @@
         "includeConfig": 0
       },
       "target": "apercu musique"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "plateau repas"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
