@@ -3733,7 +3733,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3819,6 +3818,110 @@
                     "=",
                     "\"accompagnement\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.violonBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.hautboisBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.bassonBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.altoBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.violon)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.hautbois)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.basson)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.alto)",
+                    "",
+                    "0",
+                    ""
+                  ]
                 }
               ]
             },
@@ -3881,6 +3984,110 @@
                     "mode",
                     "=",
                     "\"theme\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.violonBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.hautboisBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.bassonBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.altoBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.violon)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.hautbois)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.basson)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.alto)",
+                    "",
+                    "0",
+                    ""
                   ]
                 }
               ]
@@ -5118,6 +5325,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5203,6 +5411,110 @@
                     "=",
                     "\"accompagnement\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.violonBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.hautboisBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.bassonBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.altoBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.violon)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.hautbois)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.basson)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.alto)",
+                    "",
+                    "0",
+                    ""
+                  ]
                 }
               ]
             },
@@ -5265,6 +5577,110 @@
                     "mode",
                     "=",
                     "\"theme\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.violonBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.hautboisBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.bassonBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.altoBis)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.violon)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.hautbois)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.basson)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\5-minutes-of-silence.mp3",
+                    "GlobalVariable(controleur_audio.alto)",
+                    "",
+                    "0",
+                    ""
                   ]
                 }
               ]
@@ -6255,7 +6671,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix supplements",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -6309,7 +6724,7 @@
                         "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "pont.instruments.cordes",
+                        "pont.instruments.vents",
                         "True"
                       ]
                     }
@@ -6462,7 +6877,7 @@
                         "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "pont.instruments.vents",
+                        "pont.instruments.cordes",
                         "True"
                       ]
                     }

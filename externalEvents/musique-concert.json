@@ -925,7 +925,6 @@
           "actions": [],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1366,6 +1365,7 @@
           "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1442,7 +1442,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Basse d'Alberti\""
                       ]
@@ -1511,7 +1511,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Notes répétées\""
                       ]
@@ -1580,7 +1580,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Homorythmie\""
                       ]
@@ -1649,7 +1649,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Walking bass\""
                       ]
@@ -1745,7 +1745,6 @@
               "actions": []
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1822,7 +1821,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Basse d'Alberti\""
                       ]
@@ -1891,7 +1890,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Notes répétées\""
                       ]
@@ -1960,7 +1959,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Homorythmie\""
                       ]
@@ -2029,7 +2028,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Walking bass\""
                       ]

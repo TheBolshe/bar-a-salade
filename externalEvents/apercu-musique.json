@@ -1919,7 +1919,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1943,7 +1942,7 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "theme_a.selection",
+                    "theme_b.selection",
                     "=",
                     "\"La poule\""
                   ]
@@ -1959,7 +1958,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Basse d'Alberti\""
                       ]
@@ -2086,7 +2085,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Notes répétées\""
                       ]
@@ -2213,7 +2212,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Walking bass\""
                       ]
@@ -2340,7 +2339,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Homorythmie\""
                       ]
@@ -2470,7 +2469,7 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "theme_a.selection",
+                    "theme_b.selection",
                     "=",
                     "\"La surprise\""
                   ]
@@ -2577,7 +2576,7 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "theme_a.selection",
+                    "theme_b.selection",
                     "=",
                     "\"Lamentation\""
                   ]
@@ -2683,7 +2682,7 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "theme_a.selection",
+                    "theme_b.selection",
                     "=",
                     "\"Laudon\""
                   ]
@@ -2699,7 +2698,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Homorythmie\""
                       ]
@@ -2826,7 +2825,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Walking bass\""
                       ]
@@ -2953,7 +2952,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Basse d'Alberti\""
                       ]
@@ -3080,7 +3079,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "accompagnement_a.selection",
+                        "accompagnement_b.selection",
                         "=",
                         "\"Notes répétées\""
                       ]
@@ -3215,7 +3214,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3232,7 +3230,6 @@
           "actions": [],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3259,12 +3256,6 @@
                         "theme_a.instruments.alto",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -3292,12 +3283,6 @@
                         "theme_a.instruments.alto",
                         "False"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -3325,12 +3310,6 @@
                         "theme_a.instruments.basson",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -3358,12 +3337,6 @@
                         "theme_a.instruments.basson",
                         "False"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -3391,12 +3364,6 @@
                         "theme_a.instruments.hautbois",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -3424,12 +3391,6 @@
                         "theme_a.instruments.hautbois",
                         "False"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -3457,12 +3418,6 @@
                         "theme_a.instruments.violon",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -3490,12 +3445,6 @@
                         "theme_a.instruments.violon",
                         "False"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -3515,7 +3464,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3532,7 +3480,6 @@
               "actions": [],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3603,12 +3550,6 @@
                             "accompagnement_a.instruments.alto",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3636,12 +3577,6 @@
                             "accompagnement_a.instruments.alto",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3669,12 +3604,6 @@
                             "accompagnement_a.instruments.basson",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3702,12 +3631,6 @@
                             "accompagnement_a.instruments.basson",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3735,12 +3658,6 @@
                             "accompagnement_a.instruments.hautbois",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3768,12 +3685,6 @@
                             "accompagnement_a.instruments.hautbois",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3801,12 +3712,6 @@
                             "accompagnement_a.instruments.violon",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3834,12 +3739,6 @@
                             "accompagnement_a.instruments.violon",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3859,7 +3758,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3885,12 +3783,6 @@
                             "theme_a.instruments.alto",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3918,12 +3810,6 @@
                             "theme_a.instruments.alto",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3951,12 +3837,6 @@
                             "theme_a.instruments.basson",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3984,12 +3864,6 @@
                             "theme_a.instruments.basson",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4017,12 +3891,6 @@
                             "theme_a.instruments.hautbois",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4050,12 +3918,6 @@
                             "theme_a.instruments.hautbois",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4083,12 +3945,6 @@
                             "theme_a.instruments.violon",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4116,12 +3972,6 @@
                             "theme_a.instruments.violon",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4149,12 +3999,6 @@
                             "accompagnement_a.instruments.alto",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4182,12 +4026,6 @@
                             "accompagnement_a.instruments.alto",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4215,12 +4053,6 @@
                             "accompagnement_a.instruments.basson",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4248,12 +4080,6 @@
                             "accompagnement_a.instruments.basson",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4281,12 +4107,6 @@
                             "accompagnement_a.instruments.hautbois",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4314,12 +4134,6 @@
                             "accompagnement_a.instruments.hautbois",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4347,12 +4161,6 @@
                             "accompagnement_a.instruments.violon",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4380,12 +4188,6 @@
                             "accompagnement_a.instruments.violon",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4435,12 +4237,6 @@
                     "pont.instruments.cordes",
                     "True"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -4479,12 +4275,6 @@
                     "pont.instruments.cordes",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -4523,12 +4313,6 @@
                     "pont.instruments.vents",
                     "True"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -4567,12 +4351,6 @@
                     "pont.instruments.vents",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -4645,12 +4423,6 @@
                         "theme_b.instruments.alto",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -4678,12 +4450,6 @@
                         "theme_b.instruments.alto",
                         "False"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -4711,12 +4477,6 @@
                         "theme_b.instruments.basson",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -4744,12 +4504,6 @@
                         "theme_b.instruments.basson",
                         "False"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -4777,12 +4531,6 @@
                         "theme_b.instruments.hautbois",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -4810,12 +4558,6 @@
                         "theme_b.instruments.hautbois",
                         "False"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -4843,12 +4585,6 @@
                         "theme_b.instruments.violon",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -4876,12 +4612,6 @@
                         "theme_b.instruments.violon",
                         "False"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -4987,12 +4717,6 @@
                             "accompagnement_b.instruments.alto",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5020,12 +4744,6 @@
                             "accompagnement_b.instruments.alto",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5053,12 +4771,6 @@
                             "accompagnement_b.instruments.basson",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5086,12 +4798,6 @@
                             "accompagnement_b.instruments.basson",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5119,12 +4825,6 @@
                             "accompagnement_b.instruments.hautbois",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5152,12 +4852,6 @@
                             "accompagnement_b.instruments.hautbois",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5185,12 +4879,6 @@
                             "accompagnement_b.instruments.violon",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5218,12 +4906,6 @@
                             "accompagnement_b.instruments.violon",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5268,12 +4950,6 @@
                             "theme_b.instruments.alto",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5301,12 +4977,6 @@
                             "theme_b.instruments.alto",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5334,12 +5004,6 @@
                             "theme_b.instruments.basson",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5367,12 +5031,6 @@
                             "theme_b.instruments.basson",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5400,12 +5058,6 @@
                             "theme_b.instruments.hautbois",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5433,12 +5085,6 @@
                             "theme_b.instruments.hautbois",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5466,12 +5112,6 @@
                             "theme_b.instruments.violon",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5499,12 +5139,6 @@
                             "theme_b.instruments.violon",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5532,12 +5166,6 @@
                             "accompagnement_b.instruments.alto",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5565,12 +5193,6 @@
                             "accompagnement_b.instruments.alto",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5598,12 +5220,6 @@
                             "accompagnement_b.instruments.basson",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5631,12 +5247,6 @@
                             "accompagnement_b.instruments.basson",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5664,12 +5274,6 @@
                             "accompagnement_b.instruments.hautbois",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5697,12 +5301,6 @@
                             "accompagnement_b.instruments.hautbois",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5730,12 +5328,6 @@
                             "accompagnement_b.instruments.violon",
                             "True"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5763,12 +5355,6 @@
                             "accompagnement_b.instruments.violon",
                             "False"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
