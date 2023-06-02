@@ -164,14 +164,9 @@
       "ambientLightColorB": 8397296,
       "ambientLightColorG": 150995054,
       "ambientLightColorR": 1869182049,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
       "name": "",
-      "renderingType": "",
       "visibility": true,
       "cameras": [
         {

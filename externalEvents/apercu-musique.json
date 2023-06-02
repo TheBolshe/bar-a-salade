@@ -1706,7 +1706,6 @@
       "actions": [],
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1907,7 +1906,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\Livraison 2\\B_poule_theme_violon.mp3",
+                    "assets\\Livraison 2\\B_laudon_theme_violon.mp3",
                     "GlobalVariable(controleur_audio.violon)",
                     "",
                     "0",

@@ -60,7 +60,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "The \"Validated\" state only last one frame."
+                  "comment": "The \"Validated\" state only last one frame.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -110,7 +111,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Make sure the cursor position is only checked once per frame."
+                      "comment": "Make sure the cursor position is only checked once per frame.",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -174,7 +176,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Touches are always pressed, so ShouldCheckHovering doesn't matter."
+                      "comment": "Touches are always pressed, so ShouldCheckHovering doesn't matter.",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -1228,7 +1231,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Create one background instance for of each state.\nOnly the instance for the current state is shown."
+              "comment": "Create one background instance for of each state.\nOnly the instance for the current state is shown.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1308,7 +1312,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Place the label over the backgrounds."
+              "comment": "Place the label over the backgrounds.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1439,7 +1444,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Show the right background accordingly to the new state."
+                  "comment": "Show the right background accordingly to the new state.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -1804,7 +1810,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Children instances must be resized when the button size change:\n- backgrounds for each state are resized to take the full dimensions of the button\n- the label is put back at the center of the button\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances."
+                  "comment": "Children instances must be resized when the button size change:\n- backgrounds for each state are resized to take the full dimensions of the button\n- the label is put back at the center of the button\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",

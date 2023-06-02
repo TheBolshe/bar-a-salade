@@ -436,7 +436,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\A_lamentations_theme_alto.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -446,7 +446,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\A_lamentations_theme_basson.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -456,7 +456,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\A_lamentations_theme_hautbois.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -466,7 +466,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\A_lamentations_theme_violon.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -476,7 +476,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\A_feu_theme_alto.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -486,7 +486,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\A_feu_theme_basson.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -616,7 +616,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\B_poule_theme_basson.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -626,7 +626,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\B_poule_theme_hautbois.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -636,7 +636,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\B_poule_theme_violon.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -1036,7 +1036,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\B_poule_notes_alto.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -1046,7 +1046,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\B_poule_notes_basson.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -1056,7 +1056,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\B_poule_notes_hautbois.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -1066,7 +1066,7 @@
         "metadata": "",
         "name": "assets\\Livraison 2\\B_poule_notes_violon.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },

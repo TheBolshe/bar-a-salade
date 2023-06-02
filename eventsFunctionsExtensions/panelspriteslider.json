@@ -555,7 +555,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "The \"Validated\" state only last one frame."
+                  "comment": "The \"Validated\" state only last one frame.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -605,7 +606,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Make sure the cursor position is only checked once per frame."
+                      "comment": "Make sure the cursor position is only checked once per frame.",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -669,7 +671,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Touches are always pressed, so ShouldCheckHovering doesn't matter."
+                      "comment": "Touches are always pressed, so ShouldCheckHovering doesn't matter.",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -1683,7 +1686,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "This allows to detect a change of \"intial value\" on hot reload."
+              "comment": "This allows to detect a change of \"intial value\" on hot reload.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1711,7 +1715,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Create the child-object instances."
+              "comment": "Create the child-object instances.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1795,7 +1800,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Create the label that is displayed over the thumb."
+              "comment": "Create the label that is displayed over the thumb.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1852,7 +1858,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Pass the configuration to the behavior."
+              "comment": "Pass the configuration to the behavior.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2314,7 +2321,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Children instances must be resized when the parent size change:\n- background is resized to take the full dimensions of the parent\n- the label is put back at the center of the bar\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances."
+                  "comment": "Children instances must be resized when the parent size change:\n- background is resized to take the full dimensions of the parent\n- the label is put back at the center of the bar\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -2425,7 +2433,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "The parent size is not defined in onCreate so it needs to be done here."
+              "comment": "The parent size is not defined in onCreate so it needs to be done here.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3325,7 +3334,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Pass configuration to the behavior and update children."
+              "comment": "Pass configuration to the behavior and update children.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
