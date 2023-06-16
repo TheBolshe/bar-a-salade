@@ -69,6 +69,9 @@
         },
         {
           "name": "entendreAcc"
+        },
+        {
+          "name": "PauseButton"
         }
       ]
     },
@@ -119,6 +122,9 @@
         },
         {
           "name": "entendreTheme"
+        },
+        {
+          "name": "PauseButton"
         }
       ]
     },
@@ -169,6 +175,9 @@
         },
         {
           "name": "entendreAcc"
+        },
+        {
+          "name": "PauseButton"
         }
       ]
     },
@@ -219,6 +228,9 @@
         },
         {
           "name": "entendreTheme"
+        },
+        {
+          "name": "PauseButton"
         }
       ]
     },
@@ -251,6 +263,9 @@
         },
         {
           "name": "bgslection"
+        },
+        {
+          "name": "PauseButton"
         }
       ]
     },
@@ -2558,6 +2573,66 @@
       ]
     },
     {
+      "assetStoreId": "05c8c095007d0ac0b0242bd0999b9af85d00f464a0eff959f55c9413ad3401e5",
+      "name": "PauseButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pause button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 47,
+                        "y": 0
+                      },
+                      {
+                        "x": 47,
+                        "y": 47
+                      },
+                      {
+                        "x": 0,
+                        "y": 47
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "assetStoreId": "f76512029b0f1b0ad0993194e9ca0eaf81f312fb0afdf7db9bbd573b47df0333",
       "name": "CloseButton",
       "tags": "",
@@ -3598,6 +3673,16 @@
                     "controleur_audio.entendreTheme",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"arret\""
+                  ]
                 }
               ]
             },
@@ -3662,6 +3747,16 @@
                     "=",
                     "\"theme\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"joue\""
+                  ]
                 }
               ]
             },
@@ -3709,6 +3804,16 @@
                     "=",
                     "\"theme\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"joue\""
+                  ]
                 }
               ]
             },
@@ -3745,6 +3850,16 @@
                     "emplacement",
                     "=",
                     "\"pont\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"joue\""
                   ]
                 }
               ]
@@ -7248,6 +7363,92 @@
               },
               "parameters": [
                 "controleur_audio.entendreAccompagnement"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PlayButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "controleur_audio.etat",
+                "=",
+                "\"joue\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PauseButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "controleur_audio.etat",
+                "=",
+                "\"pause\""
               ]
             }
           ]

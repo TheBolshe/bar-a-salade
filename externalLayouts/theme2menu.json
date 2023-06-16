@@ -226,6 +226,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "boutons slection",
+      "name": "PauseButton",
+      "persistentUuid": "550ca11e-ed3e-4aa3-91cd-41bff5dd1e74",
+      "width": 0,
+      "x": 391,
+      "y": 520,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
