@@ -3300,9 +3300,20 @@
           "value": 11
         },
         {
+          "name": "entendreAccompagnement",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "entendreTheme",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "etat",
+          "type": "string",
+          "value": "arret"
         },
         {
           "name": "hautbois",
@@ -3377,6 +3388,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/plateau-repas"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/controleur-audio"
     }
   ],
   "eventsFunctionsExtensions": [
