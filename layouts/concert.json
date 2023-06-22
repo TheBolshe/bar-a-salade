@@ -906,6 +906,13 @@
         "includeConfig": 0
       },
       "target": "musique concert"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "controleur audio"
     }
   ],
   "layers": [

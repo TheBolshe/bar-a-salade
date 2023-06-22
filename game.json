@@ -1659,6 +1659,45 @@
         "name": "progressionB",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/71ee2c8d8b72808c7f084252cd36c80c44bc07655a3729e5fe7459c634007e8a_Red Button With Shadow_Hovered.png",
+          "name": "Red Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6c6bf020fb86d99a9ecc993f8b90064d73d757bc2408050cf353c84bc36f6be2_Red Button With Shadow_Idle.png",
+          "name": "Red Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b9ce526450d48adedb6875043465ae168fff1f6b01dd1ff7f43b7e7c1568cc21_Red Button With Shadow_Pressed.png",
+          "name": "Red Button With Shadow_Pressed.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -3054,6 +3093,117 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "syncopesTicket",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "4656edcabf61f71dfd0368d92d077267a0dbfeef35ce002d4cb8774906099c57",
+      "name": "PlayButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "joue",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Play button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pause",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "1e5b82f54cfea683880b3dbba50ae04747788a03bb48e8fc9544f5e7ee611539_Pause button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "f76512029b0f1b0ad0993194e9ca0eaf81f312fb0afdf7db9bbd573b47df0333",
+      "name": "CloseButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Close button.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

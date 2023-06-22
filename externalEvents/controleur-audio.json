@@ -4,9 +4,514 @@
   "name": "controleur audio",
   "events": [
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "boutons",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PlayButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "controleur_audio.pause"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "controleur_audio.etat",
+                "=",
+                "\"joue\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Stop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "controleur_audio.etat",
+                "=",
+                "\"arret\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "controleur_audio.pause",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "controleur_audio.etat",
+                "=",
+                "\"joue\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio.pause",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    "\"joue\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio.pause",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    "\"pause\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "controleur_audio.etat",
+                "=",
+                "\"arret\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "PlayButton",
+                "\"joue\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "SoundPlaying"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.alto)"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "controleur_audio.pause",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.alto)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.basson)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.hautbois)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.violon)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.altoBis)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.bassonBis)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.hautboisBis)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.violonBis)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SoundPaused"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.alto)"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "controleur_audio.pause",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.alto)"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.basson)"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.hautbois)"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.violon)"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.altoBis)"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.bassonBis)"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.hautboisBis)"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.violonBis)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"arret\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.alto)"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.basson)"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.hautbois)"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.violon)"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.altoBis)"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.bassonBis)"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.hautboisBis)"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "GlobalVariable(controleur_audio.violonBis)"
+          ]
+        }
+      ]
     }
   ]
 }
