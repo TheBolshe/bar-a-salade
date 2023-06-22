@@ -7557,6 +7557,13 @@
         "includeConfig": 0
       },
       "target": "gestion textes"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "prechargement audio"
     }
   ],
   "layers": [
