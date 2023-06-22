@@ -3702,7 +3702,7 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonPressed"
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
                     "",
@@ -3765,12 +3765,29 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "themeB",
+                    "",
+                    "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -3822,12 +3839,29 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "pont",
+                    "",
+                    "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -3869,12 +3903,29 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "caisse",
+                    "",
+                    "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 },
                 {
                   "type": {
@@ -7193,7 +7244,7 @@
             },
             {
               "type": {
-                "value": "MouseButtonPressed"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
                 "",
