@@ -4687,7 +4687,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix accompagnement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4877,6 +4876,7 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5095,6 +5095,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5318,7 +5319,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7405,6 +7405,15 @@
                 "=",
                 "\"joue\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "controleur_audio.pause",
+                "False"
+              ]
             }
           ]
         },
@@ -7447,6 +7456,15 @@
                 "controleur_audio.etat",
                 "=",
                 "\"pause\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "controleur_audio.pause",
+                "True"
               ]
             }
           ]

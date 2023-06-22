@@ -3326,6 +3326,12 @@
           "value": 12
         },
         {
+          "folded": true,
+          "name": "pause",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "violon",
           "type": "number",
           "value": 3
