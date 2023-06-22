@@ -21,7 +21,41 @@
     "zoomFactor": 0.6040838749988867,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "themeASuivi",
+      "objects": [
+        {
+          "name": "suiviThemeA"
+        },
+        {
+          "name": "progression"
+        }
+      ]
+    },
+    {
+      "name": "pontSuivi",
+      "objects": [
+        {
+          "name": "suiviPont"
+        },
+        {
+          "name": "progression"
+        }
+      ]
+    },
+    {
+      "name": "themeBsuivi",
+      "objects": [
+        {
+          "name": "suiviThemeB"
+        },
+        {
+          "name": "progression"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -41,45 +75,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 191,
       "layer": "boutons slection",
-      "name": "theme1",
-      "persistentUuid": "5cc6b300-5ef4-4a63-8ee4-355bcc2fc427",
-      "width": 0,
-      "x": 465,
-      "y": 100,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "boutons slection",
-      "name": "pont",
-      "persistentUuid": "4cb04272-ff91-4353-94e5-894a14283b33",
-      "width": 0,
-      "x": 469,
-      "y": 330,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "boutons slection",
-      "name": "theme2",
-      "persistentUuid": "e0efbda5-2b5d-4b43-9726-d5b883981133",
-      "width": 0,
-      "x": 466,
-      "y": 545,
-      "zOrder": 4,
+      "name": "RepeatArrow",
+      "persistentUuid": "5b488b15-13ab-4bda-bb6f-cdf6dfb4b5ce",
+      "width": 191,
+      "x": 807,
+      "y": 228,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -87,14 +91,60 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 191,
-      "layer": "boutons slection",
-      "name": "RepeatArrow",
-      "persistentUuid": "5b488b15-13ab-4bda-bb6f-cdf6dfb4b5ce",
-      "width": 191,
-      "x": 835,
-      "y": 258,
-      "zOrder": 5,
+      "depth": 0,
+      "height": 619,
+      "layer": "",
+      "name": "progression",
+      "persistentUuid": "2dd85cfe-a04b-433e-ae6d-5b0813df18b7",
+      "width": 619,
+      "x": 588,
+      "y": 28,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "suiviThemeA",
+      "persistentUuid": "f1ba8f43-275b-4449-9937-a6c251b56b0a",
+      "width": 0,
+      "x": 662,
+      "y": 295,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "suiviPont",
+      "persistentUuid": "6112fc83-1c91-49d8-a9b6-94eaa6072b2f",
+      "width": 0,
+      "x": 873,
+      "y": 298,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "suiviThemeB",
+      "persistentUuid": "11f60f3b-1646-4a8a-91a9-1a5062579ca4",
+      "width": 0,
+      "x": 1041,
+      "y": 295,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -122,129 +172,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Play button.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "5b15807864fa4e31a41e1e85600b000f73802cc39dbe61e3048a0bcc3930ae0e",
-      "name": "theme1",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Left arrow button.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "5b15807864fa4e31a41e1e85600b000f73802cc39dbe61e3048a0bcc3930ae0e",
-      "name": "pont",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Left arrow button.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "5b15807864fa4e31a41e1e85600b000f73802cc39dbe61e3048a0bcc3930ae0e",
-      "name": "theme2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Left arrow button.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -334,6 +261,174 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "progression",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "progressionA",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "progressionA",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "progressionPont",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "progressionPont",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "progressionB",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "progressionB",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "suiviThemeA",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Theme A",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "suiviPont",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pont",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "suiviThemeB",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Theme B",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -518,7 +613,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "theme1",
+            "themeASuivi",
             ""
           ]
         },
@@ -527,7 +622,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "pont"
+            "pontSuivi"
           ]
         },
         {
@@ -535,7 +630,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "theme2"
+            "themeBsuivi"
           ]
         },
         {
@@ -544,6 +639,15 @@
           },
           "parameters": [
             "RepeatArrow"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "progression",
+            "\"progressionA\""
           ]
         }
       ]
@@ -574,7 +678,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "theme1"
+            "themeASuivi"
           ]
         },
         {
@@ -582,7 +686,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "pont",
+            "pontSuivi",
             ""
           ]
         },
@@ -591,7 +695,16 @@
             "value": "Cache"
           },
           "parameters": [
-            "theme2"
+            "themeBsuivi"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "progression",
+            "\"progressionPont\""
           ]
         }
       ]
@@ -622,7 +735,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "theme1"
+            "themeASuivi"
           ]
         },
         {
@@ -630,7 +743,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "pont"
+            "pontSuivi"
           ]
         },
         {
@@ -638,8 +751,17 @@
             "value": "Montre"
           },
           "parameters": [
-            "theme2",
+            "themeBsuivi",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "progression",
+            "\"progressionB\""
           ]
         }
       ]
@@ -670,7 +792,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "theme1"
+            "themeASuivi"
           ]
         },
         {
@@ -678,7 +800,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "pont"
+            "pontSuivi"
           ]
         },
         {
@@ -686,7 +808,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "theme2"
+            "themeBsuivi"
           ]
         },
         {

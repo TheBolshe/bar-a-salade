@@ -1632,6 +1632,33 @@
         "name": "pontPlateau2",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/progressionA.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/progressionA.png\"}",
+        "name": "progressionA",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/progressionPont.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "progressionPont",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/progressionB.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "progressionB",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
