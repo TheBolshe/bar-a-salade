@@ -200,13 +200,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 500,
-      "layer": "boutons slection",
+      "depth": 0,
+      "height": 37,
+      "layer": "texte",
       "name": "Description",
       "persistentUuid": "080545e6-2c94-47f9-9354-d49b40e01c5e",
       "width": 450,
-      "x": 705,
-      "y": 83,
+      "x": 690,
+      "y": 40,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -242,6 +243,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 500,
+      "layer": "bg selection",
+      "name": "zoneTexte",
+      "persistentUuid": "7eb137f6-8543-46f0-a518-69ab971cf279",
+      "width": 450,
+      "x": 690,
+      "y": 40,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -254,7 +271,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5653158055126306,
+    "zoomFactor": 0.5290357402156838,
     "windowMask": false
   }
 }

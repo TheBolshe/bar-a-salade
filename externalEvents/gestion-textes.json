@@ -4,6 +4,7 @@
   "name": "gestion textes",
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -629,6 +630,36 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Height"
+          },
+          "parameters": [
+            "zoneTexte",
+            "<",
+            "Description.Height()"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DragCameraWithPointer::DragCameraWithPointer"
+          },
+          "parameters": [
+            "",
+            "0",
+            "\"texte\"",
+            "\"vertical\"",
+            "Left",
+            ""
           ]
         }
       ]

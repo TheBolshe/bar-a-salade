@@ -72,6 +72,9 @@
         },
         {
           "name": "Stop"
+        },
+        {
+          "name": "zoneTexte"
         }
       ]
     },
@@ -125,6 +128,9 @@
         },
         {
           "name": "Stop"
+        },
+        {
+          "name": "zoneTexte"
         }
       ]
     },
@@ -178,6 +184,9 @@
         },
         {
           "name": "Stop"
+        },
+        {
+          "name": "zoneTexte"
         }
       ]
     },
@@ -231,6 +240,9 @@
         },
         {
           "name": "Stop"
+        },
+        {
+          "name": "zoneTexte"
         }
       ]
     },
@@ -266,6 +278,9 @@
         },
         {
           "name": "Stop"
+        },
+        {
+          "name": "zoneTexte"
         }
       ]
     },
@@ -2862,7 +2877,7 @@
       ],
       "effects": [],
       "behaviors": [],
-      "string": "",
+      "string": "test",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -2871,6 +2886,36 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "DescriptionBB",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "zoneTexte",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     },
     {
       "assetStoreId": "9cf9ca8be6e98fc23e76b6770d3f4d094dea09f30a49f38ef9a9d2e97c2460be",
@@ -7433,6 +7478,22 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "boutons slection",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "texte",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
