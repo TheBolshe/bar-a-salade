@@ -110,6 +110,15 @@
                     },
                     {
                       "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "loaded.a_lamentation",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
@@ -140,7 +149,7 @@
                             "",
                             "assets\\Livraison 2\\A_lamentations_theme_alto.mp3",
                             "GlobalVariable(controleur_audio.alto)",
-                            "",
+                            "no",
                             "0",
                             ""
                           ]
@@ -153,7 +162,7 @@
                             "",
                             "assets\\Livraison 2\\A_lamentations_theme_basson.mp3",
                             "GlobalVariable(controleur_audio.basson)",
-                            "",
+                            "no",
                             "0",
                             ""
                           ]
@@ -785,6 +794,15 @@
                         "theme_a.selection",
                         "=",
                         "\"Le feu\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "loaded.a_feu",
+                        "True"
                       ]
                     },
                     {
@@ -1574,6 +1592,15 @@
                     },
                     {
                       "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "loaded.a_lamentation",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
@@ -2118,6 +2145,15 @@
                         "theme_a.selection",
                         "=",
                         "\"Le feu\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "loaded.a_feu",
+                        "True"
                       ]
                     },
                     {
@@ -2894,6 +2930,15 @@
                 },
                 {
                   "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "loaded.pont_funebre",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -2975,6 +3020,15 @@
                     "pont.selection",
                     "=",
                     "\"Poule\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "loaded.pont_poule",
+                    "True"
                   ]
                 },
                 {
@@ -3142,6 +3196,15 @@
                     },
                     {
                       "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "loaded.b_poule",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
@@ -3149,6 +3212,137 @@
                   ],
                   "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "accompagnement_b.selection",
+                            "=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.altoBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.bassonBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.hautboisBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.violonBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -3730,6 +3924,15 @@
                         "theme_b.selection",
                         "=",
                         "\"Laudon\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "loaded.b_laudon",
+                        "True"
                       ]
                     },
                     {
@@ -4189,6 +4392,15 @@
                     },
                     {
                       "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "loaded.b_poule",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
@@ -4947,6 +5159,15 @@
                         "theme_b.selection",
                         "=",
                         "\"Laudon\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "loaded.b_laudon",
+                        "True"
                       ]
                     },
                     {

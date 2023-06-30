@@ -295,18 +295,18 @@
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
             "value": "GlobalVariableAsBoolean"
           },
           "parameters": [
             "loaded.a_feu",
             "False"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -538,6 +538,15 @@
         },
         {
           "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.a_feu",
+            "True"
+          ]
+        },
+        {
+          "type": {
             "value": "ModVarGlobalTxt"
           },
           "parameters": [
@@ -607,18 +616,18 @@
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
             "value": "GlobalVariableAsBoolean"
           },
           "parameters": [
             "loaded.pont_funebre",
             "False"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -720,6 +729,15 @@
           "parameters": [
             "",
             "assets\\Livraison 2\\pont_funebre_pizz_violon.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.pont_funebre",
+            "True"
           ]
         },
         {
@@ -862,6 +880,15 @@
           "parameters": [
             "",
             "assets\\Livraison 2\\pont_poule_pizz_violon.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.pont_poule",
+            "True"
           ]
         },
         {
@@ -1094,6 +1121,15 @@
           "parameters": [
             "",
             "assets\\Livraison 2\\B_poule_WB_violon.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.b_poule",
+            "True"
           ]
         },
         {
@@ -1370,6 +1406,15 @@
           "parameters": [
             "",
             "assets\\Livraison 2\\B_laudon_WB_violon.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.b_laudon",
+            "True"
           ]
         },
         {

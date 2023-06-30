@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "D:\\Desktop\\test",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -3569,6 +3569,12 @@
           "value": false
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "Variable",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -3620,6 +3626,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/dragcamerawithpointer"
