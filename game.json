@@ -3533,6 +3533,42 @@
       "name": "niveau",
       "type": "string",
       "value": "débutant"
+    },
+    {
+      "name": "loaded",
+      "type": "structure",
+      "children": [
+        {
+          "name": "a_feu",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "a_lamentation",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "b_laudon",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "b_poule",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "pont_funebre",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "pont_poule",
+          "type": "boolean",
+          "value": false
+        }
+      ]
     }
   ],
   "layouts": [

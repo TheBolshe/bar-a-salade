@@ -548,16 +548,6 @@
             "0",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobalTxt"
-          },
-          "parameters": [
-            "emplacement",
-            "=",
-            "\"theme1\""
-          ]
         }
       ]
     },
@@ -584,6 +574,34 @@
             "0",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "emplacement",
+            "=",
+            "\"theme1\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "controleur_audio.entendreTheme",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "controleur_audio.entendreAccompagnement",
+            "True"
+          ]
         }
       ]
     },
@@ -599,24 +617,9 @@
             "=",
             "\"theme1\""
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "themeASuivi",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "Cache"
@@ -631,6 +634,15 @@
           },
           "parameters": [
             "themeBsuivi"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "themeASuivi",
+            ""
           ]
         },
         {
@@ -664,12 +676,6 @@
             "=",
             "\"pont\""
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -683,19 +689,19 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "themeBsuivi"
+          ]
+        },
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
             "pontSuivi",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "themeBsuivi"
           ]
         },
         {
@@ -721,12 +727,6 @@
             "=",
             "\"theme2\""
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -778,12 +778,6 @@
             "=",
             "\"stop\""
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -891,14 +885,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "affichage ticket"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "affichage instruments"
+      "target": "controleur audio"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -912,7 +899,14 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "controleur audio"
+      "target": "affichage ticket"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "affichage instruments"
     }
   ],
   "layers": [

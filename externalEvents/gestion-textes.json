@@ -661,6 +661,20 @@
             "Left",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ClampCamera"
+          },
+          "parameters": [
+            "",
+            "0",
+            "0-zoneTexte.BoundingBoxTop()",
+            "1280",
+            "zoneTexte.BoundingBoxBottom()+720",
+            "\"texte\"",
+            "0"
+          ]
         }
       ]
     }

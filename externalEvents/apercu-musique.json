@@ -13,7 +13,7 @@
           "parameters": [
             "controleur_audio.etat",
             "=",
-            "\"joue\""
+            "\"attend\""
           ]
         }
       ],
@@ -115,61 +115,139 @@
                       "parameters": []
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\A_lamentations_theme_alto.mp3",
-                        "GlobalVariable(controleur_audio.alto)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\A_lamentations_theme_basson.mp3",
-                        "GlobalVariable(controleur_audio.basson)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\A_lamentations_theme_hautbois.mp3",
-                        "GlobalVariable(controleur_audio.hautbois)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\A_lamentations_theme_violon.mp3",
-                        "GlobalVariable(controleur_audio.violon)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "accompagnement_a.selection",
+                            "=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.altoBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.bassonBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.hautboisBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.violonBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -235,6 +313,68 @@
                             "",
                             "0",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
                           ]
                         }
                       ]
@@ -305,6 +445,68 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -373,6 +575,68 @@
                             "",
                             "0",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
                           ]
                         }
                       ]
@@ -443,6 +707,68 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_lamentations_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     }
@@ -468,61 +794,139 @@
                       "parameters": []
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\A_feu_theme_alto.mp3",
-                        "GlobalVariable(controleur_audio.alto)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\A_feu_theme_basson.mp3",
-                        "GlobalVariable(controleur_audio.basson)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\A_feu_theme_hautbois.mp3",
-                        "GlobalVariable(controleur_audio.hautbois)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\A_feu_theme_violon.mp3",
-                        "GlobalVariable(controleur_audio.violon)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "accompagnement_a.selection",
+                            "=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.altoBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.bassonBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.hautboisBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\5-minutes-of-silence.mp3",
+                            "GlobalVariable(controleur_audio.violonBis)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -588,6 +992,68 @@
                             "",
                             "0",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
                           ]
                         }
                       ]
@@ -658,6 +1124,68 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -727,6 +1255,68 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -795,6 +1385,68 @@
                             "",
                             "0",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\A_feu_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
                           ]
                         }
                       ]
@@ -908,7 +1560,6 @@
               "actions": [],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -920,6 +1571,12 @@
                         "=",
                         "\"Lamentation\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -936,12 +1593,6 @@
                             "=",
                             "\"Basse d'Alberti\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -1048,6 +1699,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -1063,12 +1724,6 @@
                             "=",
                             "\"Notes répétées\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -1175,6 +1830,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -1190,12 +1855,6 @@
                             "=",
                             "\"Walking bass\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -1302,6 +1961,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -1317,12 +1986,6 @@
                             "=",
                             "\"Homorythmie\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -1429,13 +2092,22 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     }
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -1447,6 +2119,12 @@
                         "=",
                         "\"Le feu\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -1463,12 +2141,6 @@
                             "=",
                             "\"Homorythmie\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -1575,6 +2247,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -1590,12 +2272,6 @@
                             "=",
                             "\"Walking bass\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -1702,6 +2378,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -1717,12 +2403,6 @@
                             "=",
                             "\"Basse d'Alberti\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -1829,6 +2509,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -1844,12 +2534,6 @@
                             "=",
                             "\"Notes répétées\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -1956,6 +2640,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     }
@@ -1974,6 +2668,12 @@
                         "=",
                         "\"Mer troublée\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -1990,12 +2690,6 @@
                             "=",
                             "\"Homorythmie\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": []
@@ -2012,12 +2706,6 @@
                             "=",
                             "\"Walking bass\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": []
@@ -2034,12 +2722,6 @@
                             "=",
                             "\"Basse d'Alberti\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": []
@@ -2056,12 +2738,6 @@
                             "=",
                             "\"Notes répétées\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": []
@@ -2081,6 +2757,12 @@
                         "=",
                         "\"Militaire\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -2097,12 +2779,6 @@
                             "=",
                             "\"Homorythmie\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": []
@@ -2119,12 +2795,6 @@
                             "=",
                             "\"Walking bass\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": []
@@ -2141,12 +2811,6 @@
                             "=",
                             "\"Basse d'Alberti\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": []
@@ -2163,12 +2827,6 @@
                             "=",
                             "\"Notes répétées\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": []
@@ -2180,7 +2838,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2294,6 +2951,16 @@
                     "0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"joue\""
+                  ]
                 }
               ]
             },
@@ -2369,13 +3036,22 @@
                     "0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"joue\""
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2471,60 +3147,7 @@
                       "parameters": []
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\B_poule_theme_alto.mp3",
-                        "GlobalVariable(controleur_audio.alto)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\B_poule_theme_basson.mp3",
-                        "GlobalVariable(controleur_audio.basson)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\B_poule_theme_hautbois.mp3",
-                        "GlobalVariable(controleur_audio.hautbois)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Livraison 2\\B_poule_theme_violon.mp3",
-                        "GlobalVariable(controleur_audio.violon)",
-                        "",
-                        "0",
-                        ""
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -2538,12 +3161,6 @@
                             "=",
                             "\"Basse d'Alberti\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -2598,6 +3215,68 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -2613,12 +3292,6 @@
                             "=",
                             "\"Notes répétées\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -2673,6 +3346,68 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -2688,12 +3423,6 @@
                             "=",
                             "\"Walking bass\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -2748,6 +3477,68 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -2763,12 +3554,6 @@
                             "=",
                             "\"Homorythmie\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -2822,6 +3607,68 @@
                             "",
                             "0",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_alto.mp3",
+                            "GlobalVariable(controleur_audio.alto)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_basson.mp3",
+                            "GlobalVariable(controleur_audio.basson)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_hautbois.mp3",
+                            "GlobalVariable(controleur_audio.hautbois)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Livraison 2\\B_poule_theme_violon.mp3",
+                            "GlobalVariable(controleur_audio.violon)",
+                            "",
+                            "0",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
                           ]
                         }
                       ]
@@ -2959,12 +3806,6 @@
                             "=",
                             "\"Homorythmie\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3019,6 +3860,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -3034,12 +3885,6 @@
                             "=",
                             "\"Walking bass\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3094,6 +3939,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -3109,12 +3964,6 @@
                             "=",
                             "\"Basse d'Alberti\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3169,6 +4018,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -3184,12 +4043,6 @@
                             "=",
                             "\"Notes répétées\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3243,6 +4096,16 @@
                             "",
                             "0",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
                           ]
                         }
                       ]
@@ -3323,6 +4186,12 @@
                         "=",
                         "\"La poule\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -3339,12 +4208,6 @@
                             "=",
                             "\"Basse d'Alberti\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3451,6 +4314,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -3466,12 +4339,6 @@
                             "=",
                             "\"Notes répétées\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3578,6 +4445,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -3593,12 +4470,6 @@
                             "=",
                             "\"Walking bass\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3705,6 +4576,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -3720,12 +4601,6 @@
                             "=",
                             "\"Homorythmie\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -3831,6 +4706,16 @@
                             "",
                             "0",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
                           ]
                         }
                       ]
@@ -4063,6 +4948,12 @@
                         "=",
                         "\"Laudon\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -4079,12 +4970,6 @@
                             "=",
                             "\"Homorythmie\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4191,6 +5076,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -4206,12 +5101,6 @@
                             "=",
                             "\"Walking bass\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4318,6 +5207,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -4333,12 +5232,6 @@
                             "=",
                             "\"Basse d'Alberti\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4445,6 +5338,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     },
@@ -4460,12 +5363,6 @@
                             "=",
                             "\"Notes répétées\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4572,6 +5469,16 @@
                             "0",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "controleur_audio.etat",
+                            "=",
+                            "\"joue\""
+                          ]
                         }
                       ]
                     }
@@ -4582,3212 +5489,6 @@
           ]
         }
       ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "volume",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "emplacement",
-                "=",
-                "\"theme1\""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "mode",
-                    "=",
-                    "\"theme\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "controleur_audio.entendreAccompagnement",
-                        "False"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.altoBis)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.bassonBis)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.hautboisBis)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.violonBis)",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "controleur_audio.entendreAccompagnement",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "mode",
-                    "=",
-                    "\"accompagnement\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "controleur_audio.entendreTheme",
-                        "False"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.alto)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.basson)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.hautbois)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.violon)",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "controleur_audio.entendreTheme",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_a.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_a.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "emplacement",
-                "=",
-                "\"pont\""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "pont.instruments.cordes",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVolumeSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "GlobalVariable(controleur_audio.alto)",
-                    "=",
-                    "volume.Value()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVolumeSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "GlobalVariable(controleur_audio.violon)",
-                    "=",
-                    "volume.Value()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "pont.instruments.cordes",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVolumeSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "GlobalVariable(controleur_audio.alto)",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVolumeSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "GlobalVariable(controleur_audio.violon)",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "pont.instruments.vents",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVolumeSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "GlobalVariable(controleur_audio.basson)",
-                    "=",
-                    "volume.Value()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVolumeSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "GlobalVariable(controleur_audio.hautbois)",
-                    "=",
-                    "volume.Value()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "pont.instruments.vents",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVolumeSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "GlobalVariable(controleur_audio.basson)",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVolumeSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "GlobalVariable(controleur_audio.hautbois)",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "emplacement",
-                "=",
-                "\"theme2\""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "mode",
-                    "=",
-                    "\"theme\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "controleur_audio.entendreAccompagnement",
-                        "False"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.altoBis)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.bassonBis)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.hautboisBis)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.violonBis)",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "controleur_audio.entendreAccompagnement",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "mode",
-                    "=",
-                    "\"accompagnement\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "controleur_audio.entendreTheme",
-                        "False"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.alto)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.basson)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.hautbois)",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "GlobalVariable(controleur_audio.violon)",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "controleur_audio.entendreTheme",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.alto)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.basson)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautbois)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "theme_b.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violon)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.alto",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.alto",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.altoBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.basson",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.basson",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.bassonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.hautbois",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.hautbois",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.hautboisBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.violon",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "volume.Value()"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "accompagnement_b.instruments.violon",
-                            "False"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVolumeSoundCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "GlobalVariable(controleur_audio.violonBis)",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
     }
   ]
 }

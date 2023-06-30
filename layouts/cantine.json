@@ -71,7 +71,7 @@
           "name": "entendreAcc"
         },
         {
-          "name": "Stop"
+          "name": "Reset"
         },
         {
           "name": "zoneTexte"
@@ -127,7 +127,7 @@
           "name": "entendreTheme"
         },
         {
-          "name": "Stop"
+          "name": "Reset"
         },
         {
           "name": "zoneTexte"
@@ -183,7 +183,7 @@
           "name": "entendreAcc"
         },
         {
-          "name": "Stop"
+          "name": "Reset"
         },
         {
           "name": "zoneTexte"
@@ -239,7 +239,7 @@
           "name": "entendreTheme"
         },
         {
-          "name": "Stop"
+          "name": "Reset"
         },
         {
           "name": "zoneTexte"
@@ -277,7 +277,7 @@
           "name": "bgslection"
         },
         {
-          "name": "Stop"
+          "name": "Reset"
         },
         {
           "name": "zoneTexte"
@@ -428,6 +428,29 @@
         },
         {
           "name": "pontCordes"
+        }
+      ]
+    },
+    {
+      "name": "instruments",
+      "objects": [
+        {
+          "name": "alto"
+        },
+        {
+          "name": "basson"
+        },
+        {
+          "name": "hautbois"
+        },
+        {
+          "name": "violon"
+        },
+        {
+          "name": "vents"
+        },
+        {
+          "name": "cordes"
         }
       ]
     }
@@ -3215,7 +3238,7 @@
     },
     {
       "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "Stop",
+      "name": "Reset",
       "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
@@ -3255,7 +3278,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "STOP",
+          "string": "Reset",
           "font": "CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -3685,16 +3708,6 @@
                     "=",
                     "\"theme\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobalTxt"
-                  },
-                  "parameters": [
-                    "controleur_audio.etat",
-                    "=",
-                    "\"joue\""
-                  ]
                 }
               ]
             },
@@ -3759,16 +3772,6 @@
                     "=",
                     "\"theme\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobalTxt"
-                  },
-                  "parameters": [
-                    "controleur_audio.etat",
-                    "=",
-                    "\"joue\""
-                  ]
                 }
               ]
             },
@@ -3822,16 +3825,6 @@
                     "emplacement",
                     "=",
                     "\"pont\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobalTxt"
-                  },
-                  "parameters": [
-                    "controleur_audio.etat",
-                    "=",
-                    "\"joue\""
                   ]
                 }
               ]
@@ -4317,6 +4310,16 @@
                     "0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"attend\""
+                  ]
                 }
               ]
             },
@@ -4484,6 +4487,16 @@
                     "0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"attend\""
+                  ]
                 }
               ]
             },
@@ -4536,6 +4549,16 @@
                         "=",
                         "\"Lamentation\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 },
@@ -4578,6 +4601,16 @@
                         "theme_a.selection",
                         "=",
                         "\"Le feu\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
                       ]
                     }
                   ]
@@ -4622,6 +4655,16 @@
                         "=",
                         "\"Mer troublée\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 },
@@ -4664,6 +4707,16 @@
                         "theme_a.selection",
                         "=",
                         "\"Militaire\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
                       ]
                     }
                   ]
@@ -4720,6 +4773,16 @@
                         "=",
                         "\"Homorythmie\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 },
@@ -4762,6 +4825,16 @@
                         "accompagnement_a.selection",
                         "=",
                         "\"Notes répétées\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
                       ]
                     }
                   ]
@@ -4806,6 +4879,16 @@
                         "=",
                         "\"Walking bass\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 },
@@ -4849,6 +4932,16 @@
                         "=",
                         "\"Basse d'Alberti\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 }
@@ -4865,7 +4958,6 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4881,6 +4973,57 @@
                   ],
                   "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "theme_a.selection",
+                            "=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "instruments"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "theme_a.selection",
+                            "!=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "instruments",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -4906,18 +5049,26 @@
                         },
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
                             "value": "GlobalVariableAsBoolean"
                           },
                           "parameters": [
                             "accompagnement_a.instruments.alto",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "alto"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -4956,18 +5107,26 @@
                         },
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
                             "value": "GlobalVariableAsBoolean"
                           },
                           "parameters": [
                             "accompagnement_a.instruments.basson",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "basson"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5006,18 +5165,26 @@
                         },
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
                             "value": "GlobalVariableAsBoolean"
                           },
                           "parameters": [
                             "accompagnement_a.instruments.hautbois",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "hautbois"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5056,18 +5223,26 @@
                         },
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
                             "value": "GlobalVariableAsBoolean"
                           },
                           "parameters": [
                             "accompagnement_a.instruments.violon",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "violon"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -5084,7 +5259,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5100,6 +5274,57 @@
                   ],
                   "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "accompagnement_a.selection",
+                            "=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "instruments"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "accompagnement_a.selection",
+                            "!=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "instruments",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -5136,6 +5361,14 @@
                           "parameters": [
                             "theme_a.instruments.alto",
                             "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "alto"
                           ]
                         }
                       ],
@@ -5187,6 +5420,14 @@
                             "theme_a.instruments.basson",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "basson"
+                          ]
                         }
                       ],
                       "actions": [
@@ -5236,6 +5477,14 @@
                           "parameters": [
                             "theme_a.instruments.hautbois",
                             "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "hautbois"
                           ]
                         }
                       ],
@@ -5287,6 +5536,14 @@
                             "theme_a.instruments.violon",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "violon"
+                          ]
                         }
                       ],
                       "actions": [
@@ -5328,7 +5585,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix musique",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5373,6 +5629,16 @@
                         "=",
                         "\"Funèbre\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 },
@@ -5416,6 +5682,16 @@
                         "=",
                         "\"Poule\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 }
@@ -5437,6 +5713,57 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "pont.selection",
+                        "=",
+                        "\"vide\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "instruments"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "pont.selection",
+                        "!=",
+                        "\"vide\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "instruments",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "SourisSurObjet"
                       },
                       "parameters": [
@@ -5453,6 +5780,14 @@
                       "parameters": [
                         "",
                         "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "cordes"
                       ]
                     },
                     {
@@ -5528,6 +5863,14 @@
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "vents"
+                      ]
                     }
                   ],
                   "actions": [
@@ -5865,6 +6208,16 @@
                     "0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"attend\""
+                  ]
                 }
               ]
             },
@@ -6032,6 +6385,16 @@
                     "0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"attend\""
+                  ]
                 }
               ]
             },
@@ -6040,7 +6403,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix musique",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -6085,6 +6447,16 @@
                         "=",
                         "\"La poule\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 },
@@ -6127,6 +6499,16 @@
                         "theme_b.selection",
                         "=",
                         "\"La surprise\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
                       ]
                     }
                   ]
@@ -6171,6 +6553,16 @@
                         "=",
                         "\"Lamentation\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 },
@@ -6214,6 +6606,16 @@
                         "=",
                         "\"Laudon\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 }
@@ -6225,7 +6627,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "choix accompagnement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -6270,6 +6671,16 @@
                         "=",
                         "\"Homorythmie\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 },
@@ -6312,6 +6723,16 @@
                         "accompagnement_b.selection",
                         "=",
                         "\"Notes répétées\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
                       ]
                     }
                   ]
@@ -6356,6 +6777,16 @@
                         "=",
                         "\"Walking bass\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 },
@@ -6399,6 +6830,16 @@
                         "=",
                         "\"Basse d'Alberti\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "controleur_audio.etat",
+                        "=",
+                        "\"attend\""
+                      ]
                     }
                   ]
                 }
@@ -6416,6 +6857,7 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -6431,6 +6873,57 @@
                   ],
                   "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "theme_b.selection",
+                            "=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "instruments"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "theme_b.selection",
+                            "!=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "instruments",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -6467,6 +6960,14 @@
                           "parameters": [
                             "accompagnement_b.instruments.alto",
                             "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "alto"
                           ]
                         }
                       ],
@@ -6518,6 +7019,14 @@
                             "accompagnement_b.instruments.basson",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "basson"
+                          ]
                         }
                       ],
                       "actions": [
@@ -6567,6 +7076,14 @@
                           "parameters": [
                             "accompagnement_b.instruments.hautbois",
                             "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "hautbois"
                           ]
                         }
                       ],
@@ -6618,6 +7135,14 @@
                             "accompagnement_b.instruments.violon",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "violon"
+                          ]
                         }
                       ],
                       "actions": [
@@ -6654,6 +7179,57 @@
                       "conditions": [
                         {
                           "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "accompagnement_b.selection",
+                            "=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "instruments"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "accompagnement_b.selection",
+                            "!=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "instruments",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
                             "value": "SourisSurObjet"
                           },
                           "parameters": [
@@ -6685,6 +7261,14 @@
                           "parameters": [
                             "theme_b.instruments.alto",
                             "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "alto"
                           ]
                         }
                       ],
@@ -6736,6 +7320,14 @@
                             "theme_b.instruments.basson",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "basson"
+                          ]
                         }
                       ],
                       "actions": [
@@ -6786,6 +7378,14 @@
                             "theme_b.instruments.hautbois",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "hautbois"
+                          ]
                         }
                       ],
                       "actions": [
@@ -6835,6 +7435,14 @@
                           "parameters": [
                             "theme_b.instruments.violon",
                             "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "violon"
                           ]
                         }
                       ],
@@ -7362,6 +7970,27 @@
       "include": {
         "includeConfig": 0
       },
+      "target": "prechargement audio"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "controleur audio"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "apercu musique"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
       "target": "affichage ticket"
     },
     {
@@ -7376,13 +8005,6 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "apercu musique"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
       "target": "plateau repas"
     },
     {
@@ -7391,20 +8013,6 @@
         "includeConfig": 0
       },
       "target": "gestion textes"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "controleur audio"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "prechargement audio"
     }
   ],
   "layers": [

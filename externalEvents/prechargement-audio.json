@@ -18,12 +18,31 @@
         },
         {
           "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.a_lamentation",
+            "False"
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"load\""
+          ]
+        },
         {
           "type": {
             "value": "PreloadSound"
@@ -239,6 +258,25 @@
             "",
             "assets\\Livraison 2\\A_lamentations_WB_violon.mp3"
           ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.a_lamentation",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"attend\""
+          ]
         }
       ]
     },
@@ -260,9 +298,28 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.a_feu",
+            "False"
+          ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"load\""
+          ]
+        },
         {
           "type": {
             "value": "PreloadSound"
@@ -478,6 +535,16 @@
             "",
             "assets\\Livraison 2\\A_feu_WB_violon.mp3"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"attend\""
+          ]
         }
       ]
     },
@@ -543,9 +610,28 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.pont_funebre",
+            "False"
+          ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"load\""
+          ]
+        },
         {
           "type": {
             "value": "PreloadSound"
@@ -635,6 +721,16 @@
             "",
             "assets\\Livraison 2\\pont_funebre_pizz_violon.mp3"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"attend\""
+          ]
         }
       ]
     },
@@ -656,9 +752,28 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.pont_poule",
+            "False"
+          ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"load\""
+          ]
+        },
         {
           "type": {
             "value": "PreloadSound"
@@ -748,6 +863,16 @@
             "",
             "assets\\Livraison 2\\pont_poule_pizz_violon.mp3"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"attend\""
+          ]
         }
       ]
     },
@@ -769,9 +894,28 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.b_poule",
+            "False"
+          ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"load\""
+          ]
+        },
         {
           "type": {
             "value": "PreloadSound"
@@ -951,6 +1095,16 @@
             "",
             "assets\\Livraison 2\\B_poule_WB_violon.mp3"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"attend\""
+          ]
         }
       ]
     },
@@ -1016,9 +1170,28 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded.b_laudon",
+            "False"
+          ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"load\""
+          ]
+        },
         {
           "type": {
             "value": "PreloadSound"
@@ -1197,6 +1370,16 @@
           "parameters": [
             "",
             "assets\\Livraison 2\\B_laudon_WB_violon.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"attend\""
           ]
         }
       ]
