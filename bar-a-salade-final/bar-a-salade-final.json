@@ -1,0 +1,1766 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "9ec4f326-fff3-4e0c-afac-2daf0cb421c2",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "bar-a-salade-final",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/audio/vide.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\vide.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/A_feu_alberti_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_alberti_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_alberti_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_alberti_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_alberti_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_alberti_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_alberti_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_alberti_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_homo_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_homo_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_homo_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_homo_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_homo_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_homo_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_homo_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_homo_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_notes_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_notes_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_notes_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_notes_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_notes_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_notes_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_notes_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_notes_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_syncopes_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_syncopes_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_syncopes_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_syncopes_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_syncopes_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_syncopes_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_syncopes_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_syncopes_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_theme_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_theme_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_theme_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_theme_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_theme_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_theme_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_theme_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_theme_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_WB_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_WB_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_WB_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_WB_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_WB_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_WB_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_feu_WB_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_feu_WB_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_alberti_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_alberti_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_alberti_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_alberti_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_alberti_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_alberti_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_alberti_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_alberti_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_homo_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_homo_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_homo_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_homo_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_homo_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_homo_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_homo_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_homo_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_notes_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_notes_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_notes_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_notes_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_notes_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_notes_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_notes_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_notes_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_syncopes_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_syncopes_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_syncopes_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_syncopes_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_syncopes_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_syncopes_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_syncopes_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_syncopes_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_theme_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_theme_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_theme_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_theme_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_theme_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_theme_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_theme_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_theme_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_WB_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_WB_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_WB_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_WB_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_WB_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_WB_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/A_lamentations_WB_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\A_lamentations_WB_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_alberti_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_alberti_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_alberti_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_alberti_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_alberti_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_alberti_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_alberti_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_alberti_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_homo_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_homo_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_homo_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_homo_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_homo_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_homo_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_homo_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_homo_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_notes_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_notes_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_notes_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_notes_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_notes_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_notes_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_notes_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_notes_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_theme_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_theme_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_theme_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_theme_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_theme_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_theme_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_theme_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_theme_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_WB_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_WB_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_WB_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_WB_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_WB_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_WB_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_laudon_WB_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_laudon_WB_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_alberti_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_alberti_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_alberti_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_alberti_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_alberti_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_alberti_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_alberti_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_alberti_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_homo_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_homo_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_homo_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_homo_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_homo_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_homo_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_homo_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_homo_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_notes_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_notes_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_notes_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_notes_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_notes_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_notes_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_notes_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_notes_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_theme_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_theme_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_theme_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_theme_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_theme_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_theme_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_theme_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_theme_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_WB_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_WB_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_WB_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_WB_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_WB_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_WB_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/B_poule_WB_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\B_poule_WB_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_funebre_normal_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_funebre_normal_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_funebre_normal_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_funebre_normal_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_funebre_normal_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_funebre_normal_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_funebre_normal_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_funebre_normal_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_funebre_nuances_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_funebre_nuances_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_funebre_nuances_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_funebre_nuances_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_funebre_nuances_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_funebre_nuances_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_funebre_nuances_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_funebre_nuances_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_funebre_pizz_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_funebre_pizz_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_funebre_pizz_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_funebre_pizz_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_poule_normal_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_poule_normal_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_poule_normal_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_poule_normal_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_poule_normal_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_poule_normal_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_poule_normal_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_poule_normal_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_poule_nuances_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_poule_nuances_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_poule_nuances_basson.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_poule_nuances_basson.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_poule_nuances_hautbois.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_poule_nuances_hautbois.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_poule_nuances_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_poule_nuances_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_poule_pizz_alto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_poule_pizz_alto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pont_poule_pizz_violon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pont_poule_pizz_violon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/bouton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\bouton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
+          "name": "Yellow Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
+          "name": "Yellow Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
+          "name": "Yellow Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/71ee2c8d8b72808c7f084252cd36c80c44bc07655a3729e5fe7459c634007e8a_Red Button With Shadow_Hovered.png",
+          "name": "Red Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6c6bf020fb86d99a9ecc993f8b90064d73d757bc2408050cf353c84bc36f6be2_Red Button With Shadow_Idle.png",
+          "name": "Red Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b9ce526450d48adedb6875043465ae168fff1f6b01dd1ff7f43b7e7c1568cc21_Red Button With Shadow_Pressed.png",
+          "name": "Red Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/bouton_survol.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\bouton_survol.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/bouton_appui.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\bouton_appui.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/ui/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\ui\\CantoraOne-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/fond.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\fond.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Plastic Green Round Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/308609c5db4c7f741d0ea6ce46b7245524c9e48682f23c670ec81ea08f5917e5_Small Plastic Green Round Slider Border.png",
+          "name": "Small Plastic Green Round Slider Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+          "name": "Transparent.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Plastic Green Round Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Slider Thumb.png",
+          "name": "Small Plastic Green Round Slider Thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/fermer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\fermer.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "controleur_audio",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "canaux",
+          "type": "structure",
+          "children": [
+            {
+              "name": "alto",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "folded": true,
+              "name": "alto_bis",
+              "type": "number",
+              "value": 11
+            },
+            {
+              "folded": true,
+              "name": "basson",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "folded": true,
+              "name": "basson_bis",
+              "type": "number",
+              "value": 12
+            },
+            {
+              "folded": true,
+              "name": "hautbois",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "folded": true,
+              "name": "hautbois_bis",
+              "type": "number",
+              "value": 13
+            },
+            {
+              "folded": true,
+              "name": "violon",
+              "type": "number",
+              "value": 4
+            },
+            {
+              "folded": true,
+              "name": "violon_bis",
+              "type": "number",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "etat",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "volume",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "entendre_accompagnement",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "entendre_theme",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "volume",
+              "type": "number",
+              "value": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "selection",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "accompagnement_a",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "instruments",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "alto",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "basson",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "hautbois",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "violon",
+                  "type": "boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "name": "selection",
+              "type": "string",
+              "value": "vide"
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "accompagnement_b",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "instruments",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "alto",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "basson",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "hautbois",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "violon",
+                  "type": "boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "name": "selection",
+              "type": "string",
+              "value": "vide"
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "pont",
+          "type": "structure",
+          "children": [
+            {
+              "name": "instruments",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "cordes",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "vents",
+                  "type": "boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "name": "selection",
+              "type": "string",
+              "value": "vide"
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "supplements",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "nuances",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "pizzicato",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "syncope",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "theme_a",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "instruments",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "alto",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "basson",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "hautbois",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "violon",
+                  "type": "boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "name": "selection",
+              "type": "string",
+              "value": "vide"
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "theme_b",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "instruments",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "alto",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "basson",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "hautbois",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "violon",
+                  "type": "boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "name": "selection",
+              "type": "string",
+              "value": "vide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "navigation",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "niveau",
+          "type": "string",
+          "value": "débutant"
+        },
+        {
+          "folded": true,
+          "name": "position",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "scene",
+          "type": "string",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "chargement_son",
+      "type": "structure",
+      "children": [
+        {
+          "name": "a_feu",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "a_lamentation",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "b_laudon",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "b_poule",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "pont_funebre",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "pont_poule",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cantine"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/concert"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/prechargement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/controleur_audio"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/musique_cantine"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/selection_theme_a"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/selection_theme_b"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/selection_accompagnement"
+    }
+  ],
+  "externalSourceFiles": []
+}
