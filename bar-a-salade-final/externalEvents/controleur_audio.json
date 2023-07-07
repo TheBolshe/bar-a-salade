@@ -56,12 +56,30 @@
           "conditions": [
             {
               "type": {
-                "value": "VarGlobalTxt"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "navigation.position",
-                "=",
-                "\"theme_a\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.position",
+                    "=",
+                    "\"theme_a\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.position",
+                    "=",
+                    "\"accompagnement_a\""
+                  ]
+                }
               ]
             }
           ],
@@ -795,17 +813,34 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "VarGlobalTxt"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "navigation.position",
-                "=",
-                "\"theme_b\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.position",
+                    "=",
+                    "\"theme_b\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.position",
+                    "=",
+                    "\"accompagnement_b\""
+                  ]
+                }
               ]
             }
           ],
@@ -1403,7 +1438,6 @@
       "parameters": []
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
