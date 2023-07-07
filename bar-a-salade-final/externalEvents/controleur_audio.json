@@ -699,6 +699,75 @@
                   },
                   "parameters": [
                     "selection.pont.instruments.cordes",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.pont.instruments.vents",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.alto)",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.basson)",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.hautbois)",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.violon)",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.pont.instruments.cordes",
                     "True"
                   ]
                 }
@@ -758,7 +827,7 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "selection.pont.instruments.cordes",
+                    "selection.pont.instruments.vents",
                     "True"
                   ]
                 }

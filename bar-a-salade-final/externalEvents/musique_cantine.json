@@ -158,6 +158,7 @@
           "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1154,7 +1155,7 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "selection.theme_a.selection",
+                    "selection.pont.selection",
                     "=",
                     "\"Funèbre\""
                   ]
@@ -1239,7 +1240,7 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "selection.theme_a.selection",
+                    "selection.pont.selection",
                     "=",
                     "\"Poule\""
                   ]
@@ -1457,7 +1458,6 @@
           "actions": [],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1465,7 +1465,7 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "selection.theme_a.selection",
+                    "selection.theme_b.selection",
                     "=",
                     "\"La poule\""
                   ]
@@ -1540,7 +1540,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "selection.accompagnement_a.selection",
+                        "selection.accompagnement_b.selection",
                         "=",
                         "\"vide\""
                       ]
@@ -1619,7 +1619,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "selection.accompagnement_a.selection",
+                        "selection.accompagnement_b.selection",
                         "=",
                         "\"Basse d'Alberti\""
                       ]
@@ -1698,7 +1698,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "selection.accompagnement_a.selection",
+                        "selection.accompagnement_b.selection",
                         "=",
                         "\"Notes répétées\""
                       ]
@@ -1777,7 +1777,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "selection.accompagnement_a.selection",
+                        "selection.accompagnement_b.selection",
                         "=",
                         "\"Walking bass\""
                       ]
@@ -1856,7 +1856,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "selection.accompagnement_a.selection",
+                        "selection.accompagnement_b.selection",
                         "=",
                         "\"Homorythmie\""
                       ]
@@ -1930,7 +1930,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1938,7 +1937,7 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "selection.theme_a.selection",
+                    "selection.theme_b.selection",
                     "=",
                     "\"Laudon\""
                   ]
@@ -2013,7 +2012,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "selection.accompagnement_a.selection",
+                        "selection.accompagnement_b.selection",
                         "=",
                         "\"vide\""
                       ]
@@ -2092,7 +2091,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "selection.accompagnement_a.selection",
+                        "selection.accompagnement_b.selection",
                         "=",
                         "\"Basse d'Alberti\""
                       ]
@@ -2171,7 +2170,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "selection.accompagnement_a.selection",
+                        "selection.accompagnement_b.selection",
                         "=",
                         "\"Notes répétées\""
                       ]
@@ -2250,7 +2249,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "selection.accompagnement_a.selection",
+                        "selection.accompagnement_b.selection",
                         "=",
                         "\"Walking bass\""
                       ]
@@ -2329,7 +2328,7 @@
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "selection.accompagnement_a.selection",
+                        "selection.accompagnement_b.selection",
                         "=",
                         "\"Homorythmie\""
                       ]
