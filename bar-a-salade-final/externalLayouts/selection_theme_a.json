@@ -272,6 +272,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 55,
+      "layer": "popup",
+      "name": "joue_pause",
+      "persistentUuid": "667a48d1-1fbf-4543-98b4-7d8afa8f4eb5",
+      "width": 55,
+      "x": 521,
+      "y": 524,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
