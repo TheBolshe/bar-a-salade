@@ -39,6 +39,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "volume",
+      "persistentUuid": "57deddea-617f-4153-bcf3-92cea175e203",
+      "width": 0,
+      "x": 631,
+      "y": 583,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
