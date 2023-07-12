@@ -20,6 +20,62 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
+                "rejoue",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "controleur_audio.etat",
+                "=",
+                "\"attend\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.scene",
+                    "=",
+                    "\"concert\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.position",
+                    "=",
+                    "\"theme_a\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
                 "joue_pause",
                 "ButtonFSM",
                 ""
@@ -298,6 +354,35 @@
                 "controleur_audio.volume.volume",
                 "=",
                 "volume.Value()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Value"
+              },
+              "parameters": [
+                "volume",
+                "!=",
+                "GlobalVariable(controleur_audio.volume.volume)",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "volume",
+                "=",
+                "GlobalVariable(controleur_audio.volume.volume)",
+                ""
               ]
             }
           ]

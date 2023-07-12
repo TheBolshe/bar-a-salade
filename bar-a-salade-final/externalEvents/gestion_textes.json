@@ -1,0 +1,308 @@
+{
+  "associatedLayout": "menu",
+  "lastChangeTimeStamp": 0,
+  "name": "gestion_textes",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "navigation.position",
+            "=",
+            "\"copyright\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "zone_texte",
+            "=",
+            "GlobalVariableString(textes.copyright)"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "mouvement",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "navigation.scene",
+                "=",
+                "\"menu\""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "navigation.position",
+                "=",
+                "\"copyright\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Height"
+                  },
+                  "parameters": [
+                    "text_limit",
+                    "<",
+                    "zone_texte.Height()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DragCameraWithPointer::DragCameraWithPointer"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"text\"",
+                    "\"vertical\"",
+                    "Left",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CameraBorderTop"
+                      },
+                      "parameters": [
+                        "",
+                        "\"text\"",
+                        "0",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCameraCenterY"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "720/2",
+                        "\"text\"",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CameraBorderTop"
+                      },
+                      "parameters": [
+                        "",
+                        "\"text\"",
+                        "0",
+                        ">",
+                        "zone_texte.Height() - 720 + 100"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCameraCenterY"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "zone_texte.Height() - 720 / 2 + 100",
+                        "\"text\"",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "navigation.scene",
+                "=",
+                "\"cantine\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "zone_texte",
+                "=",
+                "GlobalVariableString(textes.theme_a.feu)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Height"
+                  },
+                  "parameters": [
+                    "text_limit",
+                    "<",
+                    "zone_texte.Height()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DragCameraWithPointer::DragCameraWithPointer"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"text\"",
+                    "\"vertical\"",
+                    "Left",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CameraBorderTop"
+                      },
+                      "parameters": [
+                        "",
+                        "\"text\"",
+                        "0",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCameraCenterY"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "720/2",
+                        "\"text\"",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CameraBorderTop"
+                      },
+                      "parameters": [
+                        "",
+                        "\"text\"",
+                        "0",
+                        ">",
+                        "zone_texte.Height() - 720 + 220"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCameraCenterY"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "zone_texte.Height() - 720 / 2 + 220",
+                        "\"text\"",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SpriteMasking::Mask"
+          },
+          "parameters": [
+            "",
+            "zone_texte",
+            "text_limit",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

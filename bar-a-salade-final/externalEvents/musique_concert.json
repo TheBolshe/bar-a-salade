@@ -12,6 +12,16 @@
             "value": "VarGlobalTxt"
           },
           "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"attend\""
+          ]
+        },
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
             "navigation.position",
             "=",
             "\"theme_a\""

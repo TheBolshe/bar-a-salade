@@ -1,0 +1,37 @@
+{
+  "associatedLayout": "menu",
+  "lastChangeTimeStamp": 0,
+  "name": "text_scroll",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Height"
+          },
+          "parameters": [
+            "text_limit",
+            "<",
+            "copyright_text.Height()"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DragCameraWithPointer::DragCameraWithPointer"
+          },
+          "parameters": [
+            "",
+            "",
+            "\"text\"",
+            "\"vertical\"",
+            "Left",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

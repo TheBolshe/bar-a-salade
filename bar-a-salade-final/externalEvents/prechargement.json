@@ -380,6 +380,14 @@
         },
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
@@ -409,7 +417,7 @@
           "parameters": [
             "selection.theme_a.selection",
             "=",
-            "\"Feu\""
+            "\"Le feu\""
           ]
         },
         {
@@ -657,6 +665,14 @@
         },
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
@@ -808,6 +824,14 @@
         },
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
@@ -955,6 +979,14 @@
           "parameters": [
             "",
             "assets\\audio\\pont_poule_pizz_violon.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
           ]
         },
         {
@@ -1200,6 +1232,14 @@
         },
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
@@ -1437,6 +1477,14 @@
           "parameters": [
             "",
             "assets\\audio\\B_laudon_WB_violon.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
           ]
         },
         {

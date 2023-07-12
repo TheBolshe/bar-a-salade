@@ -4,25 +4,35 @@
   "name": "ticket",
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "conditions": [],
+      "actions": [
         {
           "type": {
-            "value": "VarGlobalTxt"
+            "value": "TextObject::String"
           },
           "parameters": [
-            "navigation.position",
+            "ticket_theme_a_placeholder",
             "=",
-            "\"caisse\""
+            "\"   \"+ GlobalVariableString(selection.theme_a.selection)"
           ]
         }
       ],
-      "actions": [],
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.theme_a.instruments.alto",
+                "True"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -30,122 +40,122 @@
               },
               "parameters": [
                 "ticket_theme_a_placeholder",
-                "=",
-                "\"   \"+ GlobalVariableString(selection.theme_a.selection)"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.theme_a.instruments.alto",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_theme_a_placeholder",
-                    "+",
-                    "\"\n    - Alto\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.theme_a.instruments.basson",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_theme_a_placeholder",
-                    "+",
-                    "\"\n    - Basson\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.theme_a.instruments.hautbois",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_theme_a_placeholder",
-                    "+",
-                    "\"\n    - Hautbois\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.theme_a.instruments.violon",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_theme_a_placeholder",
-                    "+",
-                    "\"\n    - Violon\""
-                  ]
-                }
+                "+",
+                "\"\n    - Alto\""
               ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.theme_a.instruments.basson",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_theme_a_placeholder",
+                "+",
+                "\"\n    - Basson\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.theme_a.instruments.hautbois",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_theme_a_placeholder",
+                "+",
+                "\"\n    - Hautbois\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.theme_a.instruments.violon",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_theme_a_placeholder",
+                "+",
+                "\"\n    - Violon\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ticket_accompagnement_a_placeholder",
+            "=",
+            "\"   \"+ GlobalVariableString(selection.accompagnement_a.selection)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.accompagnement_a.instruments.alto",
+                "True"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -153,121 +163,122 @@
               },
               "parameters": [
                 "ticket_accompagnement_a_placeholder",
-                "=",
-                "\"   \"+ GlobalVariableString(selection.accompagnement_a.selection)"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.accompagnement_a.instruments.alto",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_accompagnement_a_placeholder",
-                    "+",
-                    "\"\n    - Alto\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.accompagnement_a.instruments.basson",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_accompagnement_a_placeholder",
-                    "+",
-                    "\"\n    - Basson\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.accompagnement_a.instruments.hautbois",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_accompagnement_a_placeholder",
-                    "+",
-                    "\"\n    - Hautbois\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.accompagnement_a.instruments.violon",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_accompagnement_a_placeholder",
-                    "+",
-                    "\"\n    - Violon\""
-                  ]
-                }
+                "+",
+                "\"\n    - Alto\""
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.accompagnement_a.instruments.basson",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_accompagnement_a_placeholder",
+                "+",
+                "\"\n    - Basson\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.accompagnement_a.instruments.hautbois",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_accompagnement_a_placeholder",
+                "+",
+                "\"\n    - Hautbois\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.accompagnement_a.instruments.violon",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_accompagnement_a_placeholder",
+                "+",
+                "\"\n    - Violon\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ticket_pont_placeholder",
+            "=",
+            "\"   \"+ GlobalVariableString(selection.pont.selection)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.pont.instruments.cordes",
+                "True"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -275,70 +286,70 @@
               },
               "parameters": [
                 "ticket_pont_placeholder",
-                "=",
-                "\"   \"+ GlobalVariableString(selection.pont.selection)"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.pont.instruments.cordes",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_pont_placeholder",
-                    "+",
-                    "\"\n    - Cordes\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.pont.instruments.vents",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_pont_placeholder",
-                    "+",
-                    "\"\n    - Vents\""
-                  ]
-                }
+                "+",
+                "\"\n    - Cordes\""
               ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.pont.instruments.vents",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_pont_placeholder",
+                "+",
+                "\"\n    - Vents\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ticket_theme_b_placeholder",
+            "=",
+            "\"   \"+ GlobalVariableString(selection.theme_b.selection)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.theme_b.instruments.alto",
+                "True"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -346,122 +357,122 @@
               },
               "parameters": [
                 "ticket_theme_b_placeholder",
-                "=",
-                "\"   \"+ GlobalVariableString(selection.theme_b.selection)"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.theme_b.instruments.alto",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_theme_b_placeholder",
-                    "+",
-                    "\"\n    - Alto\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.theme_b.instruments.basson",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_theme_b_placeholder",
-                    "+",
-                    "\"\n    - Basson\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.theme_b.instruments.hautbois",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_theme_b_placeholder",
-                    "+",
-                    "\"\n    - Hautbois\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.theme_b.instruments.violon",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_theme_b_placeholder",
-                    "+",
-                    "\"\n    - Violon\""
-                  ]
-                }
+                "+",
+                "\"\n    - Alto\""
               ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.theme_b.instruments.basson",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_theme_b_placeholder",
+                "+",
+                "\"\n    - Basson\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.theme_b.instruments.hautbois",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_theme_b_placeholder",
+                "+",
+                "\"\n    - Hautbois\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.theme_b.instruments.violon",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_theme_b_placeholder",
+                "+",
+                "\"\n    - Violon\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ticket_accompagnement_b_placeholder",
+            "=",
+            "\"   \"+ GlobalVariableString(selection.accompagnement_b.selection)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.accompagnement_b.instruments.alto",
+                "True"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -469,114 +480,86 @@
               },
               "parameters": [
                 "ticket_accompagnement_b_placeholder",
-                "=",
-                "\"   \"+ GlobalVariableString(selection.accompagnement_b.selection)"
+                "+",
+                "\"\n    - Alto\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.accompagnement_b.instruments.basson",
+                "True"
               ]
             }
           ],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.accompagnement_b.instruments.alto",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_accompagnement_b_placeholder",
-                    "+",
-                    "\"\n    - Alto\""
-                  ]
-                }
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_accompagnement_b_placeholder",
+                "+",
+                "\"\n    - Basson\""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.accompagnement_b.instruments.basson",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_accompagnement_b_placeholder",
-                    "+",
-                    "\"\n    - Basson\""
-                  ]
-                }
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.accompagnement_b.instruments.hautbois",
+                "True"
               ]
-            },
+            }
+          ],
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.accompagnement_b.instruments.hautbois",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_accompagnement_b_placeholder",
-                    "+",
-                    "\"\n    - Hautbois\""
-                  ]
-                }
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_accompagnement_b_placeholder",
+                "+",
+                "\"\n    - Hautbois\""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "selection.accompagnement_b.instruments.violon",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "ticket_accompagnement_b_placeholder",
-                    "+",
-                    "\"\n    - Violon\""
-                  ]
-                }
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.accompagnement_b.instruments.violon",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ticket_accompagnement_b_placeholder",
+                "+",
+                "\"\n    - Violon\""
               ]
             }
           ]
