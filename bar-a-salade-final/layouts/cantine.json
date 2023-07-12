@@ -3837,7 +3837,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "selection",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
