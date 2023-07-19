@@ -379,6 +379,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 81,
+      "layer": "",
+      "name": "cantine_reinitisaliser",
+      "persistentUuid": "76f48cd6-59bd-4835-8c08-311c31c34c53",
+      "width": 158,
+      "x": 74,
+      "y": 541,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -630,6 +646,80 @@
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\bouton_appui.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "cantine_reinitisaliser",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "BlackAndWhite",
+          "name": "gris",
+          "doubleParameters": {
+            "opacity": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\bouton_survol.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\bouton.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Annuler les choix",
+          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
@@ -3549,7 +3639,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3723,178 +3812,11 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "selection.theme_a.selection",
-                    "!=",
-                    "\"vide\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "selection.accompagnement_a.selection",
-                    "!=",
-                    "\"vide\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "selection.pont.selection",
-                    "!=",
-                    "\"vide\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "selection.theme_b.selection",
-                    "!=",
-                    "\"vide\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "selection.accompagnement_b.selection",
-                    "!=",
-                    "\"vide\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "EnableEffect"
-                  },
-                  "parameters": [
-                    "cantine_caisse",
-                    "\"gris\"",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-                  },
-                  "parameters": [
-                    "cantine_caisse",
-                    "yes",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "VarGlobalTxt"
-                      },
-                      "parameters": [
-                        "selection.theme_a.selection",
-                        "=",
-                        "\"vide\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarGlobalTxt"
-                      },
-                      "parameters": [
-                        "selection.accompagnement_a.selection",
-                        "=",
-                        "\"vide\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarGlobalTxt"
-                      },
-                      "parameters": [
-                        "selection.pont.selection",
-                        "=",
-                        "\"vide\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarGlobalTxt"
-                      },
-                      "parameters": [
-                        "selection.theme_b.selection",
-                        "=",
-                        "\"vide\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarGlobalTxt"
-                      },
-                      "parameters": [
-                        "selection.accompagnement_b.selection",
-                        "=",
-                        "\"vide\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "EnableEffect"
-                  },
-                  "parameters": [
-                    "cantine_caisse",
-                    "\"gris\"",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-                  },
-                  "parameters": [
-                    "cantine_caisse",
-                    "no",
-                    ""
-                  ]
-                }
-              ]
             }
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3990,15 +3912,6 @@
                     "navigation.position",
                     "=",
                     "\"accompagnement_a\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "controleur_audio.volume.entendre_theme",
-                    "False"
                   ]
                 }
               ]
@@ -4346,6 +4259,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4441,15 +4355,6 @@
                     "navigation.position",
                     "=",
                     "\"theme_a\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "controleur_audio.volume.entendre_accompagnement",
-                    "False"
                   ]
                 }
               ]
@@ -4991,6 +4896,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5086,15 +4992,6 @@
                     "navigation.position",
                     "=",
                     "\"accompagnement_b\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "controleur_audio.volume.entendre_theme",
-                    "False"
                   ]
                 }
               ]
@@ -5443,6 +5340,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5538,15 +5436,6 @@
                     "navigation.position",
                     "=",
                     "\"theme_b\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "controleur_audio.volume.entendre_accompagnement",
-                    "False"
                   ]
                 }
               ]
@@ -6037,6 +5926,31 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
+                "cantine_reinitisaliser",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "fonctions_bar_a_salade::reset"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
                 "entendre_theme",
                 ""
               ]
@@ -6213,6 +6127,336 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_a.selection",
+                    "!=",
+                    "\"vide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.selection",
+                    "!=",
+                    "\"vide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.pont.selection",
+                    "!=",
+                    "\"vide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_b.selection",
+                    "!=",
+                    "\"vide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.selection",
+                    "!=",
+                    "\"vide\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "cantine_caisse",
+                    "\"gris\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "cantine_caisse",
+                    "yes",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.theme_a.selection",
+                        "=",
+                        "\"vide\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_a.selection",
+                        "=",
+                        "\"vide\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.pont.selection",
+                        "=",
+                        "\"vide\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.theme_b.selection",
+                        "=",
+                        "\"vide\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_b.selection",
+                        "=",
+                        "\"vide\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "cantine_caisse",
+                    "\"gris\"",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "cantine_caisse",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_a.selection",
+                    "=",
+                    "\"vide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.selection",
+                    "=",
+                    "\"vide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.pont.selection",
+                    "=",
+                    "\"vide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_b.selection",
+                    "=",
+                    "\"vide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.selection",
+                    "=",
+                    "\"vide\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "cantine_reinitisaliser",
+                    "\"gris\"",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "cantine_reinitisaliser",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.theme_a.selection",
+                        "!=",
+                        "\"vide\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_a.selection",
+                        "!=",
+                        "\"vide\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.pont.selection",
+                        "!=",
+                        "\"vide\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.theme_b.selection",
+                        "!=",
+                        "\"vide\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_b.selection",
+                        "!=",
+                        "\"vide\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "cantine_reinitisaliser",
+                    "\"gris\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "cantine_reinitisaliser",
+                    "yes",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
