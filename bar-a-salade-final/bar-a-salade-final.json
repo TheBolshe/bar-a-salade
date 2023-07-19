@@ -1367,6 +1367,42 @@
         "name": "theme_b",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plateau.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\plateau.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plateau_pont.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\plateau_pont.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plateau_theme_a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\plateau_theme_a.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plateau_theme_b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\plateau_theme_b.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2519,6 +2555,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/musique_cantine"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/plateau"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
