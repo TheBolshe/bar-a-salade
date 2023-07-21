@@ -158,6 +158,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 500,
+      "layer": "text",
+      "name": "zone_texte",
+      "persistentUuid": "1c4357d3-d3a2-4f6f-b9c5-333dc2d45f86",
+      "width": 460,
+      "x": 700,
+      "y": 60,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
