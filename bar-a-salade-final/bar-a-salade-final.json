@@ -1403,6 +1403,24 @@
         "name": "assets\\plateau_theme_b.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/progression_theme_a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\progression_theme_a.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/progression_theme_b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\progression_theme_b.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1815,8 +1833,9 @@
         "LabelMargin": 8,
         "BarLeftPadding": 31,
         "BarRightPadding": 31,
-        "InitialValue": 100,
-        "ShowLabelAtChanges": true
+        "InitialValue": 50,
+        "ShowLabelAtChanges": true,
+        "MaxValue": 100
       },
       "childrenContent": {
         "Background": {
@@ -2070,24 +2089,21 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
       "name": "zone_texte",
-      "smoothed": true,
       "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
+      "type": "BBText::BBText",
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "texte",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 30,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+      "content": {
+        "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
       }
     },
     {
@@ -2218,7 +2234,7 @@
               "folded": true,
               "name": "volume",
               "type": "number",
-              "value": 100
+              "value": 50
             }
           ]
         }
@@ -2509,20 +2525,92 @@
           "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
         },
         {
-          "name": "theme_a",
+          "name": "débutant",
           "type": "structure",
           "children": [
             {
-              "folded": true,
-              "name": "feu",
-              "type": "string",
-              "value": "Maecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+              "name": "accompagnement",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "alberti",
+                  "type": "string",
+                  "value": "Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros."
+                },
+                {
+                  "folded": true,
+                  "name": "homorythmie",
+                  "type": "string",
+                  "value": "Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. "
+                },
+                {
+                  "folded": true,
+                  "name": "notes",
+                  "type": "string",
+                  "value": "Donec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. "
+                },
+                {
+                  "folded": true,
+                  "name": "wb",
+                  "type": "string",
+                  "value": "Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh."
+                }
+              ]
             },
             {
-              "folded": true,
-              "name": "lamentation",
-              "type": "string",
-              "value": "Sed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n"
+              "name": "pont",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "funèbre",
+                  "type": "string",
+                  "value": "Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                },
+                {
+                  "folded": true,
+                  "name": "poule",
+                  "type": "string",
+                  "value": "Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                }
+              ]
+            },
+            {
+              "name": "theme_a",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "feu",
+                  "type": "string",
+                  "value": "Maecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                },
+                {
+                  "folded": true,
+                  "name": "lamentation",
+                  "type": "string",
+                  "value": "Sed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                }
+              ]
+            },
+            {
+              "name": "theme_b",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "laudon",
+                  "type": "string",
+                  "value": "Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae."
+                },
+                {
+                  "folded": true,
+                  "name": "poule",
+                  "type": "string",
+                  "value": "Aenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla."
+                }
+              ]
             }
           ]
         }
@@ -2603,6 +2691,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/copyright"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/presentation_instruments"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/presentation_haydn"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

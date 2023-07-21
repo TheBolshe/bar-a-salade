@@ -1,0 +1,13 @@
+scoll texte uniquement dans la zone
+
+repenser demarrage musique
+
+entendre accompagnement grisé tant que non choisi
+
+entendre en off par defaut a chaque changement
+
+ajouter titres aux selections
+
+bouton play demarre musique
+
+cancert pause bug redemarrage musique

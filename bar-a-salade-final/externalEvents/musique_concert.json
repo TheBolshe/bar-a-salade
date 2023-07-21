@@ -4,7 +4,6 @@
   "name": "musique_concert",
   "events": [
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -971,7 +970,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1056,6 +1054,58 @@
                 "",
                 "assets\\audio\\pont_funebre_normal_violon.mp3",
                 "GlobalVariable(controleur_audio.canaux.violon)",
+                "",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\vide.mp3",
+                "GlobalVariable(controleur_audio.canaux.alto_bis)",
+                "",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\vide.mp3",
+                "GlobalVariable(controleur_audio.canaux.basson_bis)",
+                "",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\vide.mp3",
+                "GlobalVariable(controleur_audio.canaux.hautbois_bis)",
+                "",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\vide.mp3",
+                "GlobalVariable(controleur_audio.canaux.violon_bis)",
                 "",
                 "0",
                 ""
@@ -1248,6 +1298,58 @@
                 "",
                 "assets\\audio\\pont_poule_normal_violon.mp3",
                 "GlobalVariable(controleur_audio.canaux.violon)",
+                "",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\vide.mp3",
+                "GlobalVariable(controleur_audio.canaux.alto_bis)",
+                "",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\vide.mp3",
+                "GlobalVariable(controleur_audio.canaux.basson_bis)",
+                "",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\vide.mp3",
+                "GlobalVariable(controleur_audio.canaux.hautbois_bis)",
+                "",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\vide.mp3",
+                "GlobalVariable(controleur_audio.canaux.violon_bis)",
                 "",
                 "0",
                 ""

@@ -2033,6 +2033,32 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"arret\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "joue_pause",
+            "\"joue\""
+          ]
+        }
+      ]
     }
   ]
 }

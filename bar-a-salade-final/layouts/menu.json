@@ -507,15 +507,6 @@
             "=",
             "\"menu\""
           ]
-        },
-        {
-          "type": {
-            "value": "fonctions_bar_a_salade::reset"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
         }
       ]
     },

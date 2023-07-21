@@ -32,6 +32,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 690,
+      "layer": "popup",
+      "name": "text_limit",
+      "persistentUuid": "be42603b-b61e-416a-b8a6-0e1683f74ca0",
+      "width": 1119,
+      "x": 85,
+      "y": 20,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -44,7 +60,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.6040838749988866,
     "windowMask": false
   }
 }

@@ -1,6 +1,6 @@
 {
   "associatedLayout": "menu",
-  "name": "copyright",
+  "name": "copyright2",
   "instances": [
     {
       "angle": 0,
@@ -45,6 +45,22 @@
       "x": 85,
       "y": 20,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 714,
+      "layer": "text",
+      "name": "zone_texte",
+      "persistentUuid": "fced2f08-52d8-4c95-9bdd-3593e88a2eb0",
+      "width": 1005,
+      "x": 132,
+      "y": 28,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

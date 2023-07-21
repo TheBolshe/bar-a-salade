@@ -107,22 +107,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 70,
-      "layer": "",
-      "name": "progression",
-      "persistentUuid": "5e2620a9-c7d4-4f01-876f-69df91dfb42a",
-      "width": 448,
-      "x": 713,
-      "y": 200,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 32,
       "height": 96,
       "layer": "",
@@ -132,6 +116,22 @@
       "x": 586,
       "y": 608,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 87,
+      "layer": "",
+      "name": "progression",
+      "persistentUuid": "5bebca2b-d400-4d2f-a896-0c3049d6218a",
+      "width": 557,
+      "x": 654,
+      "y": 213,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -159,7 +159,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "arret",
+                  "image": "assets\\ui\\progression_arret.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -189,7 +189,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "theme_a",
+                  "image": "assets\\ui\\progression_theme_a.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -219,7 +219,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "pont",
+                  "image": "assets\\ui\\progression_pont.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -249,7 +249,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "theme_b",
+                  "image": "assets\\ui\\progression_theme_b.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

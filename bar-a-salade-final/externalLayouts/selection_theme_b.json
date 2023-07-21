@@ -323,22 +323,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 500,
-      "layer": "text",
-      "name": "zone_texte",
-      "persistentUuid": "ef780a2f-10bf-4d69-b5fc-56bda0955a55",
-      "width": 460,
-      "x": 697,
-      "y": 60,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "popup",
