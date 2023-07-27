@@ -278,6 +278,9 @@
         },
         {
           "name": "text_limit"
+        },
+        {
+          "name": "titre_popup"
         }
       ]
     },
@@ -3335,6 +3338,15 @@
             "color": "255;255;255"
           },
           "booleanParameters": {}
+        },
+        {
+          "effectType": "BlackAndWhite",
+          "name": "gris",
+          "doubleParameters": {
+            "opacity": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
         }
       ],
       "behaviors": [],
@@ -3779,6 +3791,28 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "titre_popup",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Theme A",
+      "font": "assets\\ui\\CantoraOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 237,
+        "g": 237,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -4066,18 +4100,39 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "controleur_audio.volume.entendre_theme",
-                "True"
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio.volume.entendre_theme",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio.volume.entendre_accompagnement",
+                    "False"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -4496,6 +4551,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4509,18 +4565,39 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "controleur_audio.volume.entendre_accompagnement",
-                "True"
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio.volume.entendre_theme",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio.volume.entendre_accompagnement",
+                    "True"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -4600,6 +4677,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "selection",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5145,18 +5223,39 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "controleur_audio.volume.entendre_theme",
-                "True"
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio.volume.entendre_theme",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio.volume.entendre_accompagnement",
+                    "False"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5575,7 +5674,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5589,18 +5687,39 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "controleur_audio.volume.entendre_accompagnement",
-                "True"
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio.volume.entendre_theme",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "controleur_audio.volume.entendre_accompagnement",
+                    "True"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -6358,6 +6477,136 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
+          "name": "titres_popup",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"theme_a\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"accompagnement_a\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "titre_popup",
+                    "=",
+                    "\"Theme A\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.position",
+                    "=",
+                    "\"pont\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "titre_popup",
+                    "=",
+                    "\"Pont\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"theme_b\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"accompagnement_b\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "titre_popup",
+                    "=",
+                    "\"Theme B\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "effets",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6693,6 +6942,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7384,6 +7634,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "instruments",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -8465,6 +8716,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "instruments",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -10151,111 +10403,498 @@
                     "no"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"theme_a\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "selection.theme_a.selection",
+                            "=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EnableEffect"
+                          },
+                          "parameters": [
+                            "popup_accompagnement",
+                            "\"gris\"",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                          },
+                          "parameters": [
+                            "popup_accompagnement",
+                            "no",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "selection.theme_a.selection",
+                            "!=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EnableEffect"
+                          },
+                          "parameters": [
+                            "popup_accompagnement",
+                            "\"gris\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                          },
+                          "parameters": [
+                            "popup_accompagnement",
+                            "yes",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"theme_b\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "selection.theme_b.selection",
+                            "=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EnableEffect"
+                          },
+                          "parameters": [
+                            "popup_accompagnement",
+                            "\"gris\"",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                          },
+                          "parameters": [
+                            "popup_accompagnement",
+                            "no",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "selection.theme_b.selection",
+                            "!=",
+                            "\"vide\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EnableEffect"
+                          },
+                          "parameters": [
+                            "popup_accompagnement",
+                            "\"gris\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                          },
+                          "parameters": [
+                            "popup_accompagnement",
+                            "yes",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "audio",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "controleur_audio.volume.entendre_theme",
-                    "True"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"theme_a\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_a.selection",
+                        "=",
+                        "\"vide\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "entendre_accompagnement",
+                        "\"gris\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                      },
+                      "parameters": [
+                        "entendre_accompagnement",
+                        "no",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"theme_a\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_a.selection",
+                        "!=",
+                        "\"vide\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "entendre_accompagnement",
+                        "\"gris\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                      },
+                      "parameters": [
+                        "entendre_accompagnement",
+                        "yes",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"theme_b\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_b.selection",
+                        "=",
+                        "\"vide\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "entendre_accompagnement",
+                        "\"gris\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                      },
+                      "parameters": [
+                        "entendre_accompagnement",
+                        "no",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"theme_b\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_b.selection",
+                        "!=",
+                        "\"vide\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "entendre_accompagnement",
+                        "\"gris\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                      },
+                      "parameters": [
+                        "entendre_accompagnement",
+                        "yes",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "controleur_audio.volume.entendre_theme",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "entendre_theme",
+                        "\"selection\"",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "controleur_audio.volume.entendre_theme",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "entendre_theme",
+                        "\"selection\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "controleur_audio.volume.entendre_accompagnement",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "entendre_accompagnement",
+                        "\"selection\"",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "controleur_audio.volume.entendre_accompagnement",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "entendre_accompagnement",
+                        "\"selection\"",
+                        "no"
+                      ]
+                    }
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "EnableEffect"
-                  },
-                  "parameters": [
-                    "entendre_theme",
-                    "\"selection\"",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "controleur_audio.volume.entendre_theme",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "EnableEffect"
-                  },
-                  "parameters": [
-                    "entendre_theme",
-                    "\"selection\"",
-                    "no"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "controleur_audio.volume.entendre_accompagnement",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "EnableEffect"
-                  },
-                  "parameters": [
-                    "entendre_accompagnement",
-                    "\"selection\"",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "controleur_audio.volume.entendre_accompagnement",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "EnableEffect"
-                  },
-                  "parameters": [
-                    "entendre_accompagnement",
-                    "\"selection\"",
-                    "no"
-                  ]
-                }
-              ]
+              "parameters": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",

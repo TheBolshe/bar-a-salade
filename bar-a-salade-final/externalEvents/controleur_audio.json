@@ -329,6 +329,153 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"arret\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "joue_pause",
+                    "click",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"attend\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.alto)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.basson)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.hautbois)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.violon)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.alto_bis)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.basson_bis)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.hautbois_bis)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariable(controleur_audio.canaux.violon_bis)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ToggleObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "joue_pause",
+                    "click"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.scene",
+                        "=",
+                        "\"concert\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "navigation.position",
+                        "=",
+                        "\"theme_a\""
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
