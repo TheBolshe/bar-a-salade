@@ -4,6 +4,7 @@
   "name": "musique_concert",
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {

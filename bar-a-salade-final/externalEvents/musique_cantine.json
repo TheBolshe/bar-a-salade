@@ -13,7 +13,7 @@
           "parameters": [
             "controleur_audio.etat",
             "=",
-            "\"attend\""
+            "\"pret\""
           ]
         }
       ],
