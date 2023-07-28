@@ -18,56 +18,23 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6040838749988867,
+    "zoomFactor": 0.546875,
     "windowMask": false
   },
-  "objectsGroups": [
-    {
-      "name": "themeASuivi",
-      "objects": [
-        {
-          "name": "suiviThemeA"
-        },
-        {
-          "name": "progression"
-        }
-      ]
-    },
-    {
-      "name": "pontSuivi",
-      "objects": [
-        {
-          "name": "suiviPont"
-        },
-        {
-          "name": "progression"
-        }
-      ]
-    },
-    {
-      "name": "themeBsuivi",
-      "objects": [
-        {
-          "name": "suiviThemeB"
-        },
-        {
-          "name": "progression"
-        }
-      ]
-    }
-  ],
+  "objectsGroups": [],
   "variables": [],
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "boutons slection",
-      "name": "volume",
-      "persistentUuid": "15d119cd-3e3a-41dd-8996-b7abe8eac05c",
-      "width": 0,
-      "x": 608,
-      "y": 584,
+      "customSize": true,
+      "depth": 0,
+      "height": 650,
+      "layer": "",
+      "name": "ticket_placeholder",
+      "persistentUuid": "a39f08d0-e4d3-4d02-909c-abc660b6f2c0",
+      "width": 450,
+      "x": 40,
+      "y": 35,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -76,14 +43,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 191,
-      "layer": "boutons slection",
-      "name": "RepeatArrow",
-      "persistentUuid": "5b488b15-13ab-4bda-bb6f-cdf6dfb4b5ce",
-      "width": 191,
-      "x": 800,
-      "y": 228,
-      "zOrder": 5,
+      "depth": 32,
+      "height": 56,
+      "layer": "",
+      "name": "volume",
+      "persistentUuid": "57deddea-617f-4153-bcf3-92cea175e203",
+      "width": 523,
+      "x": 669,
+      "y": 517,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -92,13 +60,45 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 619,
+      "height": 57,
       "layer": "",
-      "name": "progression",
-      "persistentUuid": "2dd85cfe-a04b-433e-ae6d-5b0813df18b7",
-      "width": 619,
-      "x": 588,
-      "y": 28,
+      "name": "joue_pause",
+      "persistentUuid": "1ed34df3-c9f8-4626-97d4-e425c9d0a3b8",
+      "width": 58,
+      "x": 854,
+      "y": 429,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 57,
+      "layer": "",
+      "name": "rejoue",
+      "persistentUuid": "1b7e11e7-94f2-435b-8818-e726b0880078",
+      "width": 58,
+      "x": 993,
+      "y": 430,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 100,
+      "layer": "",
+      "name": "retour_menu",
+      "persistentUuid": "424cd5fe-c5e2-482d-99b5-3c7fd755d798",
+      "width": 186,
+      "x": 1066,
+      "y": 607,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -106,29 +106,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 96,
       "layer": "",
-      "name": "suiviThemeA",
-      "persistentUuid": "f1ba8f43-275b-4449-9937-a6c251b56b0a",
-      "width": 0,
-      "x": 662,
-      "y": 295,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "suiviPont",
-      "persistentUuid": "6112fc83-1c91-49d8-a9b6-94eaa6072b2f",
-      "width": 0,
-      "x": 873,
-      "y": 298,
+      "name": "retour_cantine",
+      "persistentUuid": "31acf47b-b9e1-4dbc-b28c-0a8389852d55",
+      "width": 206,
+      "x": 586,
+      "y": 608,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -136,14 +122,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 87,
       "layer": "",
-      "name": "suiviThemeB",
-      "persistentUuid": "11f60f3b-1646-4a8a-91a9-1a5062579ca4",
-      "width": 0,
-      "x": 1041,
-      "y": 295,
+      "name": "progression",
+      "persistentUuid": "5bebca2b-d400-4d2f-a896-0c3049d6218a",
+      "width": 557,
+      "x": 654,
+      "y": 213,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -152,117 +139,6 @@
   ],
   "objects": [
     {
-      "assetStoreId": "4656edcabf61f71dfd0368d92d077267a0dbfeef35ce002d4cb8774906099c57",
-      "name": "PlayButton",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Play button.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "ec9bee5e2512392201b58ea76834e13acf336a17e3a1bcdbd93916c50842c035",
-      "name": "RepeatArrow",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "No Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Repeat Arrow_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Repeat Arrow_Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "name": "progression",
       "tags": "",
@@ -273,7 +149,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "progressionA",
+          "name": "arret",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -283,7 +159,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "progressionA",
+                  "image": "assets\\ui\\progression_arret.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -303,7 +179,7 @@
           ]
         },
         {
-          "name": "progressionPont",
+          "name": "theme_a",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -313,7 +189,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "progressionPont",
+                  "image": "assets\\ui\\progression_theme_a.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -333,7 +209,7 @@
           ]
         },
         {
-          "name": "progressionB",
+          "name": "pont",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -343,7 +219,37 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "progressionB",
+                  "image": "assets\\ui\\progression_pont.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "theme_b",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\ui\\progression_theme_b.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -366,190 +272,150 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "suiviThemeA",
-      "smoothed": true,
+      "name": "retour_menu",
       "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
+      "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Theme A",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+      "content": {
+        "TopPadding": 16,
+        "BottomPadding": 16,
+        "RightPadding": 16,
+        "LeftPadding": 16
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\ui\\bouton_survol.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\ui\\bouton.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Retour au menu",
+          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\ui\\bouton_appui.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        }
       }
     },
     {
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "suiviPont",
-      "smoothed": true,
+      "name": "retour_cantine",
       "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
+      "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Pont",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "suiviThemeB",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Theme B",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+      "content": {
+        "TopPadding": 16,
+        "BottomPadding": 16,
+        "RightPadding": 16,
+        "LeftPadding": 16
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\ui\\bouton_survol.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\ui\\bouton.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Retour a la cantine",
+          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\ui\\bouton_appui.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        }
       }
     }
   ],
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "assets\\5-minutes-of-silence.mp3",
-            "GlobalVariable(controleur_audio.alto)",
-            "",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "assets\\5-minutes-of-silence.mp3",
-            "GlobalVariable(controleur_audio.basson)",
-            "",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "assets\\5-minutes-of-silence.mp3",
-            "GlobalVariable(controleur_audio.hautbois)",
-            "",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "assets\\5-minutes-of-silence.mp3",
-            "GlobalVariable(controleur_audio.violon)",
-            "",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "assets\\5-minutes-of-silence.mp3",
-            "GlobalVariable(controleur_audio.altoBis)",
-            "",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "assets\\5-minutes-of-silence.mp3",
-            "GlobalVariable(controleur_audio.bassonBis)",
-            "",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "assets\\5-minutes-of-silence.mp3",
-            "GlobalVariable(controleur_audio.hautboisBis)",
-            "",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "assets\\5-minutes-of-silence.mp3",
-            "GlobalVariable(controleur_audio.violonBis)",
-            "",
-            "0",
-            ""
-          ]
-        }
-      ]
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "controleur_audio"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "musique_concert"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ticket"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -564,6 +430,16 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "navigation.scene",
+            "=",
+            "\"concert\""
+          ]
+        },
         {
           "type": {
             "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
@@ -571,18 +447,8 @@
           "parameters": [
             "",
             "\"ticket\"",
-            "0",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobalTxt"
-          },
-          "parameters": [
-            "emplacement",
-            "=",
-            "\"theme1\""
+            "",
+            ""
           ]
         },
         {
@@ -590,7 +456,7 @@
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "controleur_audio.entendreTheme",
+            "controleur_audio.volume.entendre_accompagnement",
             "True"
           ]
         },
@@ -599,321 +465,206 @@
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "controleur_audio.entendreAccompagnement",
+            "controleur_audio.volume.entendre_theme",
             "True"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarGlobalTxt"
-          },
-          "parameters": [
-            "emplacement",
-            "=",
-            "\"theme1\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "pontSuivi"
-          ]
         },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "themeBsuivi"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "themeASuivi",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "RepeatArrow"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "progression",
-            "\"progressionA\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarGlobalTxt"
-          },
-          "parameters": [
-            "emplacement",
-            "=",
-            "\"pont\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "themeASuivi"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "themeBsuivi"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "pontSuivi",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "progression",
-            "\"progressionPont\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarGlobalTxt"
-          },
-          "parameters": [
-            "emplacement",
-            "=",
-            "\"theme2\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "themeASuivi"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "pontSuivi"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "themeBsuivi",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "progression",
-            "\"progressionB\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarGlobalTxt"
-          },
-          "parameters": [
-            "emplacement",
-            "=",
-            "\"stop\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "themeASuivi"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "pontSuivi"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "themeBsuivi"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "RepeatArrow",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "RepeatArrow",
-            "=",
-            "\"stop\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "RepeatArrow"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
         {
           "type": {
             "value": "ModVarGlobalTxt"
           },
           "parameters": [
-            "emplacement",
+            "navigation.position",
             "=",
-            "\"theme1\""
+            "\"theme_a\""
           ]
         },
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "controleur_audio.etat",
+            "=",
+            "\"attend\""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "progression",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "navigation.position",
+                "=",
+                "\"theme_a\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "progression",
+                "\"theme_a\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "navigation.position",
+                "=",
+                "\"pont\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "progression",
+                "\"pont\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "navigation.position",
+                "=",
+                "\"theme_b\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "progression",
+                "\"theme_b\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "navigation.position",
+                "=",
+                "\"arret\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "progression",
+                "\"arret\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "retour_cantine",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "assets\\5-minutes-of-silence.mp3",
-            "GlobalVariable(controleur_audio.alto)",
-            "",
-            "0",
+            "\"cantine\"",
             ""
           ]
         }
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "controleur audio"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "musique concert"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "affichage ticket"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "affichage instruments"
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "retour_menu",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"menu\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
     {
-      "ambientLightColorB": 7719864,
-      "ambientLightColorG": 150995054,
-      "ambientLightColorR": 1869182049,
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 0.1,
@@ -936,39 +687,12 @@
         }
       ],
       "effects": []
-    },
-    {
-      "ambientLightColorB": 28,
-      "ambientLightColorG": 6069792,
-      "ambientLightColorR": 10000008,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "bg selection",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 28,
-      "ambientLightColorG": 6069792,
-      "ambientLightColorR": 10000008,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "boutons slection",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
+    }
+  ]
 }
