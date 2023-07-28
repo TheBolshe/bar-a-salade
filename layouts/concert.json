@@ -139,6 +139,7 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "progression",
       "tags": "",

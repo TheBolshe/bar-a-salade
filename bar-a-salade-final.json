@@ -1427,6 +1427,7 @@
   },
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ticket_placeholder",
       "tags": "",
@@ -1438,6 +1439,7 @@
       "animations": []
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ticket_fond",
       "tags": "",
@@ -1699,6 +1701,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ticket_syncope",
       "tags": "",
@@ -1740,6 +1743,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ticket_nuances",
       "tags": "",
@@ -1781,6 +1785,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ticket_pizzicato",
       "tags": "",
@@ -1886,6 +1891,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "joue_pause",
       "tags": "",
@@ -1967,6 +1973,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "rejoue",
       "tags": "",
@@ -2036,6 +2043,7 @@
       "behaviors": []
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "fermer",
       "tags": "",
@@ -2107,6 +2115,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "text_limit",
       "tags": "",

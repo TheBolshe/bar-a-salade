@@ -706,7 +706,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "1.5"
               ]
             },
             {
@@ -804,16 +804,6 @@
           "actions": [
             {
               "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"charge\""
-              ]
-            },
-            {
-              "type": {
                 "value": "PreloadSound"
               },
               "parameters": [
@@ -907,7 +897,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "1.5"
               ]
             },
             {
@@ -926,7 +916,7 @@
               "parameters": [
                 "controleur_audio.etat",
                 "=",
-                "\"attend\""
+                "\"pret\""
               ]
             }
           ]
@@ -1003,16 +993,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"charge\""
-              ]
-            },
             {
               "type": {
                 "value": "PreloadSound"
@@ -1108,7 +1088,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "1.5"
               ]
             },
             {
@@ -1127,7 +1107,7 @@
               "parameters": [
                 "controleur_audio.etat",
                 "=",
-                "\"attend\""
+                "\"pret\""
               ]
             }
           ]
@@ -1204,16 +1184,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"charge\""
-              ]
-            },
             {
               "type": {
                 "value": "PreloadSound"
@@ -1399,7 +1369,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "1.5"
               ]
             },
             {
@@ -1418,7 +1388,7 @@
               "parameters": [
                 "controleur_audio.etat",
                 "=",
-                "\"attend\""
+                "\"pret\""
               ]
             }
           ]
@@ -1495,16 +1465,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"charge\""
-              ]
-            },
             {
               "type": {
                 "value": "PreloadSound"
@@ -1690,7 +1650,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "1.5"
               ]
             },
             {
@@ -1709,7 +1669,7 @@
               "parameters": [
                 "controleur_audio.etat",
                 "=",
-                "\"attend\""
+                "\"pret\""
               ]
             }
           ]
