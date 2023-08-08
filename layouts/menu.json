@@ -38,6 +38,38 @@
           "name": "fermer"
         }
       ]
+    },
+    {
+      "name": "instruments",
+      "objects": [
+        {
+          "name": "alto"
+        },
+        {
+          "name": "violon"
+        },
+        {
+          "name": "flute"
+        },
+        {
+          "name": "clarinette"
+        },
+        {
+          "name": "cor"
+        },
+        {
+          "name": "basson"
+        },
+        {
+          "name": "violoncelle"
+        },
+        {
+          "name": "contrebasse"
+        },
+        {
+          "name": "hautbois"
+        }
+      ]
     }
   ],
   "variables": [],
@@ -558,6 +590,15 @@
         },
         {
           "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "instruments",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "ModVarGlobalTxt"
           },
           "parameters": [
@@ -821,11 +862,23 @@
           "actions": [
             {
               "type": {
-                "value": "LaunchFile"
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
               "parameters": [
-                "\"https://fr.wikipedia.org/wiki/Instrument_de_musique\"",
+                "",
+                "\"instruments\"",
+                "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "navigation.position",
+                "=",
+                "\"instruments\""
               ]
             }
           ]
@@ -895,14 +948,42 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "effets",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "instruments",
+                "\"gris\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "instruments",
+                "\"selection\"",
+                "no"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [

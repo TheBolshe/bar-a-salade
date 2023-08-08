@@ -273,68 +273,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "retour_menu",
-      "tags": "",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "TopPadding": 16,
-        "BottomPadding": 16,
-        "RightPadding": 16,
-        "LeftPadding": 16
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Idle": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Retour au menu",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        }
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "retour_cantine",
       "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",

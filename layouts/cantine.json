@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4950840073748888,
+    "zoomFactor": 0.4633111824513977,
     "windowMask": false
   },
   "objectsGroups": [
@@ -462,6 +462,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 722,
+      "layer": "",
+      "name": "cantine_background",
+      "persistentUuid": "a25d7689-a917-4103-9051-12f56f2aa022",
+      "width": 1288,
+      "x": -3,
+      "y": -1,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 73,
+      "layer": "",
+      "name": "retour_menu",
+      "persistentUuid": "510de261-faae-4edf-a975-b2061cdfd7e2",
+      "width": 153,
+      "x": 46,
+      "y": 26,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -784,789 +816,6 @@
           "smoothed": true,
           "underlined": false,
           "string": "Annuler les choix",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "alto",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Alto",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "contrebasse",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Contrebasse",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 23,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "violon",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Violon",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "violoncelle",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Violoncelle",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 25,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "basson",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Basson",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "clarinette",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Clarinette",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 27,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "cor",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Cor",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "flute",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Flute",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "hautbois",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Hautbois",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -3817,6 +3066,67 @@
         "g": 237,
         "r": 255
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cantine_background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ui\\cantine_background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1456,
+                        "y": 0
+                      },
+                      {
+                        "x": 1456,
+                        "y": 816
+                      },
+                      {
+                        "x": 0,
+                        "y": 816
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -6345,6 +5655,32 @@
               },
               "parameters": [
                 "controleur_audio.volume.entendre_accompagnement"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "retour_menu",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"menu\"",
+                ""
               ]
             }
           ]
