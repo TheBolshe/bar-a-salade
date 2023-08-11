@@ -3208,11 +3208,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -3624,7 +3619,7 @@
                       "parameters": [
                         "selection.theme_a.selection",
                         "=",
-                        "\"Lamentation\""
+                        "\"La mer\""
                       ]
                     },
                     {
@@ -3797,7 +3792,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.theme_a.instruments.cor"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3812,7 +3816,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.theme_a.instruments.contrebasse"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3827,7 +3840,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.theme_a.instruments.clarinette"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3842,7 +3864,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.theme_a.instruments.violoncelle"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3857,7 +3888,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.theme_a.instruments.flute"
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -4262,7 +4302,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_a.instruments.cor"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4277,7 +4326,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_a.instruments.contrebasse"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4292,7 +4350,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_a.instruments.clarinette"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4307,7 +4374,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_a.instruments.violoncelle"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4322,7 +4398,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_a.instruments.flute"
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -4920,7 +5005,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.theme_b.instruments.cor"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4935,7 +5029,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.theme_b.instruments.contrebasse"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4950,7 +5053,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.theme_b.instruments.clarinette"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4965,7 +5077,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.theme_b.instruments.violoncelle"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4980,7 +5101,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.theme_b.instruments.flute"
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -4988,6 +5118,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5384,7 +5515,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_b.instruments.cor"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5399,7 +5539,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_b.instruments.contrebasse"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5414,7 +5563,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_b.instruments.clarinette"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5429,7 +5587,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_b.instruments.violoncelle"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5444,7 +5611,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "selection.accompagnement_b.instruments.flute"
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -5947,6 +6123,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "effets",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

@@ -3014,6 +3014,7 @@
   "objectsGroups": [],
   "variables": [
     {
+      "folded": true,
       "name": "controleur_audio",
       "type": "structure",
       "children": [
@@ -3046,28 +3047,84 @@
               "value": 12
             },
             {
-              "folded": true,
-              "name": "hautbois",
+              "name": "clarinette",
               "type": "number",
               "value": 3
             },
             {
               "folded": true,
-              "name": "hautbois_bis",
+              "name": "clarinette_bis",
               "type": "number",
               "value": 13
             },
             {
-              "folded": true,
-              "name": "violon",
+              "name": "contrebasse",
               "type": "number",
               "value": 4
             },
             {
               "folded": true,
-              "name": "violon_bis",
+              "name": "contrebasse_bis",
               "type": "number",
               "value": 14
+            },
+            {
+              "name": "cor",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "folded": true,
+              "name": "cor_bis",
+              "type": "number",
+              "value": 15
+            },
+            {
+              "folded": true,
+              "name": "flute",
+              "type": "number",
+              "value": 6
+            },
+            {
+              "folded": true,
+              "name": "flute_bis",
+              "type": "number",
+              "value": 16
+            },
+            {
+              "folded": true,
+              "name": "hautbois",
+              "type": "number",
+              "value": 7
+            },
+            {
+              "folded": true,
+              "name": "hautbois_bis",
+              "type": "number",
+              "value": 17
+            },
+            {
+              "folded": true,
+              "name": "violon",
+              "type": "number",
+              "value": 8
+            },
+            {
+              "folded": true,
+              "name": "violon_bis",
+              "type": "number",
+              "value": 18
+            },
+            {
+              "folded": true,
+              "name": "violoncelle",
+              "type": "number",
+              "value": 9
+            },
+            {
+              "name": "violoncelle_bis",
+              "type": "number",
+              "value": 19
             }
           ]
         },
@@ -3128,12 +3185,39 @@
                   "value": false
                 },
                 {
+                  "name": "clarinette",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "contrebasse",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "cor",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "folded": true,
+                  "name": "flute",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
                   "name": "hautbois",
                   "type": "boolean",
                   "value": false
                 },
                 {
                   "name": "violon",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "folded": true,
+                  "name": "violoncelle",
                   "type": "boolean",
                   "value": false
                 }
@@ -3167,12 +3251,37 @@
                   "value": false
                 },
                 {
+                  "name": "clarinette",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "contrebasse",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "cor",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "flute",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
                   "name": "hautbois",
                   "type": "boolean",
                   "value": false
                 },
                 {
                   "name": "violon",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "violoncelle",
                   "type": "boolean",
                   "value": false
                 }
@@ -3259,12 +3368,37 @@
                   "value": false
                 },
                 {
+                  "name": "clarinette",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "contrebasse",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "cor",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "flute",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
                   "name": "hautbois",
                   "type": "boolean",
                   "value": false
                 },
                 {
                   "name": "violon",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "violoncelle",
                   "type": "boolean",
                   "value": false
                 }
@@ -3298,12 +3432,37 @@
                   "value": false
                 },
                 {
+                  "name": "clarinette",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "contrebasse",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "cor",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "flute",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
                   "name": "hautbois",
                   "type": "boolean",
                   "value": false
                 },
                 {
                   "name": "violon",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "violoncelle",
                   "type": "boolean",
                   "value": false
                 }
@@ -3319,9 +3478,15 @@
       ]
     },
     {
+      "folded": true,
       "name": "navigation",
       "type": "structure",
       "children": [
+        {
+          "name": "instrument",
+          "type": "string",
+          "value": "vide"
+        },
         {
           "folded": true,
           "name": "niveau",
@@ -3343,6 +3508,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "chargement_son",
       "type": "structure",
       "children": [
@@ -3383,15 +3549,12 @@
       "type": "structure",
       "children": [
         {
-          "name": "copyright",
-          "type": "string",
-          "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
-        },
-        {
-          "name": "débutant",
+          "folded": true,
+          "name": "avancé",
           "type": "structure",
           "children": [
             {
+              "folded": true,
               "name": "accompagnement",
               "type": "structure",
               "children": [
@@ -3422,6 +3585,7 @@
               ]
             },
             {
+              "folded": true,
               "name": "pont",
               "type": "structure",
               "children": [
@@ -3440,6 +3604,7 @@
               ]
             },
             {
+              "folded": true,
               "name": "theme_a",
               "type": "structure",
               "children": [
@@ -3454,13 +3619,30 @@
                   "name": "lamentation",
                   "type": "string",
                   "value": "Sed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                },
+                {
+                  "folded": true,
+                  "name": "mer",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "militaire",
+                  "type": "string",
+                  "value": ""
                 }
               ]
             },
             {
+              "folded": true,
               "name": "theme_b",
               "type": "structure",
               "children": [
+                {
+                  "name": "lamentation",
+                  "type": "string",
+                  "value": ""
+                },
                 {
                   "folded": true,
                   "name": "laudon",
@@ -3472,6 +3654,311 @@
                   "name": "poule",
                   "type": "string",
                   "value": "Aenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla."
+                },
+                {
+                  "name": "surprise",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "copyright",
+          "type": "string",
+          "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+        },
+        {
+          "folded": true,
+          "name": "débutant",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "accompagnement",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "alberti",
+                  "type": "string",
+                  "value": "Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros."
+                },
+                {
+                  "folded": true,
+                  "name": "homorythmie",
+                  "type": "string",
+                  "value": "Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. "
+                },
+                {
+                  "folded": true,
+                  "name": "notes",
+                  "type": "string",
+                  "value": "Donec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. "
+                },
+                {
+                  "folded": true,
+                  "name": "wb",
+                  "type": "string",
+                  "value": "Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh."
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "pont",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "funèbre",
+                  "type": "string",
+                  "value": "Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                },
+                {
+                  "folded": true,
+                  "name": "poule",
+                  "type": "string",
+                  "value": "Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "theme_a",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "feu",
+                  "type": "string",
+                  "value": "Maecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                },
+                {
+                  "folded": true,
+                  "name": "lamentation",
+                  "type": "string",
+                  "value": "Sed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                },
+                {
+                  "folded": true,
+                  "name": "mer",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "militaire",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "theme_b",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "lamentation",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "laudon",
+                  "type": "string",
+                  "value": "Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae."
+                },
+                {
+                  "folded": true,
+                  "name": "poule",
+                  "type": "string",
+                  "value": "Aenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla."
+                },
+                {
+                  "name": "surprise",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "haydn",
+          "type": "string",
+          "value": "Sed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+        },
+        {
+          "name": "instruments",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "alto",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "basson",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "clarinette",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "contrebasse",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "cor",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "flute",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "hautbois",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "violon",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "violoncelle",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "intermédiaire",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "accompagnement",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "alberti",
+                  "type": "string",
+                  "value": "Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros."
+                },
+                {
+                  "folded": true,
+                  "name": "homorythmie",
+                  "type": "string",
+                  "value": "Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. "
+                },
+                {
+                  "folded": true,
+                  "name": "notes",
+                  "type": "string",
+                  "value": "Donec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. "
+                },
+                {
+                  "folded": true,
+                  "name": "wb",
+                  "type": "string",
+                  "value": "Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh."
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "pont",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "funèbre",
+                  "type": "string",
+                  "value": "Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                },
+                {
+                  "folded": true,
+                  "name": "poule",
+                  "type": "string",
+                  "value": "Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "theme_a",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "feu",
+                  "type": "string",
+                  "value": "Maecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                },
+                {
+                  "folded": true,
+                  "name": "lamentation",
+                  "type": "string",
+                  "value": "Sed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                },
+                {
+                  "folded": true,
+                  "name": "mer",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "militaire",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "theme_b",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "lamentation",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "folded": true,
+                  "name": "laudon",
+                  "type": "string",
+                  "value": "Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae."
+                },
+                {
+                  "folded": true,
+                  "name": "poule",
+                  "type": "string",
+                  "value": "Aenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla."
+                },
+                {
+                  "name": "surprise",
+                  "type": "string",
+                  "value": ""
                 }
               ]
             }
@@ -3554,6 +4041,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/copyright"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/haydn"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

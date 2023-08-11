@@ -8,12 +8,30 @@
       "conditions": [
         {
           "type": {
-            "value": "VarGlobalTxt"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "selection.theme_a.selection",
-            "=",
-            "\"vide\""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "selection.accompagnement_a.selection",
+                "=",
+                "\"vide\""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "selection.theme_a.selection",
+                "=",
+                "\"vide\""
+              ]
+            }
           ]
         }
       ],
@@ -37,6 +55,16 @@
           },
           "parameters": [
             "selection.theme_a.selection",
+            "!=",
+            "\"vide\""
+          ]
+        },
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "selection.accompagnement_a.selection",
             "!=",
             "\"vide\""
           ]
@@ -110,12 +138,30 @@
       "conditions": [
         {
           "type": {
-            "value": "VarGlobalTxt"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "selection.theme_b.selection",
-            "=",
-            "\"vide\""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "selection.theme_b.selection",
+                "=",
+                "\"vide\""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "selection.theme_b.selection",
+                "=",
+                "\"vide\""
+              ]
+            }
           ]
         }
       ],
@@ -139,6 +185,16 @@
           },
           "parameters": [
             "selection.theme_b.selection",
+            "!=",
+            "\"vide\""
+          ]
+        },
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "selection.accompagnement_b.selection",
             "!=",
             "\"vide\""
           ]
