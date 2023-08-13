@@ -3798,53 +3798,53 @@
               "folded": true,
               "name": "alto",
               "type": "string",
-              "value": ""
+              "value": "alto"
             },
             {
               "folded": true,
               "name": "basson",
               "type": "string",
-              "value": ""
+              "value": "basson"
             },
             {
               "folded": true,
               "name": "clarinette",
               "type": "string",
-              "value": ""
+              "value": "clarinette"
             },
             {
               "folded": true,
               "name": "contrebasse",
               "type": "string",
-              "value": ""
+              "value": "contrebasse"
             },
             {
               "folded": true,
               "name": "cor",
               "type": "string",
-              "value": ""
+              "value": "cor"
             },
             {
               "folded": true,
               "name": "flute",
               "type": "string",
-              "value": ""
+              "value": "flute"
             },
             {
               "name": "hautbois",
               "type": "string",
-              "value": ""
+              "value": "hautbois"
             },
             {
               "folded": true,
               "name": "violon",
               "type": "string",
-              "value": ""
+              "value": "violon"
             },
             {
               "name": "violoncelle",
               "type": "string",
-              "value": ""
+              "value": "violoncelle"
             }
           ]
         },

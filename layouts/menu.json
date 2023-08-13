@@ -606,6 +606,16 @@
             "=",
             "\"menu\""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "navigation.instrument",
+            "=",
+            "\"vide\""
+          ]
         }
       ]
     },
@@ -992,12 +1002,12 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "zone_texte",
+                "navigation.instrument",
                 "=",
-                "GlobalVariableString(textes.instruments.alto)"
+                "\"alto\""
               ]
             }
           ]
@@ -1018,12 +1028,12 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "zone_texte",
+                "navigation.instrument",
                 "=",
-                "GlobalVariableString(textes.instruments.basson)"
+                "\"basson\""
               ]
             }
           ]
@@ -1044,12 +1054,12 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "zone_texte",
+                "navigation.instrument",
                 "=",
-                "GlobalVariableString(textes.instruments.clarinette)"
+                "\"clarinette\""
               ]
             }
           ]
@@ -1070,12 +1080,12 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "zone_texte",
+                "navigation.instrument",
                 "=",
-                "GlobalVariableString(textes.instruments.contrebasse)"
+                "\"contrebasse\""
               ]
             }
           ]
@@ -1096,12 +1106,12 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "zone_texte",
+                "navigation.instrument",
                 "=",
-                "GlobalVariableString(textes.instruments.cor)"
+                "\"cor\""
               ]
             }
           ]
@@ -1122,12 +1132,12 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "zone_texte",
+                "navigation.instrument",
                 "=",
-                "GlobalVariableString(textes.instruments.flute)"
+                "\"flute\""
               ]
             }
           ]
@@ -1148,12 +1158,12 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "zone_texte",
+                "navigation.instrument",
                 "=",
-                "GlobalVariableString(textes.instruments.hautbois)"
+                "\"hautbois\""
               ]
             }
           ]
@@ -1174,12 +1184,12 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "zone_texte",
+                "navigation.instrument",
                 "=",
-                "GlobalVariableString(textes.instruments.violon)"
+                "\"violon\""
               ]
             }
           ]
@@ -1200,12 +1210,12 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "zone_texte",
+                "navigation.instrument",
                 "=",
-                "GlobalVariableString(textes.instruments.violoncelle)"
+                "\"violoncelle\""
               ]
             }
           ]
