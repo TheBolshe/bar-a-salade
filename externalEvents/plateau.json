@@ -31,6 +31,184 @@
                 "=",
                 "\"vide\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_a.instruments.alto",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_a.instruments.basson",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_a.instruments.clarinette",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_a.instruments.contrebasse",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_a.instruments.cor",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_a.instruments.flute",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_a.instruments.hautbois",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_a.instruments.violon",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_a.instruments.violoncelle",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.instruments.alto",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.instruments.basson",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.instruments.clarinette",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.instruments.contrebasse",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.instruments.cor",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.instruments.flute",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.instruments.hautbois",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.instruments.violon",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_a.instruments.violoncelle",
+                    "False"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -265,12 +443,46 @@
       "conditions": [
         {
           "type": {
-            "value": "VarGlobalTxt"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "selection.pont.selection",
-            "=",
-            "\"vide\""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "selection.pont.selection",
+                "=",
+                "\"vide\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.pont.instruments.cordes",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.pont.instruments.vents",
+                    "False"
+                  ]
+                }
+              ]
+            }
           ]
         }
       ],
@@ -296,6 +508,32 @@
             "selection.pont.selection",
             "!=",
             "\"vide\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.pont.instruments.cordes",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "selection.pont.instruments.vents",
+                "True"
+              ]
+            }
           ]
         }
       ],
@@ -338,6 +576,184 @@
                 "selection.theme_b.selection",
                 "=",
                 "\"vide\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_b.instruments.alto",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_b.instruments.basson",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_b.instruments.clarinette",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_b.instruments.contrebasse",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_b.instruments.cor",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_b.instruments.flute",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_b.instruments.hautbois",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_b.instruments.violon",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.theme_b.instruments.violoncelle",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.instruments.alto",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.instruments.basson",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.instruments.clarinette",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.instruments.contrebasse",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.instruments.cor",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.instruments.flute",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.instruments.hautbois",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.instruments.violon",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "selection.accompagnement_b.instruments.violoncelle",
+                    "False"
+                  ]
+                }
               ]
             }
           ]
