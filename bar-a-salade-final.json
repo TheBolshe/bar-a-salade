@@ -1239,7 +1239,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\ui\\fond_ticket.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1248,7 +1248,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\ui\\ticket_nuances.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1257,7 +1257,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\ui\\ticket_pizzicato.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1266,7 +1266,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\ui\\ticket_syncopes.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1275,7 +1275,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\ui\\joue.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1284,7 +1284,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\ui\\pause.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1293,7 +1293,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\ui\\rejoue.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -1374,7 +1374,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\plateau.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1428,6 +1428,353 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\ui\\cantine_background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/ui/Cooper Black Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\ui\\Cooper Black Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/ui/CooperBlackRegular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\ui\\CooperBlackRegular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/fond_orchestre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\fond_orchestre.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/alto_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\alto_idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/alto_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\alto_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/alto_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\alto_pressed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/contrebasse_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\contrebasse_idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/contrebasse_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\contrebasse_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/contrebasse_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\contrebasse_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/basson_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\basson_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/basson_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\basson_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/basson_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\basson_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/clarinette_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\clarinette_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/clarinette_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\clarinette_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/clarinette_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\clarinette_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/cor_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\cor_idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/cor_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\cor_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/cor_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\cor_pressed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/flute_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\flute_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/flute_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\flute_hovered.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/flute_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\flute_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/violon_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\violon_idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/violon_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\violon_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/violon_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\violon_pressed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/hautbois_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\hautbois_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/hautbois_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\hautbois_hovered.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/hautbois_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\hautbois_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/violoncelle_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\violoncelle_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/violoncelle_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\violoncelle_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/violoncelle_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\violoncelle_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/orchestre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\orchestre.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/chef_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\chef_idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/vents.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\vents.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/vents_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\vents_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/vents_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\vents_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/vents_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\vents_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/cordes_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\cordes_idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/cordes_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\cordes_hovered.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/cordes_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\cordes_pressed.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -2139,12 +2486,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\ui\\fond_ticket.png",
+                  "image": "assets\\ui\\fond_orchestre.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2206,9 +2553,9 @@
           "smoothed": true,
           "underlined": false,
           "string": "Retour au menu",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "font": "assets\\ui\\CooperBlackRegular.ttf",
           "textAlignment": "center",
-          "characterSize": 30,
+          "characterSize": 24,
           "color": {
             "b": 255,
             "g": 255,
@@ -2224,6 +2571,70 @@
           "tiled": false,
           "topMargin": 0,
           "width": 32
+        }
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "chef",
+      "tags": "instrument",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 212,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\chef_idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 176
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 212,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\chef_idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 176
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 212,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\chef_idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 176
         }
       }
     },
@@ -2248,11 +2659,11 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
+            "innerStrength": 3,
             "outerStrength": 2
           },
           "stringParameters": {
-            "color": "255;255;255"
+            "color": "191;52;52"
           },
           "booleanParameters": {}
         }
@@ -2269,30 +2680,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 164,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
+          "texture": "assets\\ui\\alto_hovered.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 94
         },
         "Idle": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 164,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
+          "texture": "assets\\ui\\alto_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 94
         },
         "Label": {
           "bold": false,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Alto",
+          "string": "",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -2304,13 +2715,13 @@
         },
         "Pressed": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 164,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
+          "texture": "assets\\ui\\alto_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 94
         }
       }
     },
@@ -2335,11 +2746,11 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
+            "innerStrength": 3,
             "outerStrength": 2
           },
           "stringParameters": {
-            "color": "255;255;255"
+            "color": "191;52;52"
           },
           "booleanParameters": {}
         }
@@ -2356,30 +2767,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 231,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
+          "texture": "assets\\ui\\contrebasse_hovered.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 107
         },
         "Idle": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 231,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
+          "texture": "assets\\ui\\contrebasse_idle.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 107
         },
         "Label": {
           "bold": false,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Contrebasse",
+          "string": "",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 23,
@@ -2391,13 +2802,13 @@
         },
         "Pressed": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 231,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
+          "texture": "assets\\ui\\contrebasse_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 107
         }
       }
     },
@@ -2422,11 +2833,11 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
+            "innerStrength": 3,
             "outerStrength": 2
           },
           "stringParameters": {
-            "color": "255;255;255"
+            "color": "191;52;52"
           },
           "booleanParameters": {}
         }
@@ -2443,30 +2854,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 158,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
+          "texture": "assets\\ui\\violon_hovered.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 184
         },
         "Idle": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 158,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
+          "texture": "assets\\ui\\violon_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 184
         },
         "Label": {
           "bold": false,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Violon",
+          "string": "",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -2478,13 +2889,13 @@
         },
         "Pressed": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 158,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
+          "texture": "assets\\ui\\violon_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 184
         }
       }
     },
@@ -2509,11 +2920,11 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
+            "innerStrength": 3,
             "outerStrength": 2
           },
           "stringParameters": {
-            "color": "255;255;255"
+            "color": "191;52;52"
           },
           "booleanParameters": {}
         }
@@ -2530,30 +2941,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 172,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
+          "texture": "assets\\ui\\violoncelle_hovered.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 132
         },
         "Idle": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 172,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
+          "texture": "assets\\ui\\violoncelle_idle.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 132
         },
         "Label": {
           "bold": false,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Violoncelle",
+          "string": "",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 25,
@@ -2565,13 +2976,13 @@
         },
         "Pressed": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 172,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
+          "texture": "assets\\ui\\violoncelle_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 132
         }
       }
     },
@@ -2596,11 +3007,11 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
+            "innerStrength": 3,
             "outerStrength": 2
           },
           "stringParameters": {
-            "color": "255;255;255"
+            "color": "191;52;52"
           },
           "booleanParameters": {}
         }
@@ -2617,30 +3028,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 143,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
+          "texture": "assets\\ui\\basson_hovered.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 104
         },
         "Idle": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 143,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
+          "texture": "assets\\ui\\basson_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 98
         },
         "Label": {
           "bold": false,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Basson",
+          "string": "",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -2652,13 +3063,13 @@
         },
         "Pressed": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 143,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
+          "texture": "assets\\ui\\basson_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 104
         }
       }
     },
@@ -2683,11 +3094,11 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
+            "innerStrength": 3,
             "outerStrength": 2
           },
           "stringParameters": {
-            "color": "255;255;255"
+            "color": "191;52;52"
           },
           "booleanParameters": {}
         }
@@ -2704,30 +3115,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 148,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
+          "texture": "assets\\ui\\clarinette_hovered.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 75
         },
         "Idle": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 148,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
+          "texture": "assets\\ui\\clarinette_idle.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 75
         },
         "Label": {
           "bold": false,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Clarinette",
+          "string": "",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 27,
@@ -2739,13 +3150,13 @@
         },
         "Pressed": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 148,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
+          "texture": "assets\\ui\\clarinette_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 75
         }
       }
     },
@@ -2770,11 +3181,11 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
+            "innerStrength": 3,
             "outerStrength": 2
           },
           "stringParameters": {
-            "color": "255;255;255"
+            "color": "191;52;52"
           },
           "booleanParameters": {}
         }
@@ -2791,30 +3202,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 148,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
+          "texture": "assets\\ui\\cor_hovered.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 88
         },
         "Idle": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 145,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
+          "texture": "assets\\ui\\cor_idle.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 88
         },
         "Label": {
           "bold": false,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Cor",
+          "string": "",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -2826,13 +3237,13 @@
         },
         "Pressed": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 148,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
+          "texture": "assets\\ui\\cor_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 88
         }
       }
     },
@@ -2857,11 +3268,11 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
+            "innerStrength": 3,
             "outerStrength": 2
           },
           "stringParameters": {
-            "color": "255;255;255"
+            "color": "191;52;52"
           },
           "booleanParameters": {}
         }
@@ -2878,30 +3289,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 151,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
+          "texture": "assets\\ui\\flute_hovered.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 136
         },
         "Idle": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 151,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
+          "texture": "assets\\ui\\flute_idle.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 136
         },
         "Label": {
           "bold": false,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Flute",
+          "string": "",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -2913,13 +3324,13 @@
         },
         "Pressed": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 151,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
+          "texture": "assets\\ui\\flute_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 136
         }
       }
     },
@@ -2944,11 +3355,11 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
+            "innerStrength": 3,
             "outerStrength": 2
           },
           "stringParameters": {
-            "color": "255;255;255"
+            "color": "191;52;52"
           },
           "booleanParameters": {}
         }
@@ -2965,30 +3376,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 138,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
+          "texture": "assets\\ui\\hautbois_hovered.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 109
         },
         "Idle": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 138,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
+          "texture": "assets\\ui\\hautbois_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 109
         },
         "Label": {
           "bold": false,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Hautbois",
+          "string": "",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -3000,13 +3411,13 @@
         },
         "Pressed": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 138,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
+          "texture": "assets\\ui\\hautbois_pressed.png",
+          "tiled": false,
           "topMargin": 16,
-          "width": 192
+          "width": 109
         }
       }
     }
@@ -3348,12 +3759,10 @@
           ]
         },
         {
-          "folded": true,
           "name": "theme_a",
           "type": "structure",
           "children": [
             {
-              "folded": true,
               "name": "instruments",
               "type": "structure",
               "children": [
@@ -3412,12 +3821,10 @@
           ]
         },
         {
-          "folded": true,
           "name": "theme_b",
           "type": "structure",
           "children": [
             {
-              "folded": true,
               "name": "instruments",
               "type": "structure",
               "children": [
@@ -3549,12 +3956,10 @@
       "type": "structure",
       "children": [
         {
-          "folded": true,
           "name": "avancé",
           "type": "structure",
           "children": [
             {
-              "folded": true,
               "name": "accompagnement",
               "type": "structure",
               "children": [
@@ -3562,30 +3967,29 @@
                   "folded": true,
                   "name": "alberti",
                   "type": "string",
-                  "value": "Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros."
+                  "value": "Description de la basse d'Alberti - niveau avancé"
                 },
                 {
                   "folded": true,
                   "name": "homorythmie",
                   "type": "string",
-                  "value": "Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. "
+                  "value": "Description de l'homorythmie - niveau avancé"
                 },
                 {
                   "folded": true,
                   "name": "notes",
                   "type": "string",
-                  "value": "Donec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. "
+                  "value": "Description des notes répétées - niveau avancé"
                 },
                 {
                   "folded": true,
                   "name": "wb",
                   "type": "string",
-                  "value": "Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh."
+                  "value": "Description du Walking Bass - niveau avancé"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "pont",
               "type": "structure",
               "children": [
@@ -3593,18 +3997,17 @@
                   "folded": true,
                   "name": "funèbre",
                   "type": "string",
-                  "value": "Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                  "value": "Description de la symphonie Funèbre - niveau avancé"
                 },
                 {
                   "folded": true,
                   "name": "poule",
                   "type": "string",
-                  "value": "Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                  "value": "Description de la symphonie La Poule - niveau avancé"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "theme_a",
               "type": "structure",
               "children": [
@@ -3612,53 +4015,52 @@
                   "folded": true,
                   "name": "feu",
                   "type": "string",
-                  "value": "Maecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                  "value": "Description de la symphonie Le Feu - niveau avancé\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
                 },
                 {
                   "folded": true,
                   "name": "lamentation",
                   "type": "string",
-                  "value": "Sed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                  "value": "Description de la symphonie Lamentation - niveau avancé"
                 },
                 {
                   "folded": true,
                   "name": "mer",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie La Mer - niveau avancé"
                 },
                 {
                   "name": "militaire",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie Militaire - niveau avancé"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "theme_b",
               "type": "structure",
               "children": [
                 {
                   "name": "lamentation",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie Lamentation - niveau avancé"
                 },
                 {
                   "folded": true,
                   "name": "laudon",
                   "type": "string",
-                  "value": "Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae."
+                  "value": "Description de la symphonie Laudon - niveau avancé"
                 },
                 {
                   "folded": true,
                   "name": "poule",
                   "type": "string",
-                  "value": "Aenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla."
+                  "value": "Description de la symphonie La Poule - niveau avancé"
                 },
                 {
                   "name": "surprise",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie La Surprise - niveau avancé"
                 }
               ]
             }
@@ -3667,15 +4069,13 @@
         {
           "name": "copyright",
           "type": "string",
-          "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+          "value": "Mentions légales\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
         },
         {
-          "folded": true,
           "name": "débutant",
           "type": "structure",
           "children": [
             {
-              "folded": true,
               "name": "accompagnement",
               "type": "structure",
               "children": [
@@ -3683,30 +4083,29 @@
                   "folded": true,
                   "name": "alberti",
                   "type": "string",
-                  "value": "Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros."
+                  "value": "Description de la basse d'Alberti - niveau débutant"
                 },
                 {
                   "folded": true,
                   "name": "homorythmie",
                   "type": "string",
-                  "value": "Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. "
+                  "value": "Description de l'homorythmie - niveau débutant"
                 },
                 {
                   "folded": true,
                   "name": "notes",
                   "type": "string",
-                  "value": "Donec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. "
+                  "value": "Description des note répétées - niveau débutant"
                 },
                 {
                   "folded": true,
                   "name": "wb",
                   "type": "string",
-                  "value": "Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh."
+                  "value": "Description du walking Bass - niveau débutant"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "pont",
               "type": "structure",
               "children": [
@@ -3714,18 +4113,17 @@
                   "folded": true,
                   "name": "funèbre",
                   "type": "string",
-                  "value": "Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                  "value": "Description de la symphonie Funèbre - niveau débutant"
                 },
                 {
                   "folded": true,
                   "name": "poule",
                   "type": "string",
-                  "value": "Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                  "value": "Description de la symphonie La Poule - niveau débutant"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "theme_a",
               "type": "structure",
               "children": [
@@ -3733,53 +4131,52 @@
                   "folded": true,
                   "name": "feu",
                   "type": "string",
-                  "value": "Maecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                  "value": "Description de la symphonie Le Feu - niveau débutant\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
                 },
                 {
                   "folded": true,
                   "name": "lamentation",
                   "type": "string",
-                  "value": "Sed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                  "value": "Description de la symphonie Lamentation - niveau débutant"
                 },
                 {
                   "folded": true,
                   "name": "mer",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie La Mer - niveau débutant"
                 },
                 {
                   "name": "militaire",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie Militaire - niveau débutant"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "theme_b",
               "type": "structure",
               "children": [
                 {
                   "name": "lamentation",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie Lamentation - niveau débutant"
                 },
                 {
                   "folded": true,
                   "name": "laudon",
                   "type": "string",
-                  "value": "Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae."
+                  "value": "Description de la symphonie Laudon - niveau débutant"
                 },
                 {
                   "folded": true,
                   "name": "poule",
                   "type": "string",
-                  "value": "Aenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla."
+                  "value": "Description de la symphonie La Poule - niveau débutant"
                 },
                 {
                   "name": "surprise",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie La Surprise - niveau débutant"
                 }
               ]
             }
@@ -3788,7 +4185,7 @@
         {
           "name": "haydn",
           "type": "string",
-          "value": "Sed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+          "value": "Description de la musique de Haydn\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
         },
         {
           "name": "instruments",
@@ -3798,53 +4195,53 @@
               "folded": true,
               "name": "alto",
               "type": "string",
-              "value": "alto"
+              "value": "Description de l'instrument alto"
             },
             {
               "folded": true,
               "name": "basson",
               "type": "string",
-              "value": "basson"
+              "value": "Description de l'instrument basson"
             },
             {
               "folded": true,
               "name": "clarinette",
               "type": "string",
-              "value": "clarinette"
+              "value": "Description de l'instrument clarinette"
             },
             {
               "folded": true,
               "name": "contrebasse",
               "type": "string",
-              "value": "contrebasse"
+              "value": "Description de l'instrument contrebasse"
             },
             {
               "folded": true,
               "name": "cor",
               "type": "string",
-              "value": "cor"
+              "value": "Description de l'instrument cor"
             },
             {
               "folded": true,
               "name": "flute",
               "type": "string",
-              "value": "flute"
+              "value": "Description de l'instrument flute"
             },
             {
               "name": "hautbois",
               "type": "string",
-              "value": "hautbois"
+              "value": "Description de l'instrument hautbois"
             },
             {
               "folded": true,
               "name": "violon",
               "type": "string",
-              "value": "violon"
+              "value": "Description de l'instrument violon"
             },
             {
               "name": "violoncelle",
               "type": "string",
-              "value": "violoncelle"
+              "value": "Description de l'instrument violoncelle"
             }
           ]
         },
@@ -3862,25 +4259,25 @@
                   "folded": true,
                   "name": "alberti",
                   "type": "string",
-                  "value": "Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros."
+                  "value": "Description de la basse d'Alberti - niveau intermédiaire"
                 },
                 {
                   "folded": true,
                   "name": "homorythmie",
                   "type": "string",
-                  "value": "Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. "
+                  "value": "Description de l'homorythmie - niveau intermédiaire"
                 },
                 {
                   "folded": true,
                   "name": "notes",
                   "type": "string",
-                  "value": "Donec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. "
+                  "value": "Description dees notes répétées - niveau intermédiaire"
                 },
                 {
                   "folded": true,
                   "name": "wb",
                   "type": "string",
-                  "value": "Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh."
+                  "value": "Description du Walking Bass - niveau intermédiaire"
                 }
               ]
             },
@@ -3893,13 +4290,13 @@
                   "folded": true,
                   "name": "funèbre",
                   "type": "string",
-                  "value": "Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                  "value": "Description de la symphonie Funèbre - niveau intermédiaire"
                 },
                 {
                   "folded": true,
                   "name": "poule",
                   "type": "string",
-                  "value": "Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                  "value": "Description de la symphonie La Poule - niveau intermédiaire"
                 }
               ]
             },
@@ -3912,24 +4309,24 @@
                   "folded": true,
                   "name": "feu",
                   "type": "string",
-                  "value": "Maecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                  "value": "Description de la symphonie Le Feu - niveau intermédiaire"
                 },
                 {
                   "folded": true,
                   "name": "lamentation",
                   "type": "string",
-                  "value": "Sed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh."
+                  "value": "Description de la symphonie Lamentation - niveau intermédiaire"
                 },
                 {
                   "folded": true,
                   "name": "mer",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie La Mer - niveau intermédiaire"
                 },
                 {
                   "name": "militaire",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie Militaire - niveau intermédiaire"
                 }
               ]
             },
@@ -3941,24 +4338,24 @@
                 {
                   "name": "lamentation",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie Lamentation - niveau intermédiaire"
                 },
                 {
                   "folded": true,
                   "name": "laudon",
                   "type": "string",
-                  "value": "Sed vel lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae."
+                  "value": "Description de la symphonie Laudon - niveau intermédiaire"
                 },
                 {
                   "folded": true,
                   "name": "poule",
                   "type": "string",
-                  "value": "Aenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla."
+                  "value": "Description de la symphonie La Poule - niveau intermédiaire"
                 },
                 {
                   "name": "surprise",
                   "type": "string",
-                  "value": ""
+                  "value": "Description de la symphonie La Surprise - niveau intermédiaire"
                 }
               ]
             }

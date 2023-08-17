@@ -63,6 +63,9 @@
         },
         {
           "name": "theme_a_militaire"
+        },
+        {
+          "name": "chef"
         }
       ]
     },
@@ -124,6 +127,9 @@
         },
         {
           "name": "theme_b_lamentation"
+        },
+        {
+          "name": "chef"
         }
       ]
     },
@@ -168,6 +174,9 @@
         },
         {
           "name": "accompagnement_homo"
+        },
+        {
+          "name": "chef"
         }
       ]
     },
@@ -323,13 +332,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 300,
+      "height": 80,
       "layer": "",
       "name": "cantine_theme_a",
       "persistentUuid": "791e44c7-d3b6-4b74-a57a-f8574128197d",
-      "width": 300,
-      "x": 119,
-      "y": 123,
+      "width": 198,
+      "x": 132,
+      "y": 185,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -339,13 +348,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 300,
+      "height": 87,
       "layer": "",
       "name": "cantine_theme_b",
       "persistentUuid": "4917be17-754d-43c1-aa5f-94df6691ccf1",
-      "width": 300,
-      "x": 873,
-      "y": 122,
+      "width": 192,
+      "x": 674,
+      "y": 188,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -355,13 +364,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 170,
+      "height": 66,
       "layer": "",
       "name": "cantine_pont",
       "persistentUuid": "f021cdf2-6744-4d13-a4b4-e371017fa86d",
-      "width": 200,
-      "x": 540,
-      "y": 117,
+      "width": 155,
+      "x": 383,
+      "y": 225,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -371,13 +380,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 70,
+      "height": 74,
       "layer": "",
       "name": "cantine_caisse",
       "persistentUuid": "99ef14ed-e508-4a18-a3c9-e7ee2d2ef9ff",
-      "width": 200,
-      "x": 1021,
-      "y": 541,
+      "width": 165,
+      "x": 1037,
+      "y": 259,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -392,8 +401,8 @@
       "name": "cantine_reinitisaliser",
       "persistentUuid": "76f48cd6-59bd-4835-8c08-311c31c34c53",
       "width": 158,
-      "x": 74,
-      "y": 541,
+      "x": 26,
+      "y": 606,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -403,13 +412,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 991,
+      "height": 471,
       "layer": "",
       "name": "cantine_plateau",
       "persistentUuid": "fe3fa5d3-7550-45ae-8157-05007cdfcad2",
-      "width": 991,
-      "x": 156,
-      "y": -261,
+      "width": 972,
+      "x": 208,
+      "y": 354,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -424,8 +433,8 @@
       "name": "plateau_theme_a",
       "persistentUuid": "c9e0c6a1-6eb0-429a-8f9b-6956f621cdc7",
       "width": 217,
-      "x": 330,
-      "y": 492,
+      "x": 389,
+      "y": 482,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -440,8 +449,8 @@
       "name": "plateau_pont",
       "persistentUuid": "c37398c8-6a7b-4ff3-9d4d-819c00750e2d",
       "width": 209,
-      "x": 561,
-      "y": 523,
+      "x": 622,
+      "y": 514,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -456,8 +465,8 @@
       "name": "plateau_theme_b",
       "persistentUuid": "0390d8d1-958b-4bde-900b-60b46fbeae09",
       "width": 197,
-      "x": 786,
-      "y": 502,
+      "x": 826,
+      "y": 503,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -483,13 +492,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 73,
+      "height": 80,
       "layer": "",
       "name": "retour_menu",
       "persistentUuid": "510de261-faae-4edf-a975-b2061cdfd7e2",
       "width": 153,
-      "x": 46,
-      "y": 26,
+      "x": 22,
+      "y": 41,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -540,9 +549,9 @@
           "smoothed": true,
           "underlined": false,
           "string": "Theme A",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "font": "assets\\ui\\CooperBlackRegular.ttf",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 27,
           "color": {
             "b": 255,
             "g": 255,
@@ -604,9 +613,9 @@
           "smoothed": true,
           "underlined": false,
           "string": "Pont",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "font": "assets\\ui\\CooperBlackRegular.ttf",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 26,
           "color": {
             "b": 255,
             "g": 255,
@@ -668,9 +677,9 @@
           "smoothed": true,
           "underlined": false,
           "string": "Theme B",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "font": "assets\\ui\\CooperBlackRegular.ttf",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 27,
           "color": {
             "b": 255,
             "g": 255,
@@ -742,9 +751,9 @@
           "smoothed": true,
           "underlined": false,
           "string": "Caisse",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "font": "assets\\ui\\CooperBlackRegular.ttf",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 27,
           "color": {
             "b": 255,
             "g": 255,
@@ -816,183 +825,9 @@
           "smoothed": true,
           "underlined": false,
           "string": "Annuler les choix",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "font": "assets\\ui\\CooperBlackRegular.ttf",
           "textAlignment": "center",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "vents",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Vents",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_appui.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "cordes",
-      "tags": "instrument",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "BlackAndWhite",
-          "name": "gris",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "selection",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton_survol.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\ui\\bouton.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Cordes",
-          "font": "assets\\ui\\CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 30,
+          "characterSize": 24,
           "color": {
             "b": 255,
             "g": 255,
@@ -1032,8 +867,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1119,8 +954,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1206,8 +1041,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1293,8 +1128,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1380,8 +1215,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1467,8 +1302,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1554,8 +1389,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1641,8 +1476,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1728,8 +1563,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1815,8 +1650,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1902,8 +1737,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -1989,8 +1824,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -2076,8 +1911,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -2163,8 +1998,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -2210,7 +2045,7 @@
           "string": "Homorythmie",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 27,
           "color": {
             "b": 255,
             "g": 255,
@@ -2250,8 +2085,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -2337,8 +2172,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -2424,8 +2259,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -2502,8 +2337,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -2580,8 +2415,8 @@
           "name": "selection",
           "doubleParameters": {
             "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
+            "innerStrength": 3,
+            "outerStrength": 3
           },
           "stringParameters": {
             "color": "255;255;255"
@@ -2707,10 +2542,10 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Theme",
+          "string": "Thème",
           "font": "assets\\ui\\CantoraOne-Regular.ttf",
           "textAlignment": "center",
-          "characterSize": 23,
+          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
@@ -3057,14 +2892,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Theme A",
-      "font": "assets\\ui\\CantoraOne-Regular.ttf",
+      "string": "Thème A",
+      "font": "assets\\ui\\CooperBlackRegular.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
-        "b": 237,
-        "g": 237,
-        "r": 255
+        "b": 69,
+        "g": 4,
+        "r": 220
       }
     },
     {
@@ -3127,6 +2962,180 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "vents",
+      "tags": "instrument",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "BlackAndWhite",
+          "name": "gris",
+          "doubleParameters": {
+            "opacity": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Glow",
+          "name": "selection",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 3,
+            "outerStrength": 3
+          },
+          "stringParameters": {
+            "color": "191;52;52"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 234,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\vents_hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 344
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 234,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\vents_pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 344
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 234,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\vents_pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 344
+        }
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "cordes",
+      "tags": "instrument",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "BlackAndWhite",
+          "name": "gris",
+          "doubleParameters": {
+            "opacity": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Glow",
+          "name": "selection",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 3,
+            "outerStrength": 3
+          },
+          "stringParameters": {
+            "color": "191;52;52"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 256,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\cordes_hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 525
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 256,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\cordes_pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 525
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "assets\\ui\\CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 256,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\ui\\cordes_pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 525
+        }
+      }
     }
   ],
   "events": [
@@ -3217,6 +3226,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3571,7 +3581,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "selection",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3728,7 +3737,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "instrument",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4081,7 +4089,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "selection",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4238,7 +4245,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "instrument",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4496,7 +4502,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "selection",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4581,7 +4586,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "instrument",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4658,7 +4662,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4784,7 +4787,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "selection",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5168,7 +5170,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5992,7 +5993,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "titres_popup",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6037,7 +6037,7 @@
                   "parameters": [
                     "titre_popup",
                     "=",
-                    "\"Theme A\""
+                    "\"Thème A\""
                   ]
                 }
               ]
@@ -6109,7 +6109,7 @@
                   "parameters": [
                     "titre_popup",
                     "=",
-                    "\"Theme B\""
+                    "\"Thème B\""
                   ]
                 }
               ]
@@ -7261,7 +7261,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7293,7 +7292,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "instruments",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -10915,7 +10913,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "audio",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
