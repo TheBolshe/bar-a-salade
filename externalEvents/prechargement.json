@@ -146,269 +146,646 @@
                 "value": "VarGlobalTxt"
               },
               "parameters": [
-                "selection.theme_a.selection",
+                "navigation.position",
                 "=",
-                "\"Lamentation\""
+                "\"theme_a\""
               ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.a_lamentation",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_theme_alto.mp3"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_a.selection",
+                    "=",
+                    "\"Lamentation\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.a_lamentation",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_theme_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_theme_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_theme_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_theme_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_alberti_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_alberti_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_alberti_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_alberti_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_homo_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_homo_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_homo_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_homo_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_notes_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_notes_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_notes_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_notes_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_syncopes_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_syncopes_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_syncopes_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_syncopes_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_WB_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_WB_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_WB_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_lamentations_WB_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.a_lamentation",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_theme_basson.mp3"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_a.selection",
+                    "=",
+                    "\"Lamentation\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.a_lamentation",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_theme_hautbois.mp3"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_a.selection",
+                    "=",
+                    "\"Le feu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.a_feu",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_theme_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_theme_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_theme_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_theme_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_alberti_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_alberti_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_alberti_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_alberti_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_homo_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_homo_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_homo_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_homo_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_notes_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_notes_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_notes_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_notes_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_syncopes_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_syncopes_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_syncopes_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_syncopes_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_WB_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_WB_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_WB_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\A_feu_WB_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.a_feu",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"attend\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_theme_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_alberti_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_alberti_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_alberti_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_alberti_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_homo_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_homo_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_homo_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_homo_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_notes_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_notes_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_notes_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_notes_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_syncopes_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_syncopes_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_syncopes_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_syncopes_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_WB_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_WB_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_WB_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_lamentations_WB_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.a_lamentation",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_a.selection",
+                    "=",
+                    "\"Le feu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.a_feu",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
               ]
             }
           ]
@@ -421,36 +798,394 @@
                 "value": "VarGlobalTxt"
               },
               "parameters": [
-                "selection.theme_a.selection",
+                "navigation.position",
                 "=",
-                "\"Lamentation\""
+                "\"pont\""
               ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.a_lamentation",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.pont.selection",
+                    "=",
+                    "\"Funèbre\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.pont_funebre",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_funebre_normal_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_funebre_normal_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_funebre_normal_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_funebre_normal_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_funebre_nuances_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_funebre_nuances_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_funebre_nuances_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_funebre_nuances_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_funebre_pizz_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_funebre_pizz_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.pont_funebre",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.pont.selection",
+                    "=",
+                    "\"Funèbre\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.pont_funebre",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.pont.selection",
+                    "=",
+                    "\"Poule\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.pont_poule",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_poule_normal_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_poule_normal_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_poule_normal_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_poule_normal_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_poule_nuances_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_poule_nuances_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_poule_nuances_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_poule_nuances_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_poule_pizz_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\pont_poule_pizz_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.pont_poule",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.pont.selection",
+                    "=",
+                    "\"Poule\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.pont_poule",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
               ]
             }
           ]
@@ -463,1255 +1198,574 @@
                 "value": "VarGlobalTxt"
               },
               "parameters": [
-                "selection.theme_a.selection",
+                "navigation.position",
                 "=",
-                "\"Le feu\""
+                "\"theme_b\""
               ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.a_feu",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_theme_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_theme_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_theme_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_theme_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_alberti_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_alberti_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_alberti_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_alberti_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_homo_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_homo_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_homo_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_homo_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_notes_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_notes_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_notes_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_notes_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_syncopes_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_syncopes_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_syncopes_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_syncopes_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_WB_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_WB_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_WB_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\A_feu_WB_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.a_feu",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"attend\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "selection.theme_a.selection",
-                "=",
-                "\"Le feu\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.a_feu",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "selection.pont.selection",
-                "=",
-                "\"Funèbre\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.pont_funebre",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_funebre_normal_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_funebre_normal_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_funebre_normal_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_funebre_normal_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_funebre_nuances_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_funebre_nuances_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_funebre_nuances_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_funebre_nuances_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_funebre_pizz_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_funebre_pizz_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.pont_funebre",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "selection.pont.selection",
-                "=",
-                "\"Funèbre\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.pont_funebre",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "selection.pont.selection",
-                "=",
-                "\"Poule\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.pont_poule",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_poule_normal_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_poule_normal_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_poule_normal_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_poule_normal_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_poule_nuances_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_poule_nuances_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_poule_nuances_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_poule_nuances_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_poule_pizz_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\pont_poule_pizz_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.pont_poule",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "selection.pont.selection",
-                "=",
-                "\"Poule\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.pont_poule",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "selection.theme_b.selection",
-                "=",
-                "\"La poule\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.b_poule",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_theme_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_theme_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_theme_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_theme_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_alberti_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_alberti_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_alberti_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_alberti_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_homo_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_homo_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_homo_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_homo_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_notes_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_notes_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_notes_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_notes_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_WB_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_WB_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_WB_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_poule_WB_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.b_poule",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "selection.theme_b.selection",
-                "=",
-                "\"La poule\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.b_poule",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "selection.theme_b.selection",
-                "=",
-                "\"Laudon\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.b_laudon",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_theme_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_theme_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_theme_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_theme_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_alberti_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_alberti_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_alberti_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_alberti_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_homo_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_homo_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_homo_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_homo_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_notes_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_notes_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_notes_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_notes_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_WB_alto.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_WB_basson.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_WB_hautbois.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\B_laudon_WB_violon.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.b_laudon",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "selection.theme_b.selection",
-                "=",
-                "\"Laudon\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "chargement_son.b_laudon",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "controleur_audio.etat",
-                "=",
-                "\"pret\""
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_b.selection",
+                    "=",
+                    "\"La poule\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.b_poule",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_theme_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_theme_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_theme_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_theme_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_alberti_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_alberti_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_alberti_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_alberti_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_homo_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_homo_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_homo_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_homo_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_notes_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_notes_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_notes_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_notes_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_WB_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_WB_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_WB_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_poule_WB_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.b_poule",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_b.selection",
+                    "=",
+                    "\"La poule\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.b_poule",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_b.selection",
+                    "=",
+                    "\"Laudon\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.b_laudon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_theme_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_theme_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_theme_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_theme_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_alberti_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_alberti_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_alberti_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_alberti_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_homo_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_homo_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_homo_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_homo_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_notes_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_notes_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_notes_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_notes_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_WB_alto.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_WB_basson.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_WB_hautbois.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\B_laudon_WB_violon.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.b_laudon",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "selection.theme_b.selection",
+                    "=",
+                    "\"Laudon\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "chargement_son.b_laudon",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "controleur_audio.etat",
+                    "=",
+                    "\"pret\""
+                  ]
+                }
               ]
             }
           ]
