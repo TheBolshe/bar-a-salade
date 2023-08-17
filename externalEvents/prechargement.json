@@ -143,12 +143,30 @@
           "conditions": [
             {
               "type": {
-                "value": "VarGlobalTxt"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "navigation.position",
-                "=",
-                "\"theme_a\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.position",
+                    "=",
+                    "\"theme_a\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.position",
+                    "=",
+                    "\"accompagnement_a\""
+                  ]
+                }
               ]
             }
           ],
@@ -1195,12 +1213,30 @@
           "conditions": [
             {
               "type": {
-                "value": "VarGlobalTxt"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "navigation.position",
-                "=",
-                "\"theme_b\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.position",
+                    "=",
+                    "\"theme_b\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "navigation.position",
+                    "=",
+                    "\"accompagnement_b\""
+                  ]
+                }
               ]
             }
           ],
