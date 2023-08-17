@@ -365,6 +365,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2794,7 +2795,7 @@
                       "parameters": [
                         "",
                         "=",
-                        "720/2",
+                        "720 / 2",
                         "\"text\"",
                         "0"
                       ]
@@ -2813,7 +2814,7 @@
                         "\"text\"",
                         "0",
                         ">",
-                        "zone_texte.Height() - 720 + 220"
+                        "zone_texte.Height() - 720 + 230"
                       ]
                     }
                   ],
@@ -2825,7 +2826,7 @@
                       "parameters": [
                         "",
                         "=",
-                        "zone_texte.Height() - 720 / 2 + 220",
+                        "zone_texte.Height() - 720 / 2 + 230",
                         "\"text\"",
                         "0"
                       ]

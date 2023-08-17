@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4633111824513977,
+    "zoomFactor": 0.07728721762564511,
     "windowMask": false
   },
   "objectsGroups": [
@@ -289,7 +289,7 @@
           "name": "text_limit"
         },
         {
-          "name": "titre_popup"
+          "name": "titre"
         }
       ]
     },
@@ -2884,7 +2884,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": true,
-      "name": "titre_popup",
+      "name": "titre",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -2892,7 +2892,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Thème A",
+      "string": "Thème B",
       "font": "assets\\ui\\CooperBlackRegular.ttf",
       "textAlignment": "left",
       "characterSize": 50,
@@ -4662,6 +4662,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5170,6 +5171,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6035,7 +6037,7 @@
                     "value": "TextObject::String"
                   },
                   "parameters": [
-                    "titre_popup",
+                    "titre",
                     "=",
                     "\"Thème A\""
                   ]
@@ -6062,7 +6064,7 @@
                     "value": "TextObject::String"
                   },
                   "parameters": [
-                    "titre_popup",
+                    "titre",
                     "=",
                     "\"Pont\""
                   ]
@@ -6107,7 +6109,7 @@
                     "value": "TextObject::String"
                   },
                   "parameters": [
-                    "titre_popup",
+                    "titre",
                     "=",
                     "\"Thème B\""
                   ]
@@ -6122,6 +6124,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "effets",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

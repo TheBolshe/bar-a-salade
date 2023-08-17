@@ -50,8 +50,14 @@
       "placement": "bottom-left",
       "showWatermark": false
     },
-    "authorIds": [],
-    "authorUsernames": [],
+    "authorIds": [
+      "SJbwEidTKSdzURhckCBUQHXgyx82",
+      "a5W9DQf7gDNCnc8mI0UtjC47lPx2"
+    ],
+    "authorUsernames": [
+      "TheBolshe",
+      "Ondicibles"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -1775,6 +1781,24 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\ui\\cordes_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
         "smoothed": true,
         "userAdded": true
       }
@@ -4015,7 +4039,7 @@
                   "folded": true,
                   "name": "feu",
                   "type": "string",
-                  "value": "Description de la symphonie Le Feu - niveau avancé\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nSed vel velit posuere, facilisis quam sit amet, pretium magna. Sed vel est rhoncus, porttitor diam et, pulvinar dui. Praesent eget nunc vel ligula ornare finibus. Sed semper erat ex, non sollicitudin urna lobortis vel. Fusce id pharetra neque, in vulputate urna. Curabitur vitae pellentesque elit. Ut consequat maximus dolor, id dignissim tellus tempor vitae. Nullam at lacus sit amet urna placerat condimentum in id nibh.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
+                  "value": "Description de la symphonie Le Feu - niveau avancé\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis quam ullamcorper, dignissim elit at, cursus lectus. Integer at sapien in lacus vestibulum sollicitudin quis a eros. Vivamus condimentum, tortor nec posuere gravida, mauris leo dictum est, vitae ornare ipsum eros sed purus. Donec a sapien vitae urna tincidunt rhoncus in at neque. Phasellus pulvinar tempor nisl, non dictum turpis vulputate ac. Suspendisse mauris enim, consequat ac nibh et, cursus sodales nibh. Mauris condimentum vitae turpis ac pulvinar. Nullam dictum nec ligula in aliquam. Fusce eget eleifend odio. Mauris sit amet feugiat ipsum. Donec pharetra congue eros, mollis sodales ante vulputate ut.\n\nDonec dapibus erat quam, in faucibus diam placerat vitae. Nunc mollis sem at ipsum blandit, et malesuada purus facilisis. Phasellus mattis interdum libero vel ullamcorper. Nam nibh erat, gravida ac sapien vitae, aliquet mattis est. Aenean id dui et eros suscipit cursus. Nam id elementum enim. Etiam sodales euismod lectus id varius.\n\nNullam feugiat et est at feugiat. Suspendisse potenti. Fusce luctus urna sit amet consequat volutpat. In id interdum lectus. Nullam mollis, est vitae bibendum sodales, enim risus rhoncus ligula, non volutpat ante neque eu ex. Nam vulputate augue risus, non iaculis nunc venenatis sit amet. Nullam blandit augue eleifend sagittis rutrum. Aenean consectetur quam ut gravida pellentesque. Proin condimentum scelerisque cursus. Sed quis nunc ut augue gravida ultricies. Aenean in mauris ac ex lobortis dictum at ac odio.\n\nAenean non dignissim nunc. Mauris pulvinar a urna sit amet iaculis. Duis aliquet vestibulum condimentum. Nullam tincidunt, mi a gravida feugiat, felis nisi posuere magna, ut consequat ex nibh in nulla. Quisque feugiat, massa tempus rhoncus dictum, justo neque faucibus enim, a molestie risus ex at eros. Suspendisse commodo sollicitudin placerat. Aenean et interdum velit, non sollicitudin odio. Ut nec sem odio. Fusce mattis nisi vel nunc tristique, non fringilla tellus cursus.\n\nMaecenas sed sagittis nulla, consequat semper neque. Aenean at felis porta augue eleifend auctor. In sagittis tortor in lorem scelerisque lacinia vitae quis velit. Ut est orci, laoreet eu urna vel, varius dignissim nisl. In in egestas enim. Aenean eget purus id arcu fermentum rhoncus accumsan sit amet tortor. Pellentesque sit amet elit finibus, pharetra urna id, feugiat mauris. Fusce et erat malesuada quam blandit vestibulum. Aenean lobortis egestas sollicitudin. Aenean molestie at diam sed semper. Mauris sed diam at tortor egestas aliquam a eu tellus. Ut et venenatis eros. Proin in arcu non mauris rhoncus accumsan id in nisi. "
                 },
                 {
                   "folded": true,
@@ -4409,6 +4433,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritemasking"
